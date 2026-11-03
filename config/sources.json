@@ -1,0 +1,159 @@
+{
+  "_comment": "추적 대상 설정. accounts의 instagram 핸들은 실제 계정인지 꼭 확인 후 수정하세요 (verified를 true로). query는 네이버 검색에 쓰이는 검색어입니다.",
+  "accounts": [
+    {
+      "id": "thehyundai",
+      "name": "더현대 서울",
+      "instagram": "thehyundai_seoul",
+      "category": "popup",
+      "query": "더현대 서울 팝업",
+      "verified": false,
+      "region": "여의도"
+    },
+    {
+      "id": "seongsu",
+      "name": "성수 팝업",
+      "instagram": "",
+      "category": "popup",
+      "query": "성수 팝업스토어 디저트",
+      "verified": false,
+      "region": "성수"
+    },
+    {
+      "id": "lotteworldmall",
+      "name": "롯데월드몰",
+      "instagram": "lotteworldmall",
+      "category": "popup",
+      "query": "롯데월드몰 팝업 디저트",
+      "verified": false,
+      "region": "잠실"
+    },
+    {
+      "id": "shinsegae",
+      "name": "신세계백화점 강남",
+      "instagram": "",
+      "category": "popup",
+      "query": "신세계 강남 디저트 팝업",
+      "verified": false,
+      "region": "강남"
+    },
+    {
+      "id": "dessert_new",
+      "name": "신상 디저트",
+      "instagram": "",
+      "category": "dessert",
+      "query": "신상 디저트 오픈런",
+      "verified": false,
+      "region": ""
+    },
+    {
+      "id": "dessert_limited",
+      "name": "한정판 디저트",
+      "instagram": "",
+      "category": "dessert",
+      "query": "한정판 디저트 출시",
+      "verified": false,
+      "region": ""
+    }
+  ],
+  "trendKeywords": [
+    "두쫀쿠",
+    "두바이쫀득쿠키",
+    "버터떡",
+    "두바이초콜릿",
+    "약과",
+    "크룽지",
+    "요거트아이스크림",
+    "탕후루",
+    "소금빵",
+    "마라탕후루",
+    "베이글",
+    "휘낭시에",
+    "까눌레",
+    "크로플",
+    "말차",
+    "흑임자",
+    "카이막",
+    "피스타치오",
+    "쫀득쿠키",
+    "바스크치즈케이크",
+    "푸딩",
+    "젤라또"
+  ],
+  "keepDays": 4,
+  "maxItems": 300,
+  "regions": {
+    "성수": [
+      "성수",
+      "서울숲",
+      "성동구"
+    ],
+    "홍대·연남": [
+      "홍대",
+      "연남",
+      "합정",
+      "망원",
+      "마포구"
+    ],
+    "강남·신사": [
+      "강남",
+      "신사",
+      "가로수길",
+      "압구정",
+      "청담",
+      "역삼",
+      "서초"
+    ],
+    "잠실": [
+      "잠실",
+      "송파",
+      "석촌"
+    ],
+    "여의도": [
+      "여의도",
+      "영등포"
+    ],
+    "용산·한남": [
+      "한남",
+      "이태원",
+      "용산"
+    ],
+    "종로·을지로": [
+      "을지로",
+      "종로",
+      "익선",
+      "광화문",
+      "중구"
+    ],
+    "경기": [
+      "판교",
+      "분당",
+      "수원",
+      "일산",
+      "고양",
+      "성남"
+    ],
+    "부산": [
+      "부산",
+      "해운대",
+      "서면"
+    ],
+    "대구": [
+      "대구"
+    ],
+    "대전": [
+      "대전"
+    ],
+    "광주": [
+      "광주광역시"
+    ],
+    "제주": [
+      "제주"
+    ]
+  },
+  "stores": {
+    "_comment": "상위 트렌드 키워드마다 네이버 지역검색으로 가게를 찾고, 블로그 후기에서 가격·웨이팅을 추정",
+    "topKeywords": 6,
+    "perKeyword": 5
+  }
+}

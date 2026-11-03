@@ -1,0 +1,1263 @@
+{
+  "updatedAt": "2026-11-03T06:29:16.977Z",
+  "provider": "mock",
+  "mock": true,
+  "errors": [],
+  "regions": [
+    "성수",
+    "홍대·연남",
+    "강남·신사",
+    "잠실",
+    "여의도",
+    "용산·한남",
+    "종로·을지로",
+    "경기",
+    "부산",
+    "대구",
+    "대전",
+    "광주",
+    "제주"
+  ],
+  "trends": [
+    {
+      "keyword": "쫀득쿠키",
+      "count": 8,
+      "diff": 0
+    },
+    {
+      "keyword": "말차",
+      "count": 4,
+      "diff": 0
+    },
+    {
+      "keyword": "소금빵",
+      "count": 4,
+      "diff": 0
+    },
+    {
+      "keyword": "크룽지",
+      "count": 4,
+      "diff": 0
+    },
+    {
+      "keyword": "바스크치즈케이크",
+      "count": 4,
+      "diff": 0
+    },
+    {
+      "keyword": "크로플",
+      "count": 4,
+      "diff": 0
+    },
+    {
+      "keyword": "베이글",
+      "count": 4,
+      "diff": 0
+    },
+    {
+      "keyword": "버터떡",
+      "count": 4,
+      "diff": 0
+    },
+    {
+      "keyword": "탕후루",
+      "count": 4,
+      "diff": 0
+    },
+    {
+      "keyword": "두바이쫀득쿠키",
+      "count": 4,
+      "diff": 0
+    },
+    {
+      "keyword": "피스타치오",
+      "count": 2,
+      "diff": 0
+    },
+    {
+      "keyword": "두쫀쿠",
+      "count": 2,
+      "diff": 0
+    }
+  ],
+  "stores": [
+    {
+      "name": "[샘플] 쫀득쿠키 하우스 1호점",
+      "address": "서울특별시 마포구 연남동 2-2",
+      "category": "카페,디저트",
+      "link": "",
+      "keyword": "쫀득쿠키",
+      "region": "홍대·연남",
+      "mapUrl": "https://map.naver.com/p/search/%5B%EC%83%98%ED%94%8C%5D%20%EC%AB%80%EB%93%9D%EC%BF%A0%ED%82%A4%20%ED%95%98%EC%9A%B0%EC%8A%A4%201%ED%98%B8%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%A7%88%ED%8F%AC%EA%B5%AC%20%EC%97%B0%EB%82%A8%EB%8F%99%202-2",
+      "mapName": "네이버 지도",
+      "price": 6500,
+      "priceSamples": 4,
+      "wait": 50,
+      "waitSamples": 4
+    },
+    {
+      "name": "[샘플] 쫀득쿠키 하우스 2호점",
+      "address": "부산광역시 해운대구 우동 3-3",
+      "category": "카페,디저트",
+      "link": "",
+      "keyword": "쫀득쿠키",
+      "region": "부산",
+      "mapUrl": "https://map.naver.com/p/search/%5B%EC%83%98%ED%94%8C%5D%20%EC%AB%80%EB%93%9D%EC%BF%A0%ED%82%A4%20%ED%95%98%EC%9A%B0%EC%8A%A4%202%ED%98%B8%EC%A0%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EC%9A%B0%EB%8F%99%203-3",
+      "mapName": "네이버 지도",
+      "price": 6500,
+      "priceSamples": 4,
+      "wait": 50,
+      "waitSamples": 4
+    },
+    {
+      "name": "[샘플] 쫀득쿠키 하우스 3호점",
+      "address": "서울특별시 성동구 성수동2가 1-1",
+      "category": "카페,디저트",
+      "link": "",
+      "keyword": "쫀득쿠키",
+      "region": "성수",
+      "mapUrl": "https://map.naver.com/p/search/%5B%EC%83%98%ED%94%8C%5D%20%EC%AB%80%EB%93%9D%EC%BF%A0%ED%82%A4%20%ED%95%98%EC%9A%B0%EC%8A%A4%203%ED%98%B8%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%84%B1%EB%8F%99%EA%B5%AC%20%EC%84%B1%EC%88%98%EB%8F%992%EA%B0%80%201-1",
+      "mapName": "네이버 지도",
+      "price": 6500,
+      "priceSamples": 4,
+      "wait": 50,
+      "waitSamples": 4
+    },
+    {
+      "name": "[샘플] 말차 하우스 1호점",
+      "address": "부산광역시 해운대구 우동 3-3",
+      "category": "카페,디저트",
+      "link": "",
+      "keyword": "말차",
+      "region": "부산",
+      "mapUrl": "https://map.naver.com/p/search/%5B%EC%83%98%ED%94%8C%5D%20%EB%A7%90%EC%B0%A8%20%ED%95%98%EC%9A%B0%EC%8A%A4%201%ED%98%B8%EC%A0%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EC%9A%B0%EB%8F%99%203-3",
+      "mapName": "네이버 지도",
+      "price": 6500,
+      "priceSamples": 4,
+      "wait": 50,
+      "waitSamples": 4
+    },
+    {
+      "name": "[샘플] 말차 하우스 2호점",
+      "address": "서울특별시 성동구 성수동2가 1-1",
+      "category": "카페,디저트",
+      "link": "",
+      "keyword": "말차",
+      "region": "성수",
+      "mapUrl": "https://map.naver.com/p/search/%5B%EC%83%98%ED%94%8C%5D%20%EB%A7%90%EC%B0%A8%20%ED%95%98%EC%9A%B0%EC%8A%A4%202%ED%98%B8%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%84%B1%EB%8F%99%EA%B5%AC%20%EC%84%B1%EC%88%98%EB%8F%992%EA%B0%80%201-1",
+      "mapName": "네이버 지도",
+      "price": 6500,
+      "priceSamples": 4,
+      "wait": 50,
+      "waitSamples": 4
+    },
+    {
+      "name": "[샘플] 말차 하우스 3호점",
+      "address": "서울특별시 마포구 연남동 2-2",
+      "category": "카페,디저트",
+      "link": "",
+      "keyword": "말차",
+      "region": "홍대·연남",
+      "mapUrl": "https://map.naver.com/p/search/%5B%EC%83%98%ED%94%8C%5D%20%EB%A7%90%EC%B0%A8%20%ED%95%98%EC%9A%B0%EC%8A%A4%203%ED%98%B8%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%A7%88%ED%8F%AC%EA%B5%AC%20%EC%97%B0%EB%82%A8%EB%8F%99%202-2",
+      "mapName": "네이버 지도",
+      "price": 6500,
+      "priceSamples": 4,
+      "wait": 50,
+      "waitSamples": 4
+    },
+    {
+      "name": "[샘플] 소금빵 하우스 1호점",
+      "address": "서울특별시 성동구 성수동2가 1-1",
+      "category": "카페,디저트",
+      "link": "",
+      "keyword": "소금빵",
+      "region": "성수",
+      "mapUrl": "https://map.naver.com/p/search/%5B%EC%83%98%ED%94%8C%5D%20%EC%86%8C%EA%B8%88%EB%B9%B5%20%ED%95%98%EC%9A%B0%EC%8A%A4%201%ED%98%B8%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%84%B1%EB%8F%99%EA%B5%AC%20%EC%84%B1%EC%88%98%EB%8F%992%EA%B0%80%201-1",
+      "mapName": "네이버 지도",
+      "price": 6500,
+      "priceSamples": 4,
+      "wait": 50,
+      "waitSamples": 4
+    },
+    {
+      "name": "[샘플] 소금빵 하우스 2호점",
+      "address": "서울특별시 마포구 연남동 2-2",
+      "category": "카페,디저트",
+      "link": "",
+      "keyword": "소금빵",
+      "region": "홍대·연남",
+      "mapUrl": "https://map.naver.com/p/search/%5B%EC%83%98%ED%94%8C%5D%20%EC%86%8C%EA%B8%88%EB%B9%B5%20%ED%95%98%EC%9A%B0%EC%8A%A4%202%ED%98%B8%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%A7%88%ED%8F%AC%EA%B5%AC%20%EC%97%B0%EB%82%A8%EB%8F%99%202-2",
+      "mapName": "네이버 지도",
+      "price": 6500,
+      "priceSamples": 4,
+      "wait": 50,
+      "waitSamples": 4
+    },
+    {
+      "name": "[샘플] 소금빵 하우스 3호점",
+      "address": "부산광역시 해운대구 우동 3-3",
+      "category": "카페,디저트",
+      "link": "",
+      "keyword": "소금빵",
+      "region": "부산",
+      "mapUrl": "https://map.naver.com/p/search/%5B%EC%83%98%ED%94%8C%5D%20%EC%86%8C%EA%B8%88%EB%B9%B5%20%ED%95%98%EC%9A%B0%EC%8A%A4%203%ED%98%B8%EC%A0%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EC%9A%B0%EB%8F%99%203-3",
+      "mapName": "네이버 지도",
+      "price": 6500,
+      "priceSamples": 4,
+      "wait": 50,
+      "waitSamples": 4
+    },
+    {
+      "name": "[샘플] 크룽지 하우스 1호점",
+      "address": "서울특별시 성동구 성수동2가 1-1",
+      "category": "카페,디저트",
+      "link": "",
+      "keyword": "크룽지",
+      "region": "성수",
+      "mapUrl": "https://map.naver.com/p/search/%5B%EC%83%98%ED%94%8C%5D%20%ED%81%AC%EB%A3%BD%EC%A7%80%20%ED%95%98%EC%9A%B0%EC%8A%A4%201%ED%98%B8%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%84%B1%EB%8F%99%EA%B5%AC%20%EC%84%B1%EC%88%98%EB%8F%992%EA%B0%80%201-1",
+      "mapName": "네이버 지도",
+      "price": 6500,
+      "priceSamples": 4,
+      "wait": 50,
+      "waitSamples": 4
+    },
+    {
+      "name": "[샘플] 크룽지 하우스 2호점",
+      "address": "서울특별시 마포구 연남동 2-2",
+      "category": "카페,디저트",
+      "link": "",
+      "keyword": "크룽지",
+      "region": "홍대·연남",
+      "mapUrl": "https://map.naver.com/p/search/%5B%EC%83%98%ED%94%8C%5D%20%ED%81%AC%EB%A3%BD%EC%A7%80%20%ED%95%98%EC%9A%B0%EC%8A%A4%202%ED%98%B8%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%A7%88%ED%8F%AC%EA%B5%AC%20%EC%97%B0%EB%82%A8%EB%8F%99%202-2",
+      "mapName": "네이버 지도",
+      "price": 6500,
+      "priceSamples": 4,
+      "wait": 50,
+      "waitSamples": 4
+    },
+    {
+      "name": "[샘플] 크룽지 하우스 3호점",
+      "address": "부산광역시 해운대구 우동 3-3",
+      "category": "카페,디저트",
+      "link": "",
+      "keyword": "크룽지",
+      "region": "부산",
+      "mapUrl": "https://map.naver.com/p/search/%5B%EC%83%98%ED%94%8C%5D%20%ED%81%AC%EB%A3%BD%EC%A7%80%20%ED%95%98%EC%9A%B0%EC%8A%A4%203%ED%98%B8%EC%A0%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EC%9A%B0%EB%8F%99%203-3",
+      "mapName": "네이버 지도",
+      "price": 6500,
+      "priceSamples": 4,
+      "wait": 50,
+      "waitSamples": 4
+    },
+    {
+      "name": "[샘플] 바스크치즈케이크 하우스 1호점",
+      "address": "부산광역시 해운대구 우동 3-3",
+      "category": "카페,디저트",
+      "link": "",
+      "keyword": "바스크치즈케이크",
+      "region": "부산",
+      "mapUrl": "https://map.naver.com/p/search/%5B%EC%83%98%ED%94%8C%5D%20%EB%B0%94%EC%8A%A4%ED%81%AC%EC%B9%98%EC%A6%88%EC%BC%80%EC%9D%B4%ED%81%AC%20%ED%95%98%EC%9A%B0%EC%8A%A4%201%ED%98%B8%EC%A0%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EC%9A%B0%EB%8F%99%203-3",
+      "mapName": "네이버 지도",
+      "price": 6500,
+      "priceSamples": 4,
+      "wait": 50,
+      "waitSamples": 4
+    },
+    {
+      "name": "[샘플] 바스크치즈케이크 하우스 2호점",
+      "address": "서울특별시 성동구 성수동2가 1-1",
+      "category": "카페,디저트",
+      "link": "",
+      "keyword": "바스크치즈케이크",
+      "region": "성수",
+      "mapUrl": "https://map.naver.com/p/search/%5B%EC%83%98%ED%94%8C%5D%20%EB%B0%94%EC%8A%A4%ED%81%AC%EC%B9%98%EC%A6%88%EC%BC%80%EC%9D%B4%ED%81%AC%20%ED%95%98%EC%9A%B0%EC%8A%A4%202%ED%98%B8%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%84%B1%EB%8F%99%EA%B5%AC%20%EC%84%B1%EC%88%98%EB%8F%992%EA%B0%80%201-1",
+      "mapName": "네이버 지도",
+      "price": 6500,
+      "priceSamples": 4,
+      "wait": 50,
+      "waitSamples": 4
+    },
+    {
+      "name": "[샘플] 바스크치즈케이크 하우스 3호점",
+      "address": "서울특별시 마포구 연남동 2-2",
+      "category": "카페,디저트",
+      "link": "",
+      "keyword": "바스크치즈케이크",
+      "region": "홍대·연남",
+      "mapUrl": "https://map.naver.com/p/search/%5B%EC%83%98%ED%94%8C%5D%20%EB%B0%94%EC%8A%A4%ED%81%AC%EC%B9%98%EC%A6%88%EC%BC%80%EC%9D%B4%ED%81%AC%20%ED%95%98%EC%9A%B0%EC%8A%A4%203%ED%98%B8%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%A7%88%ED%8F%AC%EA%B5%AC%20%EC%97%B0%EB%82%A8%EB%8F%99%202-2",
+      "mapName": "네이버 지도",
+      "price": 6500,
+      "priceSamples": 4,
+      "wait": 50,
+      "waitSamples": 4
+    },
+    {
+      "name": "[샘플] 크로플 하우스 1호점",
+      "address": "서울특별시 성동구 성수동2가 1-1",
+      "category": "카페,디저트",
+      "link": "",
+      "keyword": "크로플",
+      "region": "성수",
+      "mapUrl": "https://map.naver.com/p/search/%5B%EC%83%98%ED%94%8C%5D%20%ED%81%AC%EB%A1%9C%ED%94%8C%20%ED%95%98%EC%9A%B0%EC%8A%A4%201%ED%98%B8%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%84%B1%EB%8F%99%EA%B5%AC%20%EC%84%B1%EC%88%98%EB%8F%992%EA%B0%80%201-1",
+      "mapName": "네이버 지도",
+      "price": 6500,
+      "priceSamples": 4,
+      "wait": 50,
+      "waitSamples": 4
+    },
+    {
+      "name": "[샘플] 크로플 하우스 2호점",
+      "address": "서울특별시 마포구 연남동 2-2",
+      "category": "카페,디저트",
+      "link": "",
+      "keyword": "크로플",
+      "region": "홍대·연남",
+      "mapUrl": "https://map.naver.com/p/search/%5B%EC%83%98%ED%94%8C%5D%20%ED%81%AC%EB%A1%9C%ED%94%8C%20%ED%95%98%EC%9A%B0%EC%8A%A4%202%ED%98%B8%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%A7%88%ED%8F%AC%EA%B5%AC%20%EC%97%B0%EB%82%A8%EB%8F%99%202-2",
+      "mapName": "네이버 지도",
+      "price": 6500,
+      "priceSamples": 4,
+      "wait": 50,
+      "waitSamples": 4
+    },
+    {
+      "name": "[샘플] 크로플 하우스 3호점",
+      "address": "부산광역시 해운대구 우동 3-3",
+      "category": "카페,디저트",
+      "link": "",
+      "keyword": "크로플",
+      "region": "부산",
+      "mapUrl": "https://map.naver.com/p/search/%5B%EC%83%98%ED%94%8C%5D%20%ED%81%AC%EB%A1%9C%ED%94%8C%20%ED%95%98%EC%9A%B0%EC%8A%A4%203%ED%98%B8%EC%A0%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EC%9A%B0%EB%8F%99%203-3",
+      "mapName": "네이버 지도",
+      "price": 6500,
+      "priceSamples": 4,
+      "wait": 50,
+      "waitSamples": 4
+    }
+  ],
+  "accounts": [
+    {
+      "id": "thehyundai",
+      "name": "더현대 서울",
+      "instagram": "thehyundai_seoul",
+      "category": "popup",
+      "verified": false,
+      "region": "여의도",
+      "count": 8
+    },
+    {
+      "id": "seongsu",
+      "name": "성수 팝업",
+      "instagram": "",
+      "category": "popup",
+      "verified": false,
+      "region": "성수",
+      "count": 8
+    },
+    {
+      "id": "lotteworldmall",
+      "name": "롯데월드몰",
+      "instagram": "lotteworldmall",
+      "category": "popup",
+      "verified": false,
+      "region": "잠실",
+      "count": 8
+    },
+    {
+      "id": "shinsegae",
+      "name": "신세계백화점 강남",
+      "instagram": "",
+      "category": "popup",
+      "verified": false,
+      "region": "강남",
+      "count": 8
+    },
+    {
+      "id": "dessert_new",
+      "name": "신상 디저트",
+      "instagram": "",
+      "category": "dessert",
+      "verified": false,
+      "region": "",
+      "count": 8
+    },
+    {
+      "id": "dessert_limited",
+      "name": "한정판 디저트",
+      "instagram": "",
+      "category": "dessert",
+      "verified": false,
+      "region": "",
+      "count": 8
+    }
+  ],
+  "items": [
+    {
+      "title": "[샘플] 부산 해운대 말차 후기 1",
+      "desc": "샘플 데이터예요. 부산 해운대에서 말차 먹으려고 웨이팅 20분, 가격은 4,500원이었어요.",
+      "link": "https://example.com/blog/%EB%A1%AF%EB%8D%B0%EC%9B%94%EB%93%9C%EB%AA%B0%20%ED%8C%9D%EC%97%85%20%EB%94%94%EC%A0%80%ED%8A%B8/0",
+      "source": "샘플블로거",
+      "date": "2026-11-03T06:29:11.732Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "lotteworldmall",
+      "category": "popup",
+      "region": "부산",
+      "price": 4500,
+      "wait": 20,
+      "keywords": [
+        "말차"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 부산 해운대 말차 후기 1",
+      "desc": "샘플 데이터예요. 부산 해운대에서 말차 먹으려고 웨이팅 20분, 가격은 4,500원이었어요.",
+      "link": "https://example.com/cafe/%EB%A1%AF%EB%8D%B0%EC%9B%94%EB%93%9C%EB%AA%B0%20%ED%8C%9D%EC%97%85%20%EB%94%94%EC%A0%80%ED%8A%B8/0",
+      "source": "샘플카페",
+      "date": "2026-11-03T06:29:11.732Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "lotteworldmall",
+      "category": "popup",
+      "region": "부산",
+      "price": 4500,
+      "wait": 20,
+      "keywords": [
+        "말차"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 한남동 피스타치오 후기 1",
+      "desc": "샘플 데이터예요. 한남동에서 피스타치오 먹으려고 웨이팅 20분, 가격은 4,500원이었어요.",
+      "link": "https://example.com/blog/%EC%8B%A0%EC%84%B8%EA%B3%84%20%EA%B0%95%EB%82%A8%20%EB%94%94%EC%A0%80%ED%8A%B8%20%ED%8C%9D%EC%97%85/0",
+      "source": "샘플블로거",
+      "date": "2026-11-03T06:29:11.732Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "shinsegae",
+      "category": "popup",
+      "region": "용산·한남",
+      "price": 4500,
+      "wait": 20,
+      "keywords": [
+        "피스타치오"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 한남동 피스타치오 후기 1",
+      "desc": "샘플 데이터예요. 한남동에서 피스타치오 먹으려고 웨이팅 20분, 가격은 4,500원이었어요.",
+      "link": "https://example.com/cafe/%EC%8B%A0%EC%84%B8%EA%B3%84%20%EA%B0%95%EB%82%A8%20%EB%94%94%EC%A0%80%ED%8A%B8%20%ED%8C%9D%EC%97%85/0",
+      "source": "샘플카페",
+      "date": "2026-11-03T06:29:11.732Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "shinsegae",
+      "category": "popup",
+      "region": "용산·한남",
+      "price": 4500,
+      "wait": 20,
+      "keywords": [
+        "피스타치오"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 잠실 석촌호수 소금빵 후기 1",
+      "desc": "샘플 데이터예요. 잠실 석촌호수에서 소금빵 먹으려고 웨이팅 20분, 가격은 4,500원이었어요.",
+      "link": "https://example.com/blog/%EC%8B%A0%EC%83%81%20%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%98%A4%ED%94%88%EB%9F%B0/0",
+      "source": "샘플블로거",
+      "date": "2026-11-03T06:29:11.732Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "dessert_new",
+      "category": "dessert",
+      "region": "잠실",
+      "price": 4500,
+      "wait": 20,
+      "keywords": [
+        "소금빵"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 잠실 석촌호수 소금빵 후기 1",
+      "desc": "샘플 데이터예요. 잠실 석촌호수에서 소금빵 먹으려고 웨이팅 20분, 가격은 4,500원이었어요.",
+      "link": "https://example.com/cafe/%EC%8B%A0%EC%83%81%20%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%98%A4%ED%94%88%EB%9F%B0/0",
+      "source": "샘플카페",
+      "date": "2026-11-03T06:29:11.732Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "dessert_new",
+      "category": "dessert",
+      "region": "잠실",
+      "price": 4500,
+      "wait": 20,
+      "keywords": [
+        "소금빵"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 잠실 석촌호수 소금빵 후기 1",
+      "desc": "샘플 데이터예요. 잠실 석촌호수에서 소금빵 먹으려고 웨이팅 20분, 가격은 4,500원이었어요.",
+      "link": "https://example.com/blog/%ED%95%9C%EC%A0%95%ED%8C%90%20%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%B6%9C%EC%8B%9C/0",
+      "source": "샘플블로거",
+      "date": "2026-11-03T06:29:11.732Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "dessert_limited",
+      "category": "dessert",
+      "region": "잠실",
+      "price": 4500,
+      "wait": 20,
+      "keywords": [
+        "소금빵"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 잠실 석촌호수 소금빵 후기 1",
+      "desc": "샘플 데이터예요. 잠실 석촌호수에서 소금빵 먹으려고 웨이팅 20분, 가격은 4,500원이었어요.",
+      "link": "https://example.com/cafe/%ED%95%9C%EC%A0%95%ED%8C%90%20%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%B6%9C%EC%8B%9C/0",
+      "source": "샘플카페",
+      "date": "2026-11-03T06:29:11.732Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "dessert_limited",
+      "category": "dessert",
+      "region": "잠실",
+      "price": 4500,
+      "wait": 20,
+      "keywords": [
+        "소금빵"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 신사 가로수길 크룽지 후기 1",
+      "desc": "샘플 데이터예요. 신사 가로수길에서 크룽지 먹으려고 웨이팅 20분, 가격은 4,500원이었어요.",
+      "link": "https://example.com/cafe/%EB%8D%94%ED%98%84%EB%8C%80%20%EC%84%9C%EC%9A%B8%20%ED%8C%9D%EC%97%85/0",
+      "source": "샘플카페",
+      "date": "2026-11-03T06:29:11.731Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "thehyundai",
+      "category": "popup",
+      "region": "강남·신사",
+      "price": 4500,
+      "wait": 20,
+      "keywords": [
+        "크룽지"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.731Z"
+    },
+    {
+      "title": "[샘플] 부산 해운대 말차 후기 1",
+      "desc": "샘플 데이터예요. 부산 해운대에서 말차 먹으려고 웨이팅 20분, 가격은 4,500원이었어요.",
+      "link": "https://example.com/blog/%EC%84%B1%EC%88%98%20%ED%8C%9D%EC%97%85%EC%8A%A4%ED%86%A0%EC%96%B4%20%EB%94%94%EC%A0%80%ED%8A%B8/0",
+      "source": "샘플블로거",
+      "date": "2026-11-03T06:29:11.731Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "seongsu",
+      "category": "popup",
+      "region": "부산",
+      "price": 4500,
+      "wait": 20,
+      "keywords": [
+        "말차"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.731Z"
+    },
+    {
+      "title": "[샘플] 부산 해운대 말차 후기 1",
+      "desc": "샘플 데이터예요. 부산 해운대에서 말차 먹으려고 웨이팅 20분, 가격은 4,500원이었어요.",
+      "link": "https://example.com/cafe/%EC%84%B1%EC%88%98%20%ED%8C%9D%EC%97%85%EC%8A%A4%ED%86%A0%EC%96%B4%20%EB%94%94%EC%A0%80%ED%8A%B8/0",
+      "source": "샘플카페",
+      "date": "2026-11-03T06:29:11.731Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "seongsu",
+      "category": "popup",
+      "region": "부산",
+      "price": 4500,
+      "wait": 20,
+      "keywords": [
+        "말차"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.731Z"
+    },
+    {
+      "title": "[샘플] 신사 가로수길 크룽지 후기 1",
+      "desc": "샘플 데이터예요. 신사 가로수길에서 크룽지 먹으려고 웨이팅 20분, 가격은 4,500원이었어요.",
+      "link": "https://example.com/blog/%EB%8D%94%ED%98%84%EB%8C%80%20%EC%84%9C%EC%9A%B8%20%ED%8C%9D%EC%97%85/0",
+      "source": "샘플블로거",
+      "date": "2026-11-03T06:29:11.723Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "thehyundai",
+      "category": "popup",
+      "region": "강남·신사",
+      "price": 4500,
+      "wait": 20,
+      "keywords": [
+        "크룽지"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.730Z"
+    },
+    {
+      "title": "[샘플] 한남동 바스크치즈케이크 후기 2",
+      "desc": "샘플 데이터예요. 한남동에서 바스크치즈케이크 먹으려고 웨이팅 35분, 가격은 5,500원이었어요.",
+      "link": "https://example.com/blog/%EB%A1%AF%EB%8D%B0%EC%9B%94%EB%93%9C%EB%AA%B0%20%ED%8C%9D%EC%97%85%20%EB%94%94%EC%A0%80%ED%8A%B8/1",
+      "source": "샘플블로거",
+      "date": "2026-11-02T23:29:11.732Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "lotteworldmall",
+      "category": "popup",
+      "region": "용산·한남",
+      "price": 5500,
+      "wait": 35,
+      "keywords": [
+        "바스크치즈케이크"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 한남동 바스크치즈케이크 후기 2",
+      "desc": "샘플 데이터예요. 한남동에서 바스크치즈케이크 먹으려고 웨이팅 35분, 가격은 5,500원이었어요.",
+      "link": "https://example.com/cafe/%EB%A1%AF%EB%8D%B0%EC%9B%94%EB%93%9C%EB%AA%B0%20%ED%8C%9D%EC%97%85%20%EB%94%94%EC%A0%80%ED%8A%B8/1",
+      "source": "샘플카페",
+      "date": "2026-11-02T23:29:11.732Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "lotteworldmall",
+      "category": "popup",
+      "region": "용산·한남",
+      "price": 5500,
+      "wait": 35,
+      "keywords": [
+        "바스크치즈케이크"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 성수동 두쫀쿠 후기 2",
+      "desc": "샘플 데이터예요. 성수동에서 두쫀쿠 먹으려고 웨이팅 35분, 가격은 5,500원이었어요.",
+      "link": "https://example.com/blog/%EC%8B%A0%EC%84%B8%EA%B3%84%20%EA%B0%95%EB%82%A8%20%EB%94%94%EC%A0%80%ED%8A%B8%20%ED%8C%9D%EC%97%85/1",
+      "source": "샘플블로거",
+      "date": "2026-11-02T23:29:11.732Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "shinsegae",
+      "category": "popup",
+      "region": "성수",
+      "price": 5500,
+      "wait": 35,
+      "keywords": [
+        "두쫀쿠"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 성수동 두쫀쿠 후기 2",
+      "desc": "샘플 데이터예요. 성수동에서 두쫀쿠 먹으려고 웨이팅 35분, 가격은 5,500원이었어요.",
+      "link": "https://example.com/cafe/%EC%8B%A0%EC%84%B8%EA%B3%84%20%EA%B0%95%EB%82%A8%20%EB%94%94%EC%A0%80%ED%8A%B8%20%ED%8C%9D%EC%97%85/1",
+      "source": "샘플카페",
+      "date": "2026-11-02T23:29:11.732Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "shinsegae",
+      "category": "popup",
+      "region": "성수",
+      "price": 5500,
+      "wait": 35,
+      "keywords": [
+        "두쫀쿠"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 여의도 크로플 후기 2",
+      "desc": "샘플 데이터예요. 여의도에서 크로플 먹으려고 웨이팅 35분, 가격은 5,500원이었어요.",
+      "link": "https://example.com/blog/%EC%8B%A0%EC%83%81%20%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%98%A4%ED%94%88%EB%9F%B0/1",
+      "source": "샘플블로거",
+      "date": "2026-11-02T23:29:11.732Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "dessert_new",
+      "category": "dessert",
+      "region": "여의도",
+      "price": 5500,
+      "wait": 35,
+      "keywords": [
+        "크로플"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 여의도 크로플 후기 2",
+      "desc": "샘플 데이터예요. 여의도에서 크로플 먹으려고 웨이팅 35분, 가격은 5,500원이었어요.",
+      "link": "https://example.com/cafe/%EC%8B%A0%EC%83%81%20%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%98%A4%ED%94%88%EB%9F%B0/1",
+      "source": "샘플카페",
+      "date": "2026-11-02T23:29:11.732Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "dessert_new",
+      "category": "dessert",
+      "region": "여의도",
+      "price": 5500,
+      "wait": 35,
+      "keywords": [
+        "크로플"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 여의도 크로플 후기 2",
+      "desc": "샘플 데이터예요. 여의도에서 크로플 먹으려고 웨이팅 35분, 가격은 5,500원이었어요.",
+      "link": "https://example.com/blog/%ED%95%9C%EC%A0%95%ED%8C%90%20%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%B6%9C%EC%8B%9C/1",
+      "source": "샘플블로거",
+      "date": "2026-11-02T23:29:11.732Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "dessert_limited",
+      "category": "dessert",
+      "region": "여의도",
+      "price": 5500,
+      "wait": 35,
+      "keywords": [
+        "크로플"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 여의도 크로플 후기 2",
+      "desc": "샘플 데이터예요. 여의도에서 크로플 먹으려고 웨이팅 35분, 가격은 5,500원이었어요.",
+      "link": "https://example.com/cafe/%ED%95%9C%EC%A0%95%ED%8C%90%20%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%B6%9C%EC%8B%9C/1",
+      "source": "샘플카페",
+      "date": "2026-11-02T23:29:11.732Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "dessert_limited",
+      "category": "dessert",
+      "region": "여의도",
+      "price": 5500,
+      "wait": 35,
+      "keywords": [
+        "크로플"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 잠실 석촌호수 베이글 후기 2",
+      "desc": "샘플 데이터예요. 잠실 석촌호수에서 베이글 먹으려고 웨이팅 35분, 가격은 5,500원이었어요.",
+      "link": "https://example.com/cafe/%EB%8D%94%ED%98%84%EB%8C%80%20%EC%84%9C%EC%9A%B8%20%ED%8C%9D%EC%97%85/1",
+      "source": "샘플카페",
+      "date": "2026-11-02T23:29:11.731Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "thehyundai",
+      "category": "popup",
+      "region": "잠실",
+      "price": 5500,
+      "wait": 35,
+      "keywords": [
+        "베이글"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.731Z"
+    },
+    {
+      "title": "[샘플] 한남동 바스크치즈케이크 후기 2",
+      "desc": "샘플 데이터예요. 한남동에서 바스크치즈케이크 먹으려고 웨이팅 35분, 가격은 5,500원이었어요.",
+      "link": "https://example.com/blog/%EC%84%B1%EC%88%98%20%ED%8C%9D%EC%97%85%EC%8A%A4%ED%86%A0%EC%96%B4%20%EB%94%94%EC%A0%80%ED%8A%B8/1",
+      "source": "샘플블로거",
+      "date": "2026-11-02T23:29:11.731Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "seongsu",
+      "category": "popup",
+      "region": "용산·한남",
+      "price": 5500,
+      "wait": 35,
+      "keywords": [
+        "바스크치즈케이크"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.731Z"
+    },
+    {
+      "title": "[샘플] 한남동 바스크치즈케이크 후기 2",
+      "desc": "샘플 데이터예요. 한남동에서 바스크치즈케이크 먹으려고 웨이팅 35분, 가격은 5,500원이었어요.",
+      "link": "https://example.com/cafe/%EC%84%B1%EC%88%98%20%ED%8C%9D%EC%97%85%EC%8A%A4%ED%86%A0%EC%96%B4%20%EB%94%94%EC%A0%80%ED%8A%B8/1",
+      "source": "샘플카페",
+      "date": "2026-11-02T23:29:11.731Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "seongsu",
+      "category": "popup",
+      "region": "용산·한남",
+      "price": 5500,
+      "wait": 35,
+      "keywords": [
+        "바스크치즈케이크"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.731Z"
+    },
+    {
+      "title": "[샘플] 잠실 석촌호수 베이글 후기 2",
+      "desc": "샘플 데이터예요. 잠실 석촌호수에서 베이글 먹으려고 웨이팅 35분, 가격은 5,500원이었어요.",
+      "link": "https://example.com/blog/%EB%8D%94%ED%98%84%EB%8C%80%20%EC%84%9C%EC%9A%B8%20%ED%8C%9D%EC%97%85/1",
+      "source": "샘플블로거",
+      "date": "2026-11-02T23:29:11.728Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "thehyundai",
+      "category": "popup",
+      "region": "잠실",
+      "price": 5500,
+      "wait": 35,
+      "keywords": [
+        "베이글"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.731Z"
+    },
+    {
+      "title": "[샘플] 성수동 버터떡 후기 3",
+      "desc": "샘플 데이터예요. 성수동에서 버터떡 먹으려고 웨이팅 50분, 가격은 6,500원이었어요.",
+      "link": "https://example.com/blog/%EB%A1%AF%EB%8D%B0%EC%9B%94%EB%93%9C%EB%AA%B0%20%ED%8C%9D%EC%97%85%20%EB%94%94%EC%A0%80%ED%8A%B8/2",
+      "source": "샘플블로거",
+      "date": "2026-11-02T16:29:11.732Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "lotteworldmall",
+      "category": "popup",
+      "region": "성수",
+      "price": 6500,
+      "wait": 50,
+      "keywords": [
+        "버터떡"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 성수동 버터떡 후기 3",
+      "desc": "샘플 데이터예요. 성수동에서 버터떡 먹으려고 웨이팅 50분, 가격은 6,500원이었어요.",
+      "link": "https://example.com/cafe/%EB%A1%AF%EB%8D%B0%EC%9B%94%EB%93%9C%EB%AA%B0%20%ED%8C%9D%EC%97%85%20%EB%94%94%EC%A0%80%ED%8A%B8/2",
+      "source": "샘플카페",
+      "date": "2026-11-02T16:29:11.732Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "lotteworldmall",
+      "category": "popup",
+      "region": "성수",
+      "price": 6500,
+      "wait": 50,
+      "keywords": [
+        "버터떡"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 연남동 골목 크룽지 후기 3",
+      "desc": "샘플 데이터예요. 연남동 골목에서 크룽지 먹으려고 웨이팅 50분, 가격은 6,500원이었어요.",
+      "link": "https://example.com/blog/%EC%8B%A0%EC%84%B8%EA%B3%84%20%EA%B0%95%EB%82%A8%20%EB%94%94%EC%A0%80%ED%8A%B8%20%ED%8C%9D%EC%97%85/2",
+      "source": "샘플블로거",
+      "date": "2026-11-02T16:29:11.732Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "shinsegae",
+      "category": "popup",
+      "region": "홍대·연남",
+      "price": 6500,
+      "wait": 50,
+      "keywords": [
+        "크룽지"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 연남동 골목 크룽지 후기 3",
+      "desc": "샘플 데이터예요. 연남동 골목에서 크룽지 먹으려고 웨이팅 50분, 가격은 6,500원이었어요.",
+      "link": "https://example.com/cafe/%EC%8B%A0%EC%84%B8%EA%B3%84%20%EA%B0%95%EB%82%A8%20%EB%94%94%EC%A0%80%ED%8A%B8%20%ED%8C%9D%EC%97%85/2",
+      "source": "샘플카페",
+      "date": "2026-11-02T16:29:11.732Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "shinsegae",
+      "category": "popup",
+      "region": "홍대·연남",
+      "price": 6500,
+      "wait": 50,
+      "keywords": [
+        "크룽지"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 부산 해운대 쫀득쿠키 후기 3",
+      "desc": "샘플 데이터예요. 부산 해운대에서 쫀득쿠키 먹으려고 웨이팅 50분, 가격은 6,500원이었어요.",
+      "link": "https://example.com/blog/%EC%8B%A0%EC%83%81%20%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%98%A4%ED%94%88%EB%9F%B0/2",
+      "source": "샘플블로거",
+      "date": "2026-11-02T16:29:11.732Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "dessert_new",
+      "category": "dessert",
+      "region": "부산",
+      "price": 6500,
+      "wait": 50,
+      "keywords": [
+        "쫀득쿠키"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 부산 해운대 쫀득쿠키 후기 3",
+      "desc": "샘플 데이터예요. 부산 해운대에서 쫀득쿠키 먹으려고 웨이팅 50분, 가격은 6,500원이었어요.",
+      "link": "https://example.com/cafe/%EC%8B%A0%EC%83%81%20%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%98%A4%ED%94%88%EB%9F%B0/2",
+      "source": "샘플카페",
+      "date": "2026-11-02T16:29:11.732Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "dessert_new",
+      "category": "dessert",
+      "region": "부산",
+      "price": 6500,
+      "wait": 50,
+      "keywords": [
+        "쫀득쿠키"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 부산 해운대 쫀득쿠키 후기 3",
+      "desc": "샘플 데이터예요. 부산 해운대에서 쫀득쿠키 먹으려고 웨이팅 50분, 가격은 6,500원이었어요.",
+      "link": "https://example.com/blog/%ED%95%9C%EC%A0%95%ED%8C%90%20%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%B6%9C%EC%8B%9C/2",
+      "source": "샘플블로거",
+      "date": "2026-11-02T16:29:11.732Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "dessert_limited",
+      "category": "dessert",
+      "region": "부산",
+      "price": 6500,
+      "wait": 50,
+      "keywords": [
+        "쫀득쿠키"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 부산 해운대 쫀득쿠키 후기 3",
+      "desc": "샘플 데이터예요. 부산 해운대에서 쫀득쿠키 먹으려고 웨이팅 50분, 가격은 6,500원이었어요.",
+      "link": "https://example.com/cafe/%ED%95%9C%EC%A0%95%ED%8C%90%20%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%B6%9C%EC%8B%9C/2",
+      "source": "샘플카페",
+      "date": "2026-11-02T16:29:11.732Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "dessert_limited",
+      "category": "dessert",
+      "region": "부산",
+      "price": 6500,
+      "wait": 50,
+      "keywords": [
+        "쫀득쿠키"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 여의도 흑임자 후기 3",
+      "desc": "샘플 데이터예요. 여의도에서 흑임자 먹으려고 웨이팅 50분, 가격은 6,500원이었어요.",
+      "link": "https://example.com/cafe/%EB%8D%94%ED%98%84%EB%8C%80%20%EC%84%9C%EC%9A%B8%20%ED%8C%9D%EC%97%85/2",
+      "source": "샘플카페",
+      "date": "2026-11-02T16:29:11.731Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "thehyundai",
+      "category": "popup",
+      "region": "여의도",
+      "price": 6500,
+      "wait": 50,
+      "keywords": [
+        "흑임자"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.731Z"
+    },
+    {
+      "title": "[샘플] 성수동 버터떡 후기 3",
+      "desc": "샘플 데이터예요. 성수동에서 버터떡 먹으려고 웨이팅 50분, 가격은 6,500원이었어요.",
+      "link": "https://example.com/blog/%EC%84%B1%EC%88%98%20%ED%8C%9D%EC%97%85%EC%8A%A4%ED%86%A0%EC%96%B4%20%EB%94%94%EC%A0%80%ED%8A%B8/2",
+      "source": "샘플블로거",
+      "date": "2026-11-02T16:29:11.731Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "seongsu",
+      "category": "popup",
+      "region": "성수",
+      "price": 6500,
+      "wait": 50,
+      "keywords": [
+        "버터떡"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.731Z"
+    },
+    {
+      "title": "[샘플] 성수동 버터떡 후기 3",
+      "desc": "샘플 데이터예요. 성수동에서 버터떡 먹으려고 웨이팅 50분, 가격은 6,500원이었어요.",
+      "link": "https://example.com/cafe/%EC%84%B1%EC%88%98%20%ED%8C%9D%EC%97%85%EC%8A%A4%ED%86%A0%EC%96%B4%20%EB%94%94%EC%A0%80%ED%8A%B8/2",
+      "source": "샘플카페",
+      "date": "2026-11-02T16:29:11.731Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "seongsu",
+      "category": "popup",
+      "region": "성수",
+      "price": 6500,
+      "wait": 50,
+      "keywords": [
+        "버터떡"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 여의도 흑임자 후기 3",
+      "desc": "샘플 데이터예요. 여의도에서 흑임자 먹으려고 웨이팅 50분, 가격은 6,500원이었어요.",
+      "link": "https://example.com/blog/%EB%8D%94%ED%98%84%EB%8C%80%20%EC%84%9C%EC%9A%B8%20%ED%8C%9D%EC%97%85/2",
+      "source": "샘플블로거",
+      "date": "2026-11-02T16:29:11.728Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "thehyundai",
+      "category": "popup",
+      "region": "여의도",
+      "price": 6500,
+      "wait": 50,
+      "keywords": [
+        "흑임자"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.731Z"
+    },
+    {
+      "title": "[샘플] 연남동 골목 탕후루 후기 4",
+      "desc": "샘플 데이터예요. 연남동 골목에서 탕후루 먹으려고 웨이팅 65분, 가격은 7,500원이었어요.",
+      "link": "https://example.com/blog/%EB%A1%AF%EB%8D%B0%EC%9B%94%EB%93%9C%EB%AA%B0%20%ED%8C%9D%EC%97%85%20%EB%94%94%EC%A0%80%ED%8A%B8/3",
+      "source": "샘플블로거",
+      "date": "2026-11-02T09:29:11.732Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "lotteworldmall",
+      "category": "popup",
+      "region": "홍대·연남",
+      "price": 7500,
+      "wait": 65,
+      "keywords": [
+        "탕후루"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 연남동 골목 탕후루 후기 4",
+      "desc": "샘플 데이터예요. 연남동 골목에서 탕후루 먹으려고 웨이팅 65분, 가격은 7,500원이었어요.",
+      "link": "https://example.com/cafe/%EB%A1%AF%EB%8D%B0%EC%9B%94%EB%93%9C%EB%AA%B0%20%ED%8C%9D%EC%97%85%20%EB%94%94%EC%A0%80%ED%8A%B8/3",
+      "source": "샘플카페",
+      "date": "2026-11-02T09:29:11.732Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "lotteworldmall",
+      "category": "popup",
+      "region": "홍대·연남",
+      "price": 7500,
+      "wait": 65,
+      "keywords": [
+        "탕후루"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 신사 가로수길 베이글 후기 4",
+      "desc": "샘플 데이터예요. 신사 가로수길에서 베이글 먹으려고 웨이팅 65분, 가격은 7,500원이었어요.",
+      "link": "https://example.com/blog/%EC%8B%A0%EC%84%B8%EA%B3%84%20%EA%B0%95%EB%82%A8%20%EB%94%94%EC%A0%80%ED%8A%B8%20%ED%8C%9D%EC%97%85/3",
+      "source": "샘플블로거",
+      "date": "2026-11-02T09:29:11.732Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "shinsegae",
+      "category": "popup",
+      "region": "강남·신사",
+      "price": 7500,
+      "wait": 65,
+      "keywords": [
+        "베이글"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 신사 가로수길 베이글 후기 4",
+      "desc": "샘플 데이터예요. 신사 가로수길에서 베이글 먹으려고 웨이팅 65분, 가격은 7,500원이었어요.",
+      "link": "https://example.com/cafe/%EC%8B%A0%EC%84%B8%EA%B3%84%20%EA%B0%95%EB%82%A8%20%EB%94%94%EC%A0%80%ED%8A%B8%20%ED%8C%9D%EC%97%85/3",
+      "source": "샘플카페",
+      "date": "2026-11-02T09:29:11.732Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "shinsegae",
+      "category": "popup",
+      "region": "강남·신사",
+      "price": 7500,
+      "wait": 65,
+      "keywords": [
+        "베이글"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 한남동 두바이쫀득쿠키 후기 4",
+      "desc": "샘플 데이터예요. 한남동에서 두바이쫀득쿠키 먹으려고 웨이팅 65분, 가격은 7,500원이었어요.",
+      "link": "https://example.com/blog/%EC%8B%A0%EC%83%81%20%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%98%A4%ED%94%88%EB%9F%B0/3",
+      "source": "샘플블로거",
+      "date": "2026-11-02T09:29:11.732Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "dessert_new",
+      "category": "dessert",
+      "region": "용산·한남",
+      "price": 7500,
+      "wait": 65,
+      "keywords": [
+        "두바이쫀득쿠키",
+        "쫀득쿠키"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 한남동 두바이쫀득쿠키 후기 4",
+      "desc": "샘플 데이터예요. 한남동에서 두바이쫀득쿠키 먹으려고 웨이팅 65분, 가격은 7,500원이었어요.",
+      "link": "https://example.com/cafe/%EC%8B%A0%EC%83%81%20%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%98%A4%ED%94%88%EB%9F%B0/3",
+      "source": "샘플카페",
+      "date": "2026-11-02T09:29:11.732Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "dessert_new",
+      "category": "dessert",
+      "region": "용산·한남",
+      "price": 7500,
+      "wait": 65,
+      "keywords": [
+        "두바이쫀득쿠키",
+        "쫀득쿠키"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 한남동 두바이쫀득쿠키 후기 4",
+      "desc": "샘플 데이터예요. 한남동에서 두바이쫀득쿠키 먹으려고 웨이팅 65분, 가격은 7,500원이었어요.",
+      "link": "https://example.com/blog/%ED%95%9C%EC%A0%95%ED%8C%90%20%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%B6%9C%EC%8B%9C/3",
+      "source": "샘플블로거",
+      "date": "2026-11-02T09:29:11.732Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "dessert_limited",
+      "category": "dessert",
+      "region": "용산·한남",
+      "price": 7500,
+      "wait": 65,
+      "keywords": [
+        "두바이쫀득쿠키",
+        "쫀득쿠키"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 한남동 두바이쫀득쿠키 후기 4",
+      "desc": "샘플 데이터예요. 한남동에서 두바이쫀득쿠키 먹으려고 웨이팅 65분, 가격은 7,500원이었어요.",
+      "link": "https://example.com/cafe/%ED%95%9C%EC%A0%95%ED%8C%90%20%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%B6%9C%EC%8B%9C/3",
+      "source": "샘플카페",
+      "date": "2026-11-02T09:29:11.732Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "dessert_limited",
+      "category": "dessert",
+      "region": "용산·한남",
+      "price": 7500,
+      "wait": 65,
+      "keywords": [
+        "두바이쫀득쿠키",
+        "쫀득쿠키"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 부산 해운대 푸딩 후기 4",
+      "desc": "샘플 데이터예요. 부산 해운대에서 푸딩 먹으려고 웨이팅 65분, 가격은 7,500원이었어요.",
+      "link": "https://example.com/cafe/%EB%8D%94%ED%98%84%EB%8C%80%20%EC%84%9C%EC%9A%B8%20%ED%8C%9D%EC%97%85/3",
+      "source": "샘플카페",
+      "date": "2026-11-02T09:29:11.731Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "thehyundai",
+      "category": "popup",
+      "region": "부산",
+      "price": 7500,
+      "wait": 65,
+      "keywords": [
+        "푸딩"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.731Z"
+    },
+    {
+      "title": "[샘플] 연남동 골목 탕후루 후기 4",
+      "desc": "샘플 데이터예요. 연남동 골목에서 탕후루 먹으려고 웨이팅 65분, 가격은 7,500원이었어요.",
+      "link": "https://example.com/blog/%EC%84%B1%EC%88%98%20%ED%8C%9D%EC%97%85%EC%8A%A4%ED%86%A0%EC%96%B4%20%EB%94%94%EC%A0%80%ED%8A%B8/3",
+      "source": "샘플블로거",
+      "date": "2026-11-02T09:29:11.731Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "seongsu",
+      "category": "popup",
+      "region": "홍대·연남",
+      "price": 7500,
+      "wait": 65,
+      "keywords": [
+        "탕후루"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.731Z"
+    },
+    {
+      "title": "[샘플] 연남동 골목 탕후루 후기 4",
+      "desc": "샘플 데이터예요. 연남동 골목에서 탕후루 먹으려고 웨이팅 65분, 가격은 7,500원이었어요.",
+      "link": "https://example.com/cafe/%EC%84%B1%EC%88%98%20%ED%8C%9D%EC%97%85%EC%8A%A4%ED%86%A0%EC%96%B4%20%EB%94%94%EC%A0%80%ED%8A%B8/3",
+      "source": "샘플카페",
+      "date": "2026-11-02T09:29:11.731Z",
+      "thumb": "",
+      "type": "cafe",
+      "accountId": "seongsu",
+      "category": "popup",
+      "region": "홍대·연남",
+      "price": 7500,
+      "wait": 65,
+      "keywords": [
+        "탕후루"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.732Z"
+    },
+    {
+      "title": "[샘플] 부산 해운대 푸딩 후기 4",
+      "desc": "샘플 데이터예요. 부산 해운대에서 푸딩 먹으려고 웨이팅 65분, 가격은 7,500원이었어요.",
+      "link": "https://example.com/blog/%EB%8D%94%ED%98%84%EB%8C%80%20%EC%84%9C%EC%9A%B8%20%ED%8C%9D%EC%97%85/3",
+      "source": "샘플블로거",
+      "date": "2026-11-02T09:29:11.728Z",
+      "thumb": "",
+      "type": "blog",
+      "accountId": "thehyundai",
+      "category": "popup",
+      "region": "부산",
+      "price": 7500,
+      "wait": 65,
+      "keywords": [
+        "푸딩"
+      ],
+      "collectedAt": "2026-11-03T06:29:11.731Z"
+    }
+  ]
+}
