@@ -52,19 +52,23 @@
           <button data-f="fav">♥ 찜</button>
         </div>
       </div>
-      <input id="q" class="search" type="search" placeholder="🔍 검색 (예: 버터떡, 성수)" />
+      <input id="q" class="search" type="search" placeholder="🔍 검색" />
       <div id="feed" class="feed"></div>
+      <button id="feedMore" class="more" hidden>소식 더 보기 🍰</button>
       <p id="empty" class="empty" hidden>조건에 맞는 소식이 없어요 🥲</p>
     </section>
 
     <section>
-      <h2><span class="emo">👀</span>추적 중인 소스</h2>
-      <div id="accounts" class="accounts"></div>
+      <h2><span class="emo">👀</span>이번 업데이트에서 검색한 단어</h2>
+      <p class="hint">"디저트"에서 시작해, 지난 업데이트에 뜬 키워드로 매번 자동으로 바뀌어요.</p>
+      <div id="queries" class="row" style="font-size:14px"></div>
+      <h2><span class="emo">✍️</span>디저트 글을 많이 올린 작성자</h2>
+      <div id="sources" class="accounts"></div>
     </section>
   </main>
 
   <footer class="wrap foot">
-    데이터 출처: 카카오(다음)·네이버 검색. 원문 저작권은 각 작성자에게 있어요.
+    데이터 출처: 카카오(다음) 검색·장소 검색. 원문 저작권은 각 작성자에게 있어요.
   </footer>
   <script src="app.js"></script>
 </body>

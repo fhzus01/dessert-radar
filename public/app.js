@@ -3,7 +3,7 @@ const esc = (s = "") => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<
 const fmt = (iso) => new Date(iso).toLocaleString("ko-KR", { timeZone: "Asia/Seoul", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" });
 
 let data = { items: [], stores: [] };
-const state = { filter: "all", query: "", region: "전체", storeFavOnly: false, storeLimit: 6 };
+const state = { filter: "all", query: "", region: "전체", storeFavOnly: false, storeLimit: 6, feedLimit: 24 };
 
 // ---------- 찜 (이 브라우저에만 저장) ----------
 const FAV_KEY = "dessert-radar:favs";
@@ -53,21 +53,21 @@ function renderStores() {
       <div class="addr">📍 ${esc(s.address || "주소 정보 없음")}</div>
       <div class="links">
         ${s.reviewUrl ? `<a class="map review" href="${esc(s.reviewUrl)}" target="_blank" rel="noopener">✏️ 후기 보기</a>` : ""}
-        <a class="map" href="${esc(s.mapUrl)}" target="_blank" rel="noopener">🗺️ ${esc(s.mapName || "지도")}</a>
+        <a class="map" href="${esc(s.mapUrl)}" target="_blank" rel="noopener">🗺️ 카카오맵</a>
       </div>
     </div>`).join("");
   $("#storesEmpty").hidden = list.length > 0;
 }
 
 function renderFeed() {
-  const accName = Object.fromEntries((data.accounts || []).map((a) => [a.id, a.name]));
   const fresh = (it) => data.updatedAt && Math.abs(new Date(it.collectedAt) - new Date(data.updatedAt)) < 600e3;
   const list = data.items.filter((it) =>
     (state.filter === "all" || (state.filter === "fav" ? favs.has(it.link) : it.popup)) &&
     inRegion(it.region) &&
     (!state.query || `${it.title} ${it.desc} ${it.keywords.join(" ")} ${it.region}`.includes(state.query)));
 
-  $("#feed").innerHTML = list.map((it) => `
+  $("#feedMore").hidden = list.length <= state.feedLimit;
+  $("#feed").innerHTML = list.slice(0, state.feedLimit).map((it) => `
     <article class="card item">
       ${heart(it.link)}
       <div class="row">
@@ -84,7 +84,7 @@ function renderFeed() {
       <div class="row">
         ${it.keywords.map((k) => `<span class="tag">#${esc(k)}</span>`).join("")}
       </div>
-      <div class="row"><span>${esc(accName[it.accountId] || "")}</span><span style="margin-left:auto">${esc(it.source)} · ${fmt(it.date)}</span></div>
+      <div class="row"><span style="margin-left:auto">${esc(it.source)} · ${fmt(it.date)}</span></div>
     </article>`).join("");
   $("#empty").hidden = list.length > 0;
 }
@@ -99,21 +99,20 @@ async function init() {
     $("#updated").textContent = "데이터를 불러오지 못했어요";
     return;
   }
-  data.items ||= []; data.trends ||= []; data.accounts ||= [];
+  data.items ||= []; data.trends ||= []; data.sources ||= []; data.queries ||= [];
   $("#updated").textContent = data.updatedAt ? `🕐 ${fmt(data.updatedAt)} 업데이트` : "🕐 첫 업데이트를 기다리는 중";
   $("#waitingNotice").hidden = !!data.updatedAt;
 
   $("#trends").innerHTML = data.trends.map((t, i) => `
     <li data-k="${esc(t.keyword)}"><b>${i + 1}</b>${esc(t.keyword)}<span class="cnt">${t.count}</span>
       ${t.diff > 0 ? `<span class="up">▲${t.diff}</span>` : t.diff < 0 ? `<span class="down">▼${-t.diff}</span>` : ""}
+      <a class="insta" href="https://www.instagram.com/explore/tags/${encodeURIComponent(t.keyword)}/" target="_blank" rel="noopener" title="인스타그램에서 #${esc(t.keyword)} 보기">📷</a>
     </li>`).join("") || "<li>아직 데이터가 없어요</li>";
+  if (data.trends[0]) $("#q").placeholder = `🔍 검색 (예: ${data.trends[0].keyword})`;
 
-  $("#accounts").innerHTML = data.accounts.map((a) => `
-    <div class="card acc">
-      <div class="name">${esc(a.name)}</div>
-      ${a.instagram ? `<a href="https://www.instagram.com/${esc(a.instagram)}/" target="_blank" rel="noopener">@${esc(a.instagram)}</a>` : '<span class="small">인스타 미등록</span>'}
-      <div class="small">${a.region ? esc(a.region) + " · " : ""}소식 ${a.count}건</div>
-    </div>`).join("");
+  $("#queries").innerHTML = data.queries.map((q) => `<span class="tag">${esc(q)}</span>`).join("") || '<span class="small">아직 없음</span>';
+  $("#sources").innerHTML = data.sources.map((x) => `
+    <div class="card acc"><div class="name">${esc(x.name)}</div><div class="small">디저트 글 ${x.count}건</div></div>`).join("");
 
   render();
 }
@@ -131,10 +130,12 @@ $("#regions").addEventListener("click", (e) => {
   state.region = b.dataset.r;
   render();
 });
+$("#feedMore").addEventListener("click", () => { state.feedLimit += 24; renderFeed(); });
 $("#storesMore").addEventListener("click", () => { state.storeLimit += 6; renderStores(); });
 $("#storeFav").addEventListener("change", (e) => { state.storeFavOnly = e.target.checked; renderStores(); });
 $("#q").addEventListener("input", (e) => { state.query = e.target.value.trim(); renderFeed(); });
 $("#trends").addEventListener("click", (e) => {
+  if (e.target.closest("a")) return; // 인스타 링크는 그대로 열기
   const li = e.target.closest("li[data-k]");
   if (!li) return;
   $("#q").value = state.query = li.dataset.k;
