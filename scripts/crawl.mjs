@@ -117,6 +117,13 @@ export function createCrawler(opts) {
   let used = 0;
   const lastHit = new Map(); // host → 마지막 요청 시각 (같은 사이트에 연속 요청 방지)
   const stats = { fetched: 0, blockedByRobots: 0, failed: 0, skippedBudget: 0 };
+  // 사이트별 진단: 어디서 왜 실패하는지 보기 위함
+  const sites = new Map();
+  const site = (host) => {
+    if (!sites.has(host)) sites.set(host, { host, tried: 0, ok: 0, emptyText: 0, withImage: 0, robots: 0, http: {}, notHtml: 0, error: {}, textLen: 0, example: "" });
+    return sites.get(host);
+  };
+  const fail = (d, url, why) => { stats.failed++; if (!d.example) d.example = `${why} ← ${url}`; return null; };
 
   async function crawl(url) {
     if (!opts.enabled) return null;
@@ -124,28 +131,47 @@ export function createCrawler(opts) {
     let u;
     try { u = new URL(normalizeUrl(url)); } catch { return null; }
     if (!/^https?:$/.test(u.protocol)) return null;
+    const d = site(u.host);
+    d.tried++;
 
     const groups = await robotsFor(u.origin, opts);
-    if (!isAllowed(groups, opts.userAgent, u.pathname + u.search)) { stats.blockedByRobots++; return null; }
+    if (!isAllowed(groups, opts.userAgent, u.pathname + u.search)) {
+      stats.blockedByRobots++; d.robots++;
+      if (!d.example) d.example = `robots.txt 차단 ← ${u.href}`;
+      return null;
+    }
 
     const wait = (lastHit.get(u.host) || 0) + opts.delayMs - Date.now();
+    lastHit.set(u.host, Math.max(Date.now(), (lastHit.get(u.host) || 0) + opts.delayMs));
     if (wait > 0) await sleep(wait);
-    lastHit.set(u.host, Date.now());
     used++;
 
     try {
       const res = await fetch(u.href, {
-        headers: { "User-Agent": opts.userAgent, "Accept-Language": "ko-KR,ko;q=0.9" },
+        headers: { "User-Agent": opts.userAgent, "Accept": "text/html,application/xhtml+xml", "Accept-Language": "ko-KR,ko;q=0.9" },
         redirect: "follow", signal: AbortSignal.timeout(opts.timeoutMs),
       });
       const type = res.headers.get("content-type") || "";
-      if (!res.ok || !type.includes("text/html")) { stats.failed++; return null; }
-      stats.fetched++;
-      return extract(await res.text(), u.href);
-    } catch {
-      stats.failed++;
-      return null;
+      if (!res.ok) { d.http[res.status] = (d.http[res.status] || 0) + 1; return fail(d, u.href, `HTTP ${res.status}`); }
+      if (!type.includes("html")) { d.notHtml++; return fail(d, u.href, `HTML 아님(${type})`); }
+      const page = extract(await res.text(), res.url || u.href);
+      stats.fetched++; d.ok++;
+      d.textLen += page.text.length;
+      if (page.image) d.withImage++;
+      if (page.text.length < 100) { d.emptyText++; if (!d.example) d.example = `본문 거의 없음(${page.text.length}자) ← ${u.href}`; }
+      return page;
+    } catch (e) {
+      const why = e.name === "TimeoutError" ? "시간 초과" : (e.cause?.code || e.message || "오류");
+      d.error[why] = (d.error[why] || 0) + 1;
+      return fail(d, u.href, why);
     }
+  }
+
+  // 사이트별 결과 표 (많이 시도한 순)
+  function report() {
+    return [...sites.values()].sort((a, b) => b.tried - a.tried).map((d) => ({
+      ...d, avgText: d.ok ? Math.round(d.textLen / d.ok) : 0, textLen: undefined,
+    }));
   }
 
   // 동시에 n개씩 처리
@@ -162,5 +188,5 @@ export function createCrawler(opts) {
     return out;
   }
 
-  return { crawl, crawlMany, stats };
+  return { crawl, crawlMany, stats, report };
 }

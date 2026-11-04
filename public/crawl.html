@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>수집 점검</title>
+  <style>
+    :root { --bg: #fff7fa; --card: #fff; --ink: #5a4450; --muted: #a48d99; --line: #fbe1ea; --ok: #2f8f73; --bad: #d9483b; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #2a2128; --card: #352a33; --ink: #fbeaf1; --muted: #c3a9b6; --line: #4a3a45; --ok: #aef0d8; --bad: #ff8f8f; } }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; }
+    .wrap { max-width: 1000px; margin: 0 auto; padding: 24px 16px; }
+    h1 { font-size: 24px; margin: 0 0 4px; }
+    .muted { color: var(--muted); font-size: 14px; }
+    .sum { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0; }
+    .sum div { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 8px 14px; }
+    .sum b { display: block; font-size: 20px; }
+    .tbl { overflow-x: auto; background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
+    table { border-collapse: collapse; width: 100%; font-size: 13px; }
+    th, td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+    th:first-child, td:first-child, td.ex { text-align: left; }
+    td.ex { white-space: normal; color: var(--muted); font-size: 12px; word-break: break-all; min-width: 240px; }
+    .ok { color: var(--ok); font-weight: 700; } .bad { color: var(--bad); font-weight: 700; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>🕷️ 수집·크롤링 점검</h1>
+    <p class="muted" id="when">불러오는 중…</p>
+    <div class="sum" id="sum"></div>
+    <div class="tbl"><table>
+      <thead><tr><th>사이트</th><th>시도</th><th>성공</th><th>본문 비어있음</th><th>사진</th><th>평균 본문</th><th>robots 차단</th><th>기타 실패</th><th>예시</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table></div>
+    <p class="muted">"성공"은 페이지를 받아온 수, "본문 비어있음"은 받아왔지만 글 내용을 거의 못 읽은 수예요. <a href="./">← 사이트로</a></p>
+  </div>
+  <script>
+    const esc = (s = "") => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    fetch(`data/feed.json?t=${Date.now()}`).then((r) => r.json()).then((d) => {
+      document.getElementById("when").textContent = d.updatedAt
+        ? `${new Date(d.updatedAt).toLocaleString("ko-KR", { timeZone: "Asia/Seoul" })} 업데이트 기준` : "아직 수집 기록이 없어요";
+      const s = d.stats || {};
+      document.getElementById("sum").innerHTML = [
+        ["후보 글", s.candidates], ["규칙 판별 통과", s.ruleKept], ["최종(서울·디저트)", s.kept],
+        ["AI 새로 확인", s.ai ? s.ai.checked : "꺼짐"], ["AI: 디저트 아님", s.ai?.notDessert], ["AI: 서울 아님", s.ai?.notSeoul], ["크롤링 성공", s.fetched], ["robots 차단", s.blockedByRobots], ["실패", s.failed], ["예산 초과로 생략", s.skippedBudget],
+      ].map(([k, v]) => `<div>${k}<b>${v ?? "-"}</b></div>`).join("");
+      document.getElementById("rows").innerHTML = (d.crawlReport || []).map((x) => {
+        const other = [...Object.entries(x.http || {}).map(([c, n]) => `HTTP ${c} ×${n}`), ...Object.entries(x.error || {}).map(([c, n]) => `${c} ×${n}`), x.notHtml ? `HTML 아님 ×${x.notHtml}` : ""].filter(Boolean).join(", ");
+        return `<tr><td>${esc(x.host)}</td><td>${x.tried}</td><td class="${x.ok ? "ok" : "bad"}">${x.ok}</td><td class="${x.emptyText ? "bad" : ""}">${x.emptyText}</td><td>${x.withImage}</td><td>${x.avgText}자</td><td class="${x.robots ? "bad" : ""}">${x.robots}</td><td>${esc(other) || "-"}</td><td class="ex">${esc(x.example || "")}</td></tr>`;
+      }).join("") || '<tr><td colspan="9">기록 없음</td></tr>';
+    }).catch(() => { document.getElementById("when").textContent = "데이터를 불러오지 못했어요"; });
+  </script>
+</body>
+</html>

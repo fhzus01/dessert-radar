@@ -1,7 +1,14 @@
 {
-  "_comment": "내용(검색어·키워드·지역·가게)은 모두 수집한 데이터에서 자동으로 정해져요. 여기엔 시작 단어와 동작 숫자, 흔한 단어 제외 목록만 있어요.",
+  "_comment": "내용(키워드·가게·지역·디저트 단어)은 수집한 데이터로 자동 결정돼요. 여기엔 시작 단어, 도시·동네, 동작 숫자, 흔한 단어 제외 목록, AI 설정만 있어요.",
   "seed": "디저트",
+  "city": "서울",
+  "areas": [
+    "홍대",
+    "더현대",
+    "성수"
+  ],
   "seedPages": 3,
+  "areaPages": 2,
   "expandQueries": 12,
   "discoverQueries": 20,
   "keepDays": 4,
@@ -120,9 +127,15 @@
     ]
   },
   "stores": {
-    "_comment": "뜨는 키워드마다 카카오 장소 검색. 카카오 분류상 '카페'(CE7)이거나 '간식' 업종인 곳만.",
+    "_comment": "뜨는 키워드마다 '서울 키워드'로 카카오 장소 검색. 카카오 분류상 카페(CE7)·간식 업종이면서 서울 주소인 곳만.",
     "topKeywords": 6,
     "perKeyword": 6
+  },
+  "ai": {
+    "_comment": "AI 2차 확인 (GitHub Secret ANTHROPIC_API_KEY 가 있을 때만). 이미 확인한 글은 다시 묻지 않아요.",
+    "model": "claude-haiku-4-5",
+    "batchSize": 20,
+    "maxPerRun": 400
   },
   "crawl": {
     "_comment": "검색 결과 원문 페이지를 robots.txt를 지켜 크롤링해 본문·대표이미지를 보강",

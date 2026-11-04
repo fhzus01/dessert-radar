@@ -31,18 +31,18 @@ function nextUpdate() {
   $("#next").textContent = `⏰ ${h < 12 ? "12시" : "24시"} 업데이트까지 ${Math.floor(ms / 3600e3)}시간 ${Math.floor((ms % 3600e3) / 60e3)}분`;
 }
 
-const inRegion = (r) => state.region === "전체" || r === state.region;
+const inRegion = (x) => state.region === "전체" || x.area === state.region || x.gu === state.region;
+const place = (x) => x.area ? `${x.area}${x.gu ? ` · ${x.gu}` : ""}` : x.gu || "";
 
 // ---------- 렌더 ----------
 function renderRegions() {
-  const used = new Set([...data.items, ...data.stores].map((x) => x.region).filter(Boolean));
-  const list = ["전체", ...(data.regions || []).filter((r) => used.has(r))];
+  const list = [{ label: "전체", type: "all" }, ...(data.regions || [])];
   $("#regions").innerHTML = list.map((r) =>
-    `<button data-r="${esc(r)}" class="${r === state.region ? "on" : ""}">${r === "전체" ? "📍 전체" : esc(r)}</button>`).join("");
+    `<button data-r="${esc(r.label)}" class="${r.label === state.region ? "on" : ""} ${r.type}">${r.type === "all" ? "📍 서울 전체" : r.type === "area" ? `⭐ ${esc(r.label)}` : esc(r.label)}</button>`).join("");
 }
 
 function renderStores() {
-  const list = data.stores.filter((s) => inRegion(s.region) && (!state.storeFavOnly || favs.has("s:" + s.name)));
+  const list = data.stores.filter((s) => inRegion(s) && (!state.storeFavOnly || favs.has("s:" + s.name)));
   $("#storesMore").hidden = list.length <= state.storeLimit;
   $("#stores").innerHTML = list.slice(0, state.storeLimit).map((s) => `
     <div class="card store">
@@ -63,8 +63,8 @@ function renderFeed() {
   const fresh = (it) => data.updatedAt && Math.abs(new Date(it.collectedAt) - new Date(data.updatedAt)) < 600e3;
   const list = data.items.filter((it) =>
     (state.filter === "all" || (state.filter === "fav" ? favs.has(it.link) : it.popup)) &&
-    inRegion(it.region) &&
-    (!state.query || `${it.title} ${it.desc} ${it.keywords.join(" ")} ${it.region}`.includes(state.query)));
+    inRegion(it) &&
+    (!state.query || `${it.title} ${it.desc} ${it.keywords.join(" ")} ${place(it)}`.includes(state.query)));
 
   $("#feedMore").hidden = list.length <= state.feedLimit;
   $("#feed").innerHTML = list.slice(0, state.feedLimit).map((it) => `
@@ -74,7 +74,8 @@ function renderFeed() {
         ${fresh(it) ? '<span class="new">NEW</span>' : ""}
         <span class="badge">${({ news: "📰 뉴스", cafe: "☕ 카페글", blog: "✏️ 블로그" })[it.type] || "🌐 웹"}</span>
         ${it.popup ? '<span class="badge">🎪 디저트 팝업</span>' : ""}
-        ${it.region ? `<span class="badge region">📍 ${esc(it.region)}</span>` : ""}
+        ${place(it) ? `<span class="badge region">📍 ${esc(place(it))}</span>` : ""}
+        ${it.ai?.dessert ? `<span class="badge ai" title="AI 확인: ${esc(it.ai.reason)}">🤖 AI 확인</span>` : ""}
       </div>
       <a href="${esc(it.link)}" target="_blank" rel="noopener">
         ${it.thumb ? `<img class="thumb" src="${esc(it.thumb)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" />` : ""}
