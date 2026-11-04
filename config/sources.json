@@ -1,59 +1,61 @@
 {
-  "_comment": "추적 대상 설정. accounts의 instagram 핸들은 실제 계정인지 꼭 확인 후 수정하세요 (verified를 true로). query는 네이버 검색에 쓰이는 검색어입니다.",
+  "_comment": "추적 설정. query는 검색어, instagram은 바로가기 링크용(실제 계정 확인 후 verified:true). 디저트와 관련 없는 글은 dessertTerms 점수로 자동 제외돼요.",
   "accounts": [
     {
       "id": "thehyundai",
       "name": "더현대 서울",
       "instagram": "thehyundai_seoul",
-      "category": "popup",
-      "query": "더현대 서울 팝업",
-      "verified": false,
-      "region": "여의도"
-    },
-    {
-      "id": "seongsu",
-      "name": "성수 팝업",
-      "instagram": "",
-      "category": "popup",
-      "query": "성수 팝업스토어 디저트",
-      "verified": false,
-      "region": "성수"
+      "query": "더현대 서울 디저트 팝업",
+      "region": "여의도",
+      "verified": false
     },
     {
       "id": "lotteworldmall",
       "name": "롯데월드몰",
       "instagram": "lotteworldmall",
-      "category": "popup",
-      "query": "롯데월드몰 팝업 디저트",
-      "verified": false,
-      "region": "잠실"
+      "query": "롯데월드몰 디저트 팝업",
+      "region": "잠실",
+      "verified": false
     },
     {
       "id": "shinsegae",
-      "name": "신세계백화점 강남",
+      "name": "신세계 강남",
       "instagram": "",
-      "category": "popup",
       "query": "신세계 강남 디저트 팝업",
-      "verified": false,
-      "region": "강남"
+      "region": "강남·신사",
+      "verified": false
+    },
+    {
+      "id": "seongsu",
+      "name": "성수 디저트",
+      "instagram": "",
+      "query": "성수 디저트 카페 신상",
+      "region": "성수",
+      "verified": false
     },
     {
       "id": "dessert_new",
       "name": "신상 디저트",
       "instagram": "",
-      "category": "dessert",
       "query": "신상 디저트 오픈런",
-      "verified": false,
-      "region": ""
+      "region": "",
+      "verified": false
     },
     {
       "id": "dessert_limited",
       "name": "한정판 디저트",
       "instagram": "",
-      "category": "dessert",
       "query": "한정판 디저트 출시",
-      "verified": false,
-      "region": ""
+      "region": "",
+      "verified": false
+    },
+    {
+      "id": "dessert_trend",
+      "name": "요즘 유행 디저트",
+      "instagram": "",
+      "query": "요즘 유행 디저트",
+      "region": "",
+      "verified": false
     }
   ],
   "trendKeywords": [
@@ -152,8 +154,77 @@
     ]
   },
   "stores": {
-    "_comment": "상위 트렌드 키워드마다 네이버 지역검색으로 가게를 찾고, 블로그 후기에서 가격·웨이팅을 추정",
+    "_comment": "상위 트렌드 키워드마다 장소 검색으로 디저트 가게를 찾고, 대표 후기 글을 연결",
     "topKeywords": 6,
-    "perKeyword": 5
-  }
+    "perKeyword": 6
+  },
+  "dessertTerms": [
+    "디저트",
+    "케이크",
+    "쿠키",
+    "베이커리",
+    "빵집",
+    "제과",
+    "마카롱",
+    "떡",
+    "아이스크림",
+    "젤라또",
+    "초콜릿",
+    "초코",
+    "타르트",
+    "파이",
+    "푸딩",
+    "도넛",
+    "스콘",
+    "와플",
+    "빙수",
+    "크림",
+    "마들렌",
+    "휘낭시에",
+    "까눌레",
+    "베이글",
+    "소금빵",
+    "크로와상",
+    "크루아상",
+    "에그타르트",
+    "티라미수",
+    "치즈케이크",
+    "약과",
+    "양갱",
+    "타코야끼빵",
+    "붕어빵",
+    "호떡",
+    "젤리",
+    "캔디",
+    "사탕",
+    "디저트카페",
+    "카페 신메뉴"
+  ],
+  "minScore": 2,
+  "storeCategoryPattern": "디저트|제과|베이커리|떡|아이스크림|도넛|간식|케이크|빙수|초콜릿|카페",
+  "crawl": {
+    "_comment": "검색 결과 원문 페이지를 robots.txt를 지켜 크롤링해 본문·대표이미지를 보강",
+    "enabled": true,
+    "userAgent": "DessertRadarBot/1.0 (personal school project)",
+    "maxPagesPerRun": 80,
+    "concurrency": 3,
+    "timeoutMs": 8000,
+    "delayMs": 400
+  },
+  "excludeTerms": [
+    "떡볶이",
+    "선크림",
+    "핸드크림",
+    "아이크림",
+    "와이파이",
+    "쿠키런",
+    "쿠키 정책",
+    "젤리슈즈",
+    "크림스킨",
+    "화장품",
+    "네일",
+    "패션",
+    "의류",
+    "굿즈 판매"
+  ]
 }

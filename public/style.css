@@ -77,11 +77,6 @@ h2 { font-size: 22px; margin: 30px 0 12px; }
 .store .kw { align-self: flex-start; background: var(--butter); border-radius: 999px; padding: 1px 10px; font-size: 12px; }
 .store .name { font-size: 18px; padding-right: 30px; }
 .store .addr { font-size: 13px; color: var(--muted); }
-.stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
-.stat { background: var(--pink-soft); border-radius: 14px; padding: 6px 10px; font-size: 13px; }
-.stat.wait { background: var(--lav); }
-.stat b { display: block; font-size: 16px; }
-.stat small { color: var(--muted); }
 .map { text-align: center; text-decoration: none; background: var(--mint); color: var(--mint-ink);
   border-radius: 12px; padding: 6px; font-size: 14px; }
 
@@ -103,7 +98,6 @@ h2 { font-size: 22px; margin: 30px 0 12px; }
 .tag { background: var(--pink-soft); color: var(--pink); border-radius: 8px; padding: 1px 7px; }
 .badge { border: 1px solid var(--line); border-radius: 8px; padding: 0 7px; }
 .badge.region { background: var(--mint); color: var(--mint-ink); border-color: transparent; }
-.badge.info { background: var(--butter); border-color: transparent; color: var(--ink); }
 .new { background: var(--pink); color: #fff; border-radius: 8px; padding: 0 7px; }
 
 .toggle { font-size: 14px; cursor: pointer; }
@@ -122,3 +116,8 @@ h2 { font-size: 22px; margin: 30px 0 12px; }
 .more { display: block; margin: 14px auto 0; border: 2px dashed var(--pink); background: transparent; color: var(--pink);
   border-radius: 999px; padding: 6px 20px; font: inherit; cursor: pointer; }
 .item .thumb { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 16px; margin-bottom: 6px; background: var(--pink-soft); }
+.store .thumb { width: 100%; aspect-ratio: 16/10; object-fit: cover; border-radius: 16px; background: var(--pink-soft); }
+.more[hidden] { display: none; }
+.links { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: auto; }
+.links .map:only-child { grid-column: 1 / -1; }
+.map.review { background: var(--pink-soft); color: var(--pink); }

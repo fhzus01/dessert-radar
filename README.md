@@ -18,7 +18,6 @@ public/                  정적 사이트 (index.html, app.js, style.css)
 1. **카카오 REST API 키 발급** — https://developers.kakao.com → 내 애플리케이션 → 애플리케이션 추가하기 → 만든 앱의 **앱 키 > REST API 키** 복사. 가게 검색이 안 되면 앱 설정에서 **카카오맵** 사용 설정을 ON
 2. **로컬 확인**
    ```bash
-   node scripts/collect.mjs --mock      # 키 없이 샘플 데이터
    KAKAO_REST_API_KEY=xxx node scripts/collect.mjs   # 실제 수집
    npx serve public                     # http://localhost:3000
    ```
@@ -28,9 +27,22 @@ public/                  정적 사이트 (index.html, app.js, style.css)
    - Settings → Pages → Source: **GitHub Actions**
    - Actions 탭 → "디저트 소식 업데이트 & 배포" → Run workflow 로 첫 실행
 
+## 데이터는 어떻게 모으나요?
+1. **검색 API** (카카오 블로그·카페 검색 / 장소 검색)로 후보 글과 가게를 찾고
+2. **크롤러**(`scripts/crawl.mjs`)가 그 글의 원문 페이지를 열어 본문과 대표 이미지를 가져와요 (디저트 글인지 더 정확히 판별하는 데 사용)
+   - 각 사이트의 `robots.txt`를 확인해 **수집을 막아둔 사이트는 건너뜀**
+   - 같은 사이트엔 0.4초 간격, 한 번 실행에 최대 80페이지 (`config/sources.json` → `crawl`)
+3. 본문까지 포함해 **디저트 관련도 점수**를 매기고, 기준(`minScore`) 미만인 글은 버려요
+   - 디저트 단어(`dessertTerms`, `trendKeywords`): 제목 2점 / 본문 1점
+   - 제외어(`excludeTerms`: 떡볶이, 화장품, 패션…): -3점
+   - 그래서 팝업스토어 글도 **디저트 팝업만** 남아요
+4. 가게도 업종이 디저트·카페·베이커리 등(`storeCategoryPattern`)인 곳만 보여줘요
+
+> 인스타그램은 이용약관상 크롤링이 금지돼 있어서 수집하지 않고, 계정 바로가기 링크만 제공해요.
+
 ## 기능
 - 🔥 지금 뜨는 키워드 순위 (지난 업데이트 대비 ▲▼)
-- 🏪 지금 핫한 가게: 상위 키워드로 **장소 검색** → 주소·지도 링크, 블로그 후기 문구("6,500원", "웨이팅 40분" 등)에서 뽑은 **대략적인 가격·웨이팅** (후기 건수 함께 표시)
+- 🏪 지금 핫한 가게: 상위 키워드로 **장소 검색** → 주소, 지도 링크, 대표 후기 글 링크
 - 📍 지역 필터 (성수, 홍대·연남, 강남·신사, 잠실, 부산 …) — `config/sources.json`의 `regions`에서 수정
 - ♥ 찜하기: 소식·가게 모두, 브라우저에 저장 (로그인 없음)
 - 🎨 파스텔 테마: `public/style.css` 맨 위 `:root` 색 변수만 바꾸면 전체 색상 변경

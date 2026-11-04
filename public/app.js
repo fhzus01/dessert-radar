@@ -1,8 +1,6 @@
 const $ = (s) => document.querySelector(s);
 const esc = (s = "") => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fmt = (iso) => new Date(iso).toLocaleString("ko-KR", { timeZone: "Asia/Seoul", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" });
-const won = (n) => (n == null ? null : `${n.toLocaleString("ko-KR")}원`);
-const waitText = (m) => (m == null ? null : m === 0 ? "거의 없음" : m >= 60 ? `${Math.floor(m / 60)}시간${m % 60 ? ` ${m % 60}분` : ""}` : `${m}분`);
 
 let data = { items: [], stores: [] };
 const state = { filter: "all", query: "", region: "전체", storeFavOnly: false, storeLimit: 6 };
@@ -49,14 +47,14 @@ function renderStores() {
   $("#stores").innerHTML = list.slice(0, state.storeLimit).map((s) => `
     <div class="card store">
       ${heart("s:" + s.name)}
+      ${s.image ? `<img class="thumb" src="${esc(s.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" />` : ""}
       <span class="kw">#${esc(s.keyword)}</span>
       <div class="name">${esc(s.name)}</div>
       <div class="addr">📍 ${esc(s.address || "주소 정보 없음")}</div>
-      <div class="stats">
-        <div class="stat"><small>💰 가격대</small><b>${won(s.price) ? "약 " + won(s.price) : "정보 없음"}</b><small>후기 ${s.priceSamples}건</small></div>
-        <div class="stat wait"><small>⏳ 웨이팅</small><b>${waitText(s.wait) ? "약 " + waitText(s.wait) : "정보 없음"}</b><small>후기 ${s.waitSamples}건</small></div>
+      <div class="links">
+        ${s.reviewUrl ? `<a class="map review" href="${esc(s.reviewUrl)}" target="_blank" rel="noopener">✏️ 후기 보기</a>` : ""}
+        <a class="map" href="${esc(s.mapUrl)}" target="_blank" rel="noopener">🗺️ ${esc(s.mapName || "지도")}</a>
       </div>
-      <a class="map" href="${esc(s.mapUrl)}" target="_blank" rel="noopener">🗺️ ${esc(s.mapName || "지도")}에서 보기</a>
     </div>`).join("");
   $("#storesEmpty").hidden = list.length > 0;
 }
@@ -65,7 +63,7 @@ function renderFeed() {
   const accName = Object.fromEntries((data.accounts || []).map((a) => [a.id, a.name]));
   const fresh = (it) => data.updatedAt && Math.abs(new Date(it.collectedAt) - new Date(data.updatedAt)) < 600e3;
   const list = data.items.filter((it) =>
-    (state.filter === "all" || (state.filter === "fav" ? favs.has(it.link) : it.category === state.filter)) &&
+    (state.filter === "all" || (state.filter === "fav" ? favs.has(it.link) : it.popup)) &&
     inRegion(it.region) &&
     (!state.query || `${it.title} ${it.desc} ${it.keywords.join(" ")} ${it.region}`.includes(state.query)));
 
@@ -75,7 +73,7 @@ function renderFeed() {
       <div class="row">
         ${fresh(it) ? '<span class="new">NEW</span>' : ""}
         <span class="badge">${({ news: "📰 뉴스", cafe: "☕ 카페글", blog: "✏️ 블로그" })[it.type] || "🌐 웹"}</span>
-        <span class="badge">${it.category === "popup" ? "🎪 팝업" : "🍰 디저트"}</span>
+        ${it.popup ? '<span class="badge">🎪 디저트 팝업</span>' : ""}
         ${it.region ? `<span class="badge region">📍 ${esc(it.region)}</span>` : ""}
       </div>
       <a href="${esc(it.link)}" target="_blank" rel="noopener">
@@ -84,8 +82,6 @@ function renderFeed() {
         <div class="desc">${esc(it.desc)}</div>
       </a>
       <div class="row">
-        ${it.price != null ? `<span class="badge info">💰 약 ${won(it.price)}</span>` : ""}
-        ${it.wait != null ? `<span class="badge info">⏳ ${waitText(it.wait)}</span>` : ""}
         ${it.keywords.map((k) => `<span class="tag">#${esc(k)}</span>`).join("")}
       </div>
       <div class="row"><span>${esc(accName[it.accountId] || "")}</span><span style="margin-left:auto">${esc(it.source)} · ${fmt(it.date)}</span></div>
@@ -103,8 +99,9 @@ async function init() {
     $("#updated").textContent = "데이터를 불러오지 못했어요";
     return;
   }
-  $("#updated").textContent = `🕐 ${fmt(data.updatedAt)} 업데이트`;
-  $("#mockNotice").hidden = !data.mock;
+  data.items ||= []; data.trends ||= []; data.accounts ||= [];
+  $("#updated").textContent = data.updatedAt ? `🕐 ${fmt(data.updatedAt)} 업데이트` : "🕐 첫 업데이트를 기다리는 중";
+  $("#waitingNotice").hidden = !!data.updatedAt;
 
   $("#trends").innerHTML = data.trends.map((t, i) => `
     <li data-k="${esc(t.keyword)}"><b>${i + 1}</b>${esc(t.keyword)}<span class="cnt">${t.count}</span>
@@ -115,7 +112,7 @@ async function init() {
     <div class="card acc">
       <div class="name">${esc(a.name)}</div>
       ${a.instagram ? `<a href="https://www.instagram.com/${esc(a.instagram)}/" target="_blank" rel="noopener">@${esc(a.instagram)}</a>` : '<span class="small">인스타 미등록</span>'}
-      <div class="small">${a.category === "popup" ? "팝업" : "디저트"} · 소식 ${a.count}건</div>
+      <div class="small">${a.region ? esc(a.region) + " · " : ""}소식 ${a.count}건</div>
     </div>`).join("");
 
   render();

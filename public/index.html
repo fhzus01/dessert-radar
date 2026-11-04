@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>디저트 레이더</title>
-  <meta name="description" content="요즘 뜨는 디저트와 팝업스토어 소식을 하루 두 번(12시·24시) 모아 보여줍니다." />
+  <meta name="description" content="요즘 뜨는 디저트 소식과 핫한 디저트 가게를 하루 두 번(12시·24시) 모아 보여줍니다." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Jua&family=Gowun+Dodum&display=swap" rel="stylesheet" />
@@ -15,12 +15,12 @@
     <div class="wrap">
       <div class="sprinkles" aria-hidden="true">🍓 🧁 🍡 🍪 🍰 🍮</div>
       <h1>디저트 레이더</h1>
-      <p class="sub">요즘 뜨는 디저트 · 팝업 소식을 매일 <b>12시</b>, <b>24시</b>에 배달해요</p>
+      <p class="sub">요즘 뜨는 디저트 소식만 골라 매일 <b>12시</b>, <b>24시</b>에 배달해요</p>
       <div class="meta">
         <span class="pill" id="updated">불러오는 중…</span>
         <span class="pill mint" id="next"></span>
       </div>
-      <div id="mockNotice" class="notice" hidden>🍬 지금은 샘플 데이터예요. 네이버 API 키를 연결하면 실제 소식이 보여요.</div>
+      <div id="waitingNotice" class="notice" hidden>🍬 아직 수집된 소식이 없어요. GitHub Actions에서 첫 수집을 실행하면 채워져요.</div>
     </div>
   </header>
 
@@ -37,7 +37,7 @@
         <h2><span class="emo">🏪</span>지금 핫한 가게</h2>
         <label class="toggle"><input type="checkbox" id="storeFav" /> ♥ 찜한 가게만</label>
       </div>
-      <p class="hint">가격·웨이팅은 최근 블로그 후기에서 뽑은 <b>대략적인 값</b>이에요. 방문 전 꼭 확인하세요!</p>
+      <p class="hint">요즘 많이 언급되는 디저트를 파는 가게예요. 영업시간·메뉴는 지도에서 확인하세요!</p>
       <div id="stores" class="stores"></div>
       <button id="storesMore" class="more" hidden>가게 더 보기 🍩</button>
       <p id="storesEmpty" class="empty" hidden>이 지역엔 아직 가게 정보가 없어요 🥲</p>
@@ -48,8 +48,7 @@
         <h2><span class="emo">📰</span>최신 소식</h2>
         <div class="tabs" role="tablist">
           <button data-f="all" class="on">전체</button>
-          <button data-f="dessert">디저트</button>
-          <button data-f="popup">팝업</button>
+          <button data-f="popup">🎪 디저트 팝업</button>
           <button data-f="fav">♥ 찜</button>
         </div>
       </div>
