@@ -30,8 +30,8 @@ async function kakao(path) {
   return (await res.json()).documents ?? [];
 }
 
-async function search(type, query, { sort = "recency", size = 30 } = {}) {
-  const docs = await kakao(`/v2/search/${type}?query=${encodeURIComponent(query)}&sort=${sort}&size=${size}`);
+async function search(type, query, { sort = "recency", size = 30, page = 1 } = {}) {
+  const docs = await kakao(`/v2/search/${type}?query=${encodeURIComponent(query)}&sort=${sort}&size=${size}&page=${page}`);
   return docs.map((d) => ({
     title: stripTags(d.title), desc: stripTags(d.contents), link: d.url,
     source: d.blogname || d.cafename || "웹", date: new Date(d.datetime).toISOString(), thumb: d.thumbnail || "",
@@ -92,84 +92,134 @@ async function main() {
   const errors = [];
   const tryDo = async (fn) => { try { return await fn(); } catch (e) { errors.push(e.message); console.warn("⚠", e.message); } };
 
-  // 1) 검색어: 시작 단어 + 지난번 뜬 키워드 (데이터가 쌓일수록 자동으로 바뀜)
-  const queries = [SEED, ...(prev.trends || []).map((t) => t.keyword).slice(0, cfg.expandQueries)];
-  console.log(`🔎 이번 검색어: ${queries.join(", ")}`);
-  for (const q of queries) {
-    for (const type of ["blog", "cafe"]) {
-      await tryDo(async () => {
-        for (const r of await search(type, q)) {
-          if (!byLink.has(r.link)) byLink.set(r.link, { ...r, type, query: q, collectedAt: now() });
-        }
-      });
-    }
-  }
-
-  // 2) 최근 글 중 아직 크롤링 안 한 것부터 원문 보강
   const cutoff = Date.now() - cfg.keepDays * 86400e3;
-  const recent = [...byLink.values()].filter((it) => new Date(it.date).getTime() >= cutoff);
-  const toCrawl = recent.filter((it) => !it.crawled)
-    .sort((a, b) => b.date.localeCompare(a.date))
-    .slice(0, cfg.crawl.maxPagesPerRun).map((it) => it.link);
-  for (const [link, page] of await crawler.crawlMany(toCrawl)) {
-    const it = byLink.get(link);
-    it.crawled = true;
-    if (!page) continue;
-    it.body = page.text.slice(0, 3000);
-    if (!it.thumb && page.image) it.thumb = page.image;
-    if ((!it.desc || it.desc.length < 40) && page.description) it.desc = page.description;
-  }
-  const textOf = (it) => `${it.title} ${it.desc} ${it.body || ""}`;
+  const searched = new Set();
+  const collect = async (q, pages) => {
+    searched.add(q);
+    for (const type of ["blog", "cafe"]) {
+      for (let page = 1; page <= pages; page++) {
+        await tryDo(async () => {
+          for (const r of await search(type, q, { size: 50, page })) {
+            if (!byLink.has(r.link)) byLink.set(r.link, { ...r, type, query: q, collectedAt: now() });
+          }
+        });
+      }
+    }
+  };
+  const crawlNew = async (budget) => {
+    const todo = [...byLink.values()]
+      .filter((it) => !it.crawled && new Date(it.date).getTime() >= cutoff)
+      .sort((a, b) => b.date.localeCompare(a.date)).slice(0, budget).map((it) => it.link);
+    for (const [link, page] of await crawler.crawlMany(todo)) {
+      const it = byLink.get(link);
+      it.crawled = true;
+      if (!page) continue;
+      it.body = page.text.slice(0, 3000);
+      if (!it.thumb && page.image) it.thumb = page.image;
+      if ((!it.desc || it.desc.length < 40) && page.description) it.desc = page.description;
+    }
+  };
 
-  // 3-1) 핵심 디저트 글: 본문까지 봐서 "디저트"라는 말이 실제로 들어간 글
-  const core = recent.filter((it) => textOf(it).includes(SEED));
-
-  // 4) 뜨는 키워드: 핵심 글 제목에서 자동 추출
   // 제외: 흔한 단어 + 지금까지 가게 주소에서 알게 된 지역 이름(성수, 연남 등)
   const stop = new Set([...cfg.trend.stopwords, SEED, ...Object.keys(prev.regionIndex || {}),
                         ...Object.values(prev.regionIndex || {}).flatMap((l) => l.split(" "))]);
   const tokenize = makeTokenizer(stop);
-  const stat = new Map(); // 단어 → { posts, sources }
-  for (const it of core) {
-    for (const tok of tokenize(it.title)) {
-      const s = stat.get(tok) || { posts: 0, sources: new Set() };
-      s.posts++; s.sources.add(it.source);
-      stat.set(tok, s);
-    }
-  }
-  const prevCount = Object.fromEntries((prev.trends || []).map((t) => [t.keyword, t.count]));
-  const trends = [...stat]
-    .filter(([, s]) => s.posts >= cfg.trend.minPosts && s.sources.size >= cfg.trend.minSources &&
-                       s.posts <= Math.max(cfg.trend.minPosts, core.length * cfg.trend.maxShare))
-    // 디저트 순도: 이 단어가 제목에 들어간 전체 글 중 "디저트 글"의 비율.
-    // 장소·브랜드 이름(예: 백화점 이름)은 디저트와 무관한 글에도 많이 나와서 순도가 낮아져 자동으로 빠져요.
-    .filter(([keyword]) => {
-      const all = recent.filter((it) => it.title.includes(keyword)).length;
-      const dessert = core.filter((it) => it.title.includes(keyword)).length;
-      return all > 0 && dessert / all >= cfg.trend.minPurity;
-    })
-    .map(([keyword, s]) => ({ keyword, count: s.posts, diff: prev.trends?.length ? s.posts - (prevCount[keyword] ?? 0) : 0 }))
-    .sort((a, b) => b.count - a.count)
-    .slice(0, cfg.trend.top);
-  const trendWords = trends.map((t) => t.keyword);
+  const textOf = (it) => `${it.title} ${it.desc} ${it.body || ""}`;
 
-  // 3-2) 디저트 글 = 핵심 글 + 뜬 키워드로 검색해서 그 키워드가 제목에 들어간 글
-  const items = recent
-    .filter((it) => core.includes(it) || trendWords.some((k) => it.title.includes(k)))
-    .map((it) => ({
+  // 단어 검증: 그 단어로 카카오 장소 검색을 했을 때 디저트 가게(카페·간식)가 얼마나 나오는지.
+  // 버터떡·말차 → 대부분 카페/제과점, 백화점·지역·패션 같은 단어 → 디저트 가게 비율이 낮음
+  const placeCheck = { ...(prev.placeCheck || {}) };
+  const placeCache = new Map(); // 이번 실행에서 받은 장소 결과 (가게 목록에 재사용)
+  async function dessertRatio(word) {
+    const c = placeCheck[word];
+    if (c && Date.now() - new Date(c.at).getTime() < cfg.vocab.recheckDays * 86400e3) return c.ratio;
+    const ps = (await tryDo(() => places(word, 15))) || [];
+    placeCache.set(word, ps);
+    const ratio = ps.length ? ps.filter(isDessertPlace).length / ps.length : 0;
+    placeCheck[word] = { ratio: +ratio.toFixed(2), at: now() };
+    return ratio;
+  }
+
+  // 분석: 디저트 글 판별 → 디저트 단어장 학습 → 뜨는 키워드
+  async function analyze() {
+    const pool = [...byLink.values()].filter((it) => new Date(it.date).getTime() >= cutoff);
+    for (const it of pool) it._tokens ||= tokenize(it.title);
+
+    // (a) 핵심 디저트 글: 본문까지 봐서 "디저트"라는 말이 들어간 글
+    const core = new Set(pool.filter((it) => textOf(it).includes(SEED)));
+
+    // (b) 디저트 단어장: 핵심 글 제목에 자주 나오고, 장소 검색으로 검증된 단어
+    //     (지난 업데이트까지 배운 단어도 이어서 사용 → 업데이트할수록 단어장이 커져요)
+    const freq = new Map();
+    for (const it of core) for (const t of it._tokens) freq.set(t, (freq.get(t) || 0) + 1);
+    const candidates = [...new Set([
+      ...[...freq].filter(([, n]) => n >= cfg.vocab.minPosts).sort((x, y) => y[1] - x[1]).slice(0, cfg.vocab.checkTop).map(([t]) => t),
+      ...(prev.vocab || []),
+    ])];
+    const vocab = new Set();
+    for (const t of candidates) if (await dessertRatio(t) >= cfg.vocab.minDessertPlaces) vocab.add(t);
+
+    // (c) 디저트 글 = 핵심 글 + 제목에 단어장 단어가 있는 글
+    const items = pool.filter((it) => core.has(it) || it._tokens.some((t) => vocab.has(t)));
+
+    // (d) 뜨는 키워드 = 디저트 글 제목에서 많이 나온 단어장 단어 (여러 작성자가 쓴 것만)
+    const cnt = new Map();
+    for (const it of items) for (const t of it._tokens) if (vocab.has(t)) {
+      const c = cnt.get(t) || { posts: 0, sources: new Set() };
+      c.posts++; c.sources.add(it.source); cnt.set(t, c);
+    }
+    const trends = [...cnt]
+      .filter(([, c]) => c.posts >= cfg.trend.minPosts && c.sources.size >= cfg.trend.minSources)
+      .sort((x, y) => y[1].posts - x[1].posts)
+      .slice(0, cfg.trend.top)
+      .map(([keyword, c]) => ({ keyword, count: c.posts }));
+    return { pool, core, vocab, items, trends };
+  }
+
+  // 1차: 시작 단어(여러 페이지) + 지난번 뜬 키워드
+  const round1 = [SEED, ...(prev.trends || []).map((t) => t.keyword).slice(0, cfg.expandQueries)];
+  await collect(SEED, cfg.seedPages);
+  for (const q of round1.slice(1)) await collect(q, 1);
+  await crawlNew(Math.floor(cfg.crawl.maxPagesPerRun / 2));
+  let result = await analyze();
+
+  // 2차: "디저트" 검색 결과에서 발견한 디저트 이름(예: 찹쌀모찌, 모찌떡)을 하나씩 다시 검색
+  //      처음 발견한 단어를 먼저, 그다음 자주 나온 단어 순으로
+  const prevVocab = new Set(prev.vocab || []);
+  const mentions = (w) => result.pool.filter((it) => it._tokens.includes(w)).length;
+  const discoveredNow = [...result.vocab].filter((w) => !prevVocab.has(w));
+  const round2 = [...result.vocab]
+    .filter((w) => !searched.has(w))
+    .sort((a, b) => (prevVocab.has(a) - prevVocab.has(b)) || mentions(b) - mentions(a))
+    .slice(0, cfg.discoverQueries);
+  console.log(`🍡 발견한 디저트로 추가 검색: ${round2.join(", ") || "없음"}`);
+  for (const q of round2) await collect(q, 1);
+  await crawlNew(cfg.crawl.maxPagesPerRun - crawler.stats.fetched - crawler.stats.failed - crawler.stats.blockedByRobots);
+  result = await analyze();
+  const queries = [...searched];
+  console.log(`🔎 이번 검색어: ${queries.join(", ")}`);
+
+  const prevCount = Object.fromEntries((prev.trends || []).map((t) => [t.keyword, t.count]));
+  const trends = result.trends.map((t) => ({ ...t, diff: prev.trends?.length ? t.count - (prevCount[t.keyword] ?? 0) : 0 }));
+  const trendWords = trends.map((t) => t.keyword);
+  const recent = result.pool;
+  const items = result.items
+    .map(({ _tokens, ...it }) => ({
       ...it,
-      keywords: trendWords.filter((k) => it.title.includes(k) || it.desc.includes(k)),
+      keywords: trendWords.filter((k) => _tokens.includes(k)),
       popup: /팝업/.test(`${it.title} ${it.desc}`),
     }))
     .sort((a, b) => b.date.localeCompare(a.date))
     .slice(0, cfg.maxItems);
+  for (const it of byLink.values()) delete it._tokens;
 
   // 5) 가게: 뜨는 키워드로 장소 검색 → 카카오 분류상 카페·간식만 → 대표 후기 1개
   const stores = [];
   for (const keyword of trendWords.slice(0, cfg.stores.topKeywords)) {
     await tryDo(async () => {
-      for (const p of await places(keyword, cfg.stores.perKeyword)) {
-        if (!isDessertPlace(p) || stores.some((s) => s.name === p.name)) continue;
+      const found = placeCache.get(keyword) || await places(keyword, 15);
+      for (const p of found.filter(isDessertPlace).slice(0, cfg.stores.perKeyword)) {
+        if (stores.some((s) => s.name === p.name)) continue;
         const reviews = await search("blog", p.name, { sort: "accuracy", size: 5 });
         stores.push({
           name: p.name, address: p.address, category: p.category, keyword,
@@ -208,9 +258,13 @@ async function main() {
   await mkdir(new URL("public/data/", ROOT), { recursive: true });
   await writeFile(OUT, JSON.stringify({
     updatedAt: now(), queries, stats: { ...crawler.stats, candidates: recent.length, kept: items.length }, errors,
-    regions, regionIndex, trends, stores, sources, items,
+    regions, regionIndex, trends, stores, sources, vocab: [...result.vocab].slice(0, 500), placeCheck,
+    discovered: [...new Set([...discoveredNow, ...[...result.vocab].filter((w) => !prevVocab.has(w))])]
+      .map((word) => ({ word, posts: items.filter((it) => it.title.includes(word)).length }))
+      .filter((d) => d.posts > 0).sort((a, b) => b.posts - a.posts),
+    items,
   }, null, 2));
-  console.log(`✅ 디저트 글 ${items.length}건 (후보 ${recent.length}건) · 키워드 ${trends.length}개 · 가게 ${stores.length}곳 · 지역 ${regions.length}곳`);
+  console.log(`✅ 디저트 글 ${items.length}건 (후보 ${recent.length}건) · 배운 디저트 단어 ${result.vocab.size}개 · 키워드 ${trends.length}개 · 가게 ${stores.length}곳 · 지역 ${regions.length}곳`);
   console.log(`🕷️ 크롤링: 성공 ${crawler.stats.fetched} · robots.txt로 건너뜀 ${crawler.stats.blockedByRobots} · 실패 ${crawler.stats.failed}`);
   if (errors.length) console.log(`⚠ 오류 ${errors.length}건`);
 }

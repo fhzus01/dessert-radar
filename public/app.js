@@ -108,6 +108,12 @@ async function init() {
       ${t.diff > 0 ? `<span class="up">▲${t.diff}</span>` : t.diff < 0 ? `<span class="down">▼${-t.diff}</span>` : ""}
       <a class="insta" href="https://www.instagram.com/explore/tags/${encodeURIComponent(t.keyword)}/" target="_blank" rel="noopener" title="인스타그램에서 #${esc(t.keyword)} 보기">📷</a>
     </li>`).join("") || "<li>아직 데이터가 없어요</li>";
+  const disc = data.discovered || [];
+  $("#discoveredSec").hidden = disc.length === 0;
+  $("#discovered").innerHTML = disc.map((d) => `
+    <li data-k="${esc(d.word)}">🍡 ${esc(d.word)}<span class="cnt">${d.posts}</span>
+      <a class="insta" href="https://www.instagram.com/explore/tags/${encodeURIComponent(d.word)}/" target="_blank" rel="noopener" title="인스타그램에서 #${esc(d.word)} 보기">📷</a>
+    </li>`).join("");
   if (data.trends[0]) $("#q").placeholder = `🔍 검색 (예: ${data.trends[0].keyword})`;
 
   $("#queries").innerHTML = data.queries.map((q) => `<span class="tag">${esc(q)}</span>`).join("") || '<span class="small">아직 없음</span>';
@@ -134,14 +140,16 @@ $("#feedMore").addEventListener("click", () => { state.feedLimit += 24; renderFe
 $("#storesMore").addEventListener("click", () => { state.storeLimit += 6; renderStores(); });
 $("#storeFav").addEventListener("change", (e) => { state.storeFavOnly = e.target.checked; renderStores(); });
 $("#q").addEventListener("input", (e) => { state.query = e.target.value.trim(); renderFeed(); });
-$("#trends").addEventListener("click", (e) => {
+const pickKeyword = (e) => {
   if (e.target.closest("a")) return; // 인스타 링크는 그대로 열기
   const li = e.target.closest("li[data-k]");
   if (!li) return;
   $("#q").value = state.query = li.dataset.k;
   renderFeed();
   $("#q").scrollIntoView({ behavior: "smooth", block: "center" });
-});
+};
+$("#trends").addEventListener("click", pickKeyword);
+$("#discovered").addEventListener("click", pickKeyword);
 
 nextUpdate();
 setInterval(nextUpdate, 60e3);
