@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T15:53:48.186Z",
+  "updatedAt": "2026-11-26T03:49:20.551Z",
   "city": "서울",
   "areas": [
     "홍대",
@@ -14,104 +14,93 @@
     "더현대 디저트 팝업",
     "성수 디저트",
     "성수 디저트 팝업",
-    "서울 커피",
     "서울 한정선",
+    "서울 커피",
     "서울 모찌",
     "서울 머랭롤",
-    "서울 브런치",
-    "서울 대형카페",
-    "서울 셀렉티드닉스",
-    "서울 브릭샌드",
     "서울 찹쌀떡",
-    "서울 답례품",
+    "서울 브런치",
+    "서울 브릭샌드",
+    "서울 대형카페",
     "서울 도레도레",
-    "서울 소금빵",
+    "서울 셀렉티드닉스",
     "서울 티라미수",
+    "서울 답례품",
     "서울 루프탑",
-    "서울 스타벅스",
-    "서울 성심당",
     "서울 모임",
     "서울 파블로바",
+    "서울 스타벅스",
+    "서울 소금빵",
+    "서울 간식",
+    "서울 성심당",
     "서울 빵지순례",
-    "서울 에그타르트",
     "서울 요거트",
     "서울 과일모찌",
-    "서울 수플레",
-    "서울 치즈케이크",
-    "서울 간식",
+    "서울 에그타르트",
     "서울 강남역카페",
-    "서울 아이스크림",
     "서울 초콜릿",
+    "서울 치즈케이크",
     "서울 말차",
+    "서울 수플레",
+    "서울 아이스크림",
     "서울 버터앤쉘터",
     "서울 버터샌드",
-    "서울 고디바"
+    "서울 새들러하우스"
   ],
   "stats": {
-    "fetched": 150,
+    "fetched": 149,
     "blockedByRobots": 0,
-    "failed": 0,
+    "failed": 1,
     "skippedBudget": 0,
-    "candidates": 1719,
-    "ruleKept": 878,
+    "candidates": 1688,
+    "ruleKept": 828,
     "kept": 300,
     "ai": null
   },
   "crawlReport": [
     {
       "host": "cafe.daum.net",
-      "tried": 48,
-      "ok": 48,
-      "emptyText": 48,
+      "tried": 28,
+      "ok": 28,
+      "emptyText": 28,
       "withImage": 0,
       "robots": 0,
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://cafe.daum.net/poongryuwoocheon/6R1S/4234",
+      "example": "본문 거의 없음(0자) ← https://cafe.daum.net/choral/2aw4/61887",
       "avgText": 0
     },
     {
       "host": "brunch.co.kr",
-      "tried": 5,
-      "ok": 5,
+      "tried": 13,
+      "ok": 12,
       "emptyText": 0,
-      "withImage": 5,
+      "withImage": 12,
+      "robots": 0,
+      "http": {
+        "404": 1
+      },
+      "notHtml": 0,
+      "error": {},
+      "example": "HTTP 404 ← https://brunch.co.kr/@beinghuman/5",
+      "avgText": 4252
+    },
+    {
+      "host": "hiahige44.tistory.com",
+      "tried": 3,
+      "ok": 3,
+      "emptyText": 0,
+      "withImage": 3,
       "robots": 0,
       "http": {},
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 5412
+      "avgText": 1999
     },
     {
-      "host": "rinari.tistory.com",
-      "tried": 2,
-      "ok": 2,
-      "emptyText": 0,
-      "withImage": 2,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 5736
-    },
-    {
-      "host": "theonetip.stom100.com",
-      "tried": 2,
-      "ok": 2,
-      "emptyText": 2,
-      "withImage": 2,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "본문 거의 없음(0자) ← https://theonetip.stom100.com/1287",
-      "avgText": 0
-    },
-    {
-      "host": "little-cat.tistory.com",
+      "host": "cerulean85.tistory.com",
       "tried": 2,
       "ok": 2,
       "emptyText": 2,
@@ -120,37 +109,24 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://little-cat.tistory.com/7586",
+      "example": "본문 거의 없음(0자) ← https://cerulean85.tistory.com/683",
       "avgText": 0
     },
     {
-      "host": "myview58448.tistory.com",
+      "host": "incomes365.tistory.com",
       "tried": 2,
       "ok": 2,
-      "emptyText": 0,
+      "emptyText": 2,
       "withImage": 2,
       "robots": 0,
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "",
-      "avgText": 6024
+      "example": "본문 거의 없음(0자) ← https://incomes365.tistory.com/835",
+      "avgText": 0
     },
     {
-      "host": "infodemic.kr",
-      "tried": 2,
-      "ok": 2,
-      "emptyText": 0,
-      "withImage": 2,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 2686
-    },
-    {
-      "host": "tommysdiner.net",
+      "host": "fixs.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -160,10 +136,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 2294
+      "avgText": 1767
     },
     {
-      "host": "insight7026.tistory.com",
+      "host": "jesus-ccm1.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -173,10 +149,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 1798
+      "avgText": 4427
     },
     {
-      "host": "wealthmind1000.com",
+      "host": "jhtexas.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -186,10 +162,36 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 4645
+      "avgText": 1650
     },
     {
-      "host": "officepedia.tistory.com",
+      "host": "kmh8016.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 2500
+    },
+    {
+      "host": "geulbang.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 6375
+    },
+    {
+      "host": "alolomersedess.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -198,11 +200,11 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://officepedia.tistory.com/322",
+      "example": "본문 거의 없음(0자) ← https://alolomersedess.tistory.com/402",
       "avgText": 0
     },
     {
-      "host": "tiger36.tistory.com",
+      "host": "eundu5.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -212,10 +214,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 2586
+      "avgText": 5770
     },
     {
-      "host": "tj790326.tistory.com",
+      "host": "mt-molar.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -225,49 +227,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 1963
+      "avgText": 10870
     },
     {
-      "host": "freehug-sw.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 2366
-    },
-    {
-      "host": "birchholt.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 2918
-    },
-    {
-      "host": "commerce-t.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 4505
-    },
-    {
-      "host": "cottoncandy1014.tistory.com",
+      "host": "lemoni23.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -276,24 +239,11 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://cottoncandy1014.tistory.com/1462",
+      "example": "본문 거의 없음(0자) ← https://lemoni23.tistory.com/239",
       "avgText": 0
     },
     {
-      "host": "nautilus9.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 1,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "본문 거의 없음(0자) ← https://nautilus9.tistory.com/236",
-      "avgText": 0
-    },
-    {
-      "host": "givesoldier.tistory.com",
+      "host": "daclick.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -303,10 +253,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 3907
+      "avgText": 7576
     },
     {
-      "host": "moommoomi.tistory.com",
+      "host": "bokgilism.me",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -315,24 +265,11 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://moommoomi.tistory.com/59",
+      "example": "본문 거의 없음(0자) ← https://bokgilism.me/439",
       "avgText": 0
     },
     {
-      "host": "ts.trend-place.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 1,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "본문 거의 없음(0자) ← https://ts.trend-place.com/6373",
-      "avgText": 0
-    },
-    {
-      "host": "xn--ok0ba064b30gp5szep28h.com",
+      "host": "chaboom86.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -342,7 +279,7 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 4363
+      "avgText": 5445
     },
     {
       "host": "msc.kirrrin.com",
@@ -355,10 +292,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 3783
+      "avgText": 4331
     },
     {
-      "host": "foodcast.tistory.com",
+      "host": "yeeooonl.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -368,62 +305,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 1210
+      "avgText": 3524
     },
     {
-      "host": "ycisjjan.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 2400
-    },
-    {
-      "host": "sllo-studio.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 917
-    },
-    {
-      "host": "uchang2013.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 8694
-    },
-    {
-      "host": "prettydol78.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 6792
-    },
-    {
-      "host": "roro-2.tistory.com",
+      "host": "ddoongnyang.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -432,11 +317,24 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://roro-2.tistory.com/88",
+      "example": "본문 거의 없음(0자) ← https://ddoongnyang.tistory.com/159",
       "avgText": 0
     },
     {
-      "host": "1life2story.tistory.com",
+      "host": "jackti.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 1,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "본문 거의 없음(0자) ← https://jackti.tistory.com/3577",
+      "avgText": 0
+    },
+    {
+      "host": "endbalance.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -446,36 +344,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 4147
+      "avgText": 8883
     },
     {
-      "host": "sosofinds.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 1,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "본문 거의 없음(0자) ← https://sosofinds.tistory.com/23",
-      "avgText": 0
-    },
-    {
-      "host": "uni-verse.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 1,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "본문 거의 없음(0자) ← https://uni-verse.tistory.com/478",
-      "avgText": 0
-    },
-    {
-      "host": "hazuo1.hasuo100.com",
+      "host": "zesty98.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -485,23 +357,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 3555
+      "avgText": 6618
     },
     {
-      "host": "funding.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 1,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "본문 거의 없음(0자) ← https://funding.tistory.com/4762",
-      "avgText": 0
-    },
-    {
-      "host": "roaster.tistory.com",
+      "host": "jainhanyak.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -511,36 +370,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 3924
+      "avgText": 2732
     },
     {
-      "host": "malang-nutri.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 1,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "본문 거의 없음(0자) ← https://malang-nutri.tistory.com/22",
-      "avgText": 0
-    },
-    {
-      "host": "codingzero.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 1,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "본문 거의 없음(0자) ← https://codingzero.tistory.com/685",
-      "avgText": 0
-    },
-    {
-      "host": "ordinary-peeg.tistory.com",
+      "host": "jjkkbb.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -550,7 +383,384 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 2959
+      "avgText": 2700
+    },
+    {
+      "host": "myocean.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 7333
+    },
+    {
+      "host": "cartire.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 1,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "본문 거의 없음(0자) ← https://cartire.tistory.com/203",
+      "avgText": 0
+    },
+    {
+      "host": "trend.smile-infoshare.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 1,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "본문 거의 없음(0자) ← https://trend.smile-infoshare.com/45",
+      "avgText": 0
+    },
+    {
+      "host": "biteatlas.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 5728
+    },
+    {
+      "host": "moneybrie.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 2814
+    },
+    {
+      "host": "lpt1.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 5030
+    },
+    {
+      "host": "witholddog.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 1,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "본문 거의 없음(0자) ← https://witholddog.tistory.com/455",
+      "avgText": 0
+    },
+    {
+      "host": "daddy-economy.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 2142
+    },
+    {
+      "host": "bear100486.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 1,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "본문 거의 없음(0자) ← https://bear100486.tistory.com/234",
+      "avgText": 0
+    },
+    {
+      "host": "bagbybaek.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 1,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "본문 거의 없음(0자) ← https://bagbybaek.tistory.com/157",
+      "avgText": 0
+    },
+    {
+      "host": "arveno.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 2530
+    },
+    {
+      "host": "dustm.tndlrs.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 4797
+    },
+    {
+      "host": "gnsolution7.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 4969
+    },
+    {
+      "host": "yellored.graymomo.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 1,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "본문 거의 없음(0자) ← https://yellored.graymomo.com/114",
+      "avgText": 0
+    },
+    {
+      "host": "ano-noma.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 2157
+    },
+    {
+      "host": "sontaku.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 2570
+    },
+    {
+      "host": "8diet.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 5737
+    },
+    {
+      "host": "medinote-daily.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 7152
+    },
+    {
+      "host": "kongstory.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 11778
+    },
+    {
+      "host": "osidon.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 3827
+    },
+    {
+      "host": "greenrain3362.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 1749
+    },
+    {
+      "host": "amoz5455.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 1,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "본문 거의 없음(0자) ← https://amoz5455.tistory.com/102",
+      "avgText": 0
+    },
+    {
+      "host": "sisa5992.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 1,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "본문 거의 없음(0자) ← https://sisa5992.tistory.com/11832",
+      "avgText": 0
+    },
+    {
+      "host": "gtcustoms.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 3171
+    },
+    {
+      "host": "ellenbaking.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 3810
+    },
+    {
+      "host": "room-grade.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 2412
+    },
+    {
+      "host": "wooogle.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 1,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "본문 거의 없음(0자) ← https://wooogle.tistory.com/15",
+      "avgText": 0
+    },
+    {
+      "host": "livesmartly.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 1,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "본문 거의 없음(0자) ← https://livesmartly.tistory.com/730",
+      "avgText": 0
+    },
+    {
+      "host": "mingky-hyung-a.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 1,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "본문 거의 없음(0자) ← https://mingky-hyung-a.com/1203",
+      "avgText": 0
     },
     {
       "host": "sangulog.tistory.com",
@@ -563,10 +773,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 9032
+      "avgText": 9055
     },
     {
-      "host": "assaworld.tistory.com",
+      "host": "travelwithpassion.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -575,24 +785,11 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://assaworld.tistory.com/206",
+      "example": "본문 거의 없음(0자) ← https://travelwithpassion.tistory.com/494",
       "avgText": 0
     },
     {
-      "host": "carekidney365.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 1899
-    },
-    {
-      "host": "inging88.tistory.com",
+      "host": "myinfo69805.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -601,37 +798,11 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://inging88.tistory.com/26",
+      "example": "본문 거의 없음(0자) ← https://myinfo69805.tistory.com/290",
       "avgText": 0
     },
     {
-      "host": "lobby-finder.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 2678
-    },
-    {
-      "host": "xkqdltb.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 4384
-    },
-    {
-      "host": "abong3.tistory.com",
+      "host": "memo50718.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -640,11 +811,24 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://abong3.tistory.com/250",
+      "example": "본문 거의 없음(0자) ← https://memo50718.tistory.com/235",
       "avgText": 0
     },
     {
-      "host": "knowledge-node-1228.dbswo.com",
+      "host": "joydentalclinic.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 5915
+    },
+    {
+      "host": "herostar.kr",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -653,11 +837,11 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://knowledge-node-1228.dbswo.com/28",
+      "example": "본문 거의 없음(0자) ← https://herostar.kr/614",
       "avgText": 0
     },
     {
-      "host": "cyoo.tistory.com",
+      "host": "eons-view.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -667,10 +851,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 15000
+      "avgText": 12114
     },
     {
-      "host": "namecode.tistory.com",
+      "host": "guminnews.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -680,49 +864,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 2429
+      "avgText": 1354
     },
     {
-      "host": "minhospital.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 5359
-    },
-    {
-      "host": "wooogle.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 2715
-    },
-    {
-      "host": "taeranstory.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 1768
-    },
-    {
-      "host": "fortus0080.tistory.com",
+      "host": "malang-nutri.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -731,11 +876,11 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://fortus0080.tistory.com/60",
+      "example": "본문 거의 없음(0자) ← https://malang-nutri.tistory.com/23",
       "avgText": 0
     },
     {
-      "host": "limittrip.tistory.com",
+      "host": "fiftynote.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -744,24 +889,11 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://limittrip.tistory.com/5",
+      "example": "본문 거의 없음(0자) ← https://fiftynote.tistory.com/15",
       "avgText": 0
     },
     {
-      "host": "honey1027.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 1623
-    },
-    {
-      "host": "kmyg100.com",
+      "host": "moneyiboss.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -770,112 +902,8 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://kmyg100.com/227",
+      "example": "본문 거의 없음(0자) ← https://moneyiboss.tistory.com/112",
       "avgText": 0
-    },
-    {
-      "host": "pimu.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 1245
-    },
-    {
-      "host": "lowcostlife.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 3265
-    },
-    {
-      "host": "routedining.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 8580
-    },
-    {
-      "host": "herr-kwak.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 1,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "본문 거의 없음(0자) ← https://herr-kwak.tistory.com/3278",
-      "avgText": 0
-    },
-    {
-      "host": "mydiary0207.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 1,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "본문 거의 없음(0자) ← https://mydiary0207.tistory.com/95",
-      "avgText": 0
-    },
-    {
-      "host": "1stbirthday.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 7285
-    },
-    {
-      "host": "niceluckydays.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 4279
-    },
-    {
-      "host": "content53026.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 3020
     },
     {
       "host": "insight3429.tistory.com",
@@ -887,24 +915,11 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://insight3429.tistory.com/1167",
+      "example": "본문 거의 없음(0자) ← https://insight3429.tistory.com/1169",
       "avgText": 0
     },
     {
-      "host": "gooodluck.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 2909
-    },
-    {
-      "host": "111.herostar1225.kr",
+      "host": "kmyg100.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -913,11 +928,11 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://111.herostar1225.kr/301",
+      "example": "본문 거의 없음(0자) ← https://kmyg100.com/228",
       "avgText": 0
     },
     {
-      "host": "yurayora.tistory.com",
+      "host": "zeroline-note.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -927,10 +942,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 1566
+      "avgText": 4225
     },
     {
-      "host": "kibaek.tistory.com",
+      "host": "unse-note.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -940,10 +955,23 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 6403
+      "avgText": 5225
     },
     {
-      "host": "usefulchat.tistory.com",
+      "host": "acro100.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 4595
+    },
+    {
+      "host": "cjh8838a.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -952,11 +980,24 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://usefulchat.tistory.com/464",
+      "example": "본문 거의 없음(0자) ← https://cjh8838a.tistory.com/1653",
       "avgText": 0
     },
     {
-      "host": "lawyer911.tistory.com",
+      "host": "news.10tropicalplant.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 6690
+    },
+    {
+      "host": "hot.kakaomilk.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -965,37 +1006,11 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://lawyer911.tistory.com/341",
+      "example": "본문 거의 없음(0자) ← https://hot.kakaomilk.com/494",
       "avgText": 0
     },
     {
-      "host": "90math-mokdong.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 2884
-    },
-    {
-      "host": "gonggamu.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 2368
-    },
-    {
-      "host": "infobox3451.tistory.com",
+      "host": "ohlaura.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -1004,11 +1019,11 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://infobox3451.tistory.com/12",
+      "example": "본문 거의 없음(0자) ← https://ohlaura.tistory.com/240",
       "avgText": 0
     },
     {
-      "host": "hanahanaworld.tistory.com",
+      "host": "www.urimal.org",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -1018,49 +1033,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 12278
+      "avgText": 4285
     },
     {
-      "host": "zayeon3.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 5150
-    },
-    {
-      "host": "tadream.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 7293
-    },
-    {
-      "host": "ttokssalim.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 5103
-    },
-    {
-      "host": "gwangdducks.tistory.com",
+      "host": "18minuteup.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -1069,11 +1045,11 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://gwangdducks.tistory.com/145",
+      "example": "본문 거의 없음(0자) ← https://18minuteup.tistory.com/148",
       "avgText": 0
     },
     {
-      "host": "dlflwkwk.tistory.com",
+      "host": "nanaj889022821.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -1083,10 +1059,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 1244
+      "avgText": 2647
     },
     {
-      "host": "culture-infolab.tistory.com",
+      "host": "zeun-e.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -1096,10 +1072,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 2078
+      "avgText": 3212
     },
     {
-      "host": "matgipcafe.tistory.com",
+      "host": "mynote52319.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -1109,10 +1085,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 2292
+      "avgText": 2941
     },
     {
-      "host": "onefloor.tistory.com",
+      "host": "uniquekimc.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -1121,11 +1097,11 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://onefloor.tistory.com/142",
+      "example": "본문 거의 없음(0자) ← https://uniquekimc.com/933",
       "avgText": 0
     },
     {
-      "host": "memoriers.tistory.com",
+      "host": "cutepuppies.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -1135,10 +1111,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 571
+      "avgText": 2521
     },
     {
-      "host": "nucleartip.com",
+      "host": "write84675.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -1148,10 +1124,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 4043
+      "avgText": 3873
     },
     {
-      "host": "komi.dailylifeinformation.com",
+      "host": "pleroo3637.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -1161,62 +1137,10 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 3065
+      "avgText": 11136
     },
     {
-      "host": "magma1004.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 15000
-    },
-    {
-      "host": "kas711.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 214
-    },
-    {
-      "host": "jeonganru.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 1003
-    },
-    {
-      "host": "trendpick3.tistory.com",
-      "tried": 1,
-      "ok": 1,
-      "emptyText": 0,
-      "withImage": 1,
-      "robots": 0,
-      "http": {},
-      "notHtml": 0,
-      "error": {},
-      "example": "",
-      "avgText": 1545
-    },
-    {
-      "host": "uknow.infothatfreeme.com",
+      "host": "ruis.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -1225,11 +1149,11 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://uknow.infothatfreeme.com/1628",
+      "example": "본문 거의 없음(0자) ← https://ruis.tistory.com/52",
       "avgText": 0
     },
     {
-      "host": "onsaem.sakurakdh.com",
+      "host": "tistorymadang.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -1239,10 +1163,75 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 3231
+      "avgText": 1309
     },
     {
-      "host": "2blogin.tistory.com",
+      "host": "happy-ssims.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 166
+    },
+    {
+      "host": "ohfam.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 2160
+    },
+    {
+      "host": "joyangkwan1935.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 2427
+    },
+    {
+      "host": "jimkim0101.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 7314
+    },
+    {
+      "host": "myblog77503.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 2024
+    },
+    {
+      "host": "a909020.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 1,
@@ -1251,24 +1240,24 @@
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "본문 거의 없음(0자) ← https://2blogin.tistory.com/295",
+      "example": "본문 거의 없음(0자) ← https://a909020.com/337",
       "avgText": 0
     },
     {
-      "host": "njnsky.tistory.com",
+      "host": "mrlee-sub.tistory.com",
       "tried": 1,
       "ok": 1,
-      "emptyText": 0,
+      "emptyText": 1,
       "withImage": 1,
       "robots": 0,
       "http": {},
       "notHtml": 0,
       "error": {},
-      "example": "",
-      "avgText": 1206
+      "example": "본문 거의 없음(0자) ← https://mrlee-sub.tistory.com/2419",
+      "avgText": 0
     },
     {
-      "host": "info.gamsalife.com",
+      "host": "ome29202.tistory.com",
       "tried": 1,
       "ok": 1,
       "emptyText": 0,
@@ -1278,7 +1267,189 @@
       "notHtml": 0,
       "error": {},
       "example": "",
-      "avgText": 4722
+      "avgText": 3943
+    },
+    {
+      "host": "healim-jamsil.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 7108
+    },
+    {
+      "host": "jshjsh25.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 1,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "본문 거의 없음(0자) ← https://jshjsh25.tistory.com/115",
+      "avgText": 0
+    },
+    {
+      "host": "eunsonmom.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 4251
+    },
+    {
+      "host": "ssomming.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 3791
+    },
+    {
+      "host": "choux6789.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 2944
+    },
+    {
+      "host": "potatochiabata.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 1249
+    },
+    {
+      "host": "safeudrive.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 1446
+    },
+    {
+      "host": "nicebusan.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 7213
+    },
+    {
+      "host": "offmag.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 2714
+    },
+    {
+      "host": "chuchuu.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 1,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "본문 거의 없음(0자) ← https://chuchuu.tistory.com/142",
+      "avgText": 0
+    },
+    {
+      "host": "loudmakers.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 4656
+    },
+    {
+      "host": "soohouse.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 4171
+    },
+    {
+      "host": "armyson.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 1,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "본문 거의 없음(0자) ← https://armyson.com/41",
+      "avgText": 0
+    },
+    {
+      "host": "xyzcorp-official.tistory.com",
+      "tried": 1,
+      "ok": 1,
+      "emptyText": 0,
+      "withImage": 1,
+      "robots": 0,
+      "http": {},
+      "notHtml": 0,
+      "error": {},
+      "example": "",
+      "avgText": 2633
     }
   ],
   "errors": [],
@@ -1299,19 +1470,11 @@
       "gu": "성동구"
     },
     {
-      "label": "마포구",
-      "type": "gu"
-    },
-    {
       "label": "강남구",
       "type": "gu"
     },
     {
-      "label": "성동구",
-      "type": "gu"
-    },
-    {
-      "label": "종로구",
+      "label": "마포구",
       "type": "gu"
     },
     {
@@ -1319,11 +1482,15 @@
       "type": "gu"
     },
     {
+      "label": "성동구",
+      "type": "gu"
+    },
+    {
       "label": "서초구",
       "type": "gu"
     },
     {
-      "label": "용산구",
+      "label": "종로구",
       "type": "gu"
     },
     {
@@ -1331,7 +1498,7 @@
       "type": "gu"
     },
     {
-      "label": "강서구",
+      "label": "용산구",
       "type": "gu"
     },
     {
@@ -1339,7 +1506,7 @@
       "type": "gu"
     },
     {
-      "label": "서대문구",
+      "label": "강서구",
       "type": "gu"
     },
     {
@@ -1351,7 +1518,11 @@
       "type": "gu"
     },
     {
-      "label": "동작구",
+      "label": "서대문구",
+      "type": "gu"
+    },
+    {
+      "label": "관악구",
       "type": "gu"
     },
     {
@@ -1360,6 +1531,10 @@
     },
     {
       "label": "노원구",
+      "type": "gu"
+    },
+    {
+      "label": "동작구",
       "type": "gu"
     },
     {
@@ -1453,68 +1628,112 @@
   },
   "trends": [
     {
-      "keyword": "한정선",
-      "count": 43,
-      "diff": 7
-    },
-    {
-      "keyword": "커피",
-      "count": 34,
-      "diff": -5
-    },
-    {
-      "keyword": "모찌",
-      "count": 32,
-      "diff": -1
-    },
-    {
       "keyword": "머랭롤",
-      "count": 31,
-      "diff": 0
+      "count": 39,
+      "diff": 8
+    },
+    {
+      "keyword": "한정선",
+      "count": 39,
+      "diff": -4
     },
     {
       "keyword": "찹쌀떡",
-      "count": 30,
-      "diff": 6
+      "count": 29,
+      "diff": -1
+    },
+    {
+      "keyword": "커피",
+      "count": 28,
+      "diff": -6
     },
     {
       "keyword": "브런치",
       "count": 27,
-      "diff": -1
+      "diff": 0
     },
     {
       "keyword": "브릭샌드",
-      "count": 25,
-      "diff": -2
-    },
-    {
-      "keyword": "대형카페",
-      "count": 24,
+      "count": 22,
       "diff": -3
     },
     {
       "keyword": "도레도레",
       "count": 22,
-      "diff": -2
+      "diff": 0
     },
     {
-      "keyword": "셀렉티드닉스",
-      "count": 22,
-      "diff": -5
+      "keyword": "대형카페",
+      "count": 21,
+      "diff": -3
     },
     {
-      "keyword": "티라미수",
-      "count": 19,
-      "diff": 19
+      "keyword": "모찌",
+      "count": 21,
+      "diff": -11
     },
     {
       "keyword": "답례품",
-      "count": 19,
-      "diff": -5
+      "count": 20,
+      "diff": 1
+    },
+    {
+      "keyword": "셀렉티드닉스",
+      "count": 20,
+      "diff": -2
+    },
+    {
+      "keyword": "성심당",
+      "count": 18,
+      "diff": 18
     }
   ],
   "discovered": [],
   "stores": [
+    {
+      "name": "러시아케이크",
+      "address": "서울 중구 을지로42길 7",
+      "category": "음식점 > 카페 > 테마카페 > 디저트카페",
+      "keyword": "머랭롤",
+      "gu": "중구",
+      "area": "",
+      "image": "https://search3.kakaocdn.net/argon/130x130_85_c/IEpXKqgNpd8",
+      "reviewUrl": "https://blog.naver.com/goodday_tomorrow/224488483537",
+      "mapUrl": "http://place.map.kakao.com/38432219"
+    },
+    {
+      "name": "이치제과",
+      "address": "서울 노원구 공릉로 204",
+      "category": "음식점 > 간식 > 제과,베이커리",
+      "keyword": "머랭롤",
+      "gu": "노원구",
+      "area": "",
+      "image": "https://search1.kakaocdn.net/argon/130x130_85_c/7sRgBQ6Lejj",
+      "reviewUrl": "https://blog.naver.com/zhuoye/224481923056",
+      "mapUrl": "http://place.map.kakao.com/494871094"
+    },
+    {
+      "name": "차차",
+      "address": "서울 마포구 월드컵로 133",
+      "category": "음식점 > 카페",
+      "keyword": "머랭롤",
+      "gu": "마포구",
+      "area": "홍대",
+      "image": "https://search4.kakaocdn.net/argon/130x130_85_c/JVLYWkn9TdQ",
+      "reviewUrl": "https://blog.naver.com/yeeguinam63/224481022593",
+      "mapUrl": "http://place.map.kakao.com/186054313"
+    },
+    {
+      "name": "플럼프",
+      "address": "서울 광진구 뚝섬로 672",
+      "category": "음식점 > 카페",
+      "keyword": "머랭롤",
+      "gu": "광진구",
+      "area": "",
+      "image": "https://search1.kakaocdn.net/argon/130x130_85_c/HiwTqepDJz9",
+      "reviewUrl": "https://blog.naver.com/arafatare/224462739650",
+      "mapUrl": "http://place.map.kakao.com/130162412"
+    },
     {
       "name": "한정선 성수본점",
       "address": "서울 성동구 연무장길 43-1",
@@ -1582,182 +1801,6 @@
       "mapUrl": "http://place.map.kakao.com/306744050"
     },
     {
-      "name": "테라로사 포스코센터점",
-      "address": "서울 강남구 테헤란로 440",
-      "category": "음식점 > 카페 > 커피전문점 > 테라로사",
-      "keyword": "커피",
-      "gu": "강남구",
-      "area": "",
-      "image": "https://search3.kakaocdn.net/argon/130x130_85_c/LWnXnnfTpPt",
-      "reviewUrl": "https://blog.naver.com/withchoi_/224478301802",
-      "mapUrl": "http://place.map.kakao.com/1860681564"
-    },
-    {
-      "name": "따우전드",
-      "address": "서울 광진구 긴고랑로12길 59",
-      "category": "음식점 > 카페 > 커피전문점",
-      "keyword": "커피",
-      "gu": "광진구",
-      "area": "",
-      "image": "https://search2.kakaocdn.net/argon/130x130_85_c/Kgm8iB9AO4e",
-      "reviewUrl": "https://blog.naver.com/shortstar180_/224478930811",
-      "mapUrl": "http://place.map.kakao.com/714768981"
-    },
-    {
-      "name": "카페공명 연남점",
-      "address": "서울 마포구 연희로 11",
-      "category": "음식점 > 카페 > 커피전문점",
-      "keyword": "커피",
-      "gu": "마포구",
-      "area": "홍대",
-      "image": "https://search3.kakaocdn.net/argon/130x130_85_c/GfIy6YBUfji",
-      "reviewUrl": "https://blog.naver.com/soap__0115/224461001373",
-      "mapUrl": "http://place.map.kakao.com/1797970569"
-    },
-    {
-      "name": "빈브라더스 합정",
-      "address": "서울 마포구 토정로 35-1",
-      "category": "음식점 > 카페 > 커피전문점",
-      "keyword": "커피",
-      "gu": "마포구",
-      "area": "홍대",
-      "image": "https://search1.kakaocdn.net/argon/130x130_85_c/aOfN4j7H91",
-      "reviewUrl": "https://blog.naver.com/juggumi_/224466168481",
-      "mapUrl": "http://place.map.kakao.com/24855092"
-    },
-    {
-      "name": "빌리프커피로스터스",
-      "address": "서울 마포구 양화로11길 50",
-      "category": "음식점 > 카페 > 커피전문점",
-      "keyword": "커피",
-      "gu": "마포구",
-      "area": "홍대",
-      "image": "https://search2.kakaocdn.net/argon/130x130_85_c/FPovsHxH8Ji",
-      "reviewUrl": "https://blog.naver.com/eunikim13/224452573932",
-      "mapUrl": "http://place.map.kakao.com/26611450"
-    },
-    {
-      "name": "언뎁트",
-      "address": "서울 용산구 두텁바위로13길 11",
-      "category": "음식점 > 카페 > 커피전문점",
-      "keyword": "커피",
-      "gu": "용산구",
-      "area": "",
-      "image": "https://search2.kakaocdn.net/argon/130x130_85_c/CeDCCfhyUic",
-      "reviewUrl": "https://blog.naver.com/mimiwaves/224472604389",
-      "mapUrl": "http://place.map.kakao.com/941538435"
-    },
-    {
-      "name": "모찌방",
-      "address": "서울 강남구 삼성로75길 41",
-      "category": "음식점 > 카페 > 테마카페 > 디저트카페",
-      "keyword": "모찌",
-      "gu": "강남구",
-      "area": "",
-      "image": "https://search1.kakaocdn.net/argon/130x130_85_c/G6AURqnP6WR",
-      "reviewUrl": "https://blog.naver.com/llliinnee/224463833640",
-      "mapUrl": "http://place.map.kakao.com/269779063"
-    },
-    {
-      "name": "성수동 수제모찌",
-      "address": "서울 성동구 왕십리로 98-1",
-      "category": "음식점 > 간식",
-      "keyword": "모찌",
-      "gu": "성동구",
-      "area": "성수",
-      "image": "https://search1.kakaocdn.net/argon/130x130_85_c/IlLFkSUYsPB",
-      "reviewUrl": "https://blog.naver.com/wing279/224467420046",
-      "mapUrl": "http://place.map.kakao.com/1337427161"
-    },
-    {
-      "name": "대학로수제모찌",
-      "address": "서울 종로구 대학로12길 4",
-      "category": "음식점 > 간식 > 떡,한과",
-      "keyword": "모찌",
-      "gu": "종로구",
-      "area": "",
-      "image": "https://search2.kakaocdn.net/argon/130x130_85_c/Gw6ak4b7txX",
-      "reviewUrl": "https://blog.naver.com/b_easy-/224443351103",
-      "mapUrl": "http://place.map.kakao.com/23824756"
-    },
-    {
-      "name": "연남동수제모찌",
-      "address": "서울 마포구 동교로 230",
-      "category": "음식점 > 간식 > 제과,베이커리",
-      "keyword": "모찌",
-      "gu": "마포구",
-      "area": "홍대",
-      "image": "https://search2.kakaocdn.net/argon/130x130_85_c/Ho3sNexqwVW",
-      "reviewUrl": "https://blog.naver.com/jadooring_/224466317882",
-      "mapUrl": "http://place.map.kakao.com/513059772"
-    },
-    {
-      "name": "모찌모찌브레드 옥수본점",
-      "address": "서울 성동구 한림말3길 14",
-      "category": "음식점 > 간식 > 제과,베이커리",
-      "keyword": "모찌",
-      "gu": "성동구",
-      "area": "성수",
-      "image": "https://search4.kakaocdn.net/argon/130x130_85_c/3LglNZv1qWS",
-      "reviewUrl": "https://blog.naver.com/harinida/224235454475",
-      "mapUrl": "http://place.map.kakao.com/220365281"
-    },
-    {
-      "name": "모찌얌",
-      "address": "서울 동작구 여의대방로22길 121",
-      "category": "음식점 > 카페 > 테마카페 > 디저트카페",
-      "keyword": "모찌",
-      "gu": "동작구",
-      "area": "",
-      "image": "https://search3.kakaocdn.net/argon/130x130_85_c/AfZNm5UY8YE",
-      "reviewUrl": "https://blog.naver.com/ddang83138/224478032782",
-      "mapUrl": "http://place.map.kakao.com/480715506"
-    },
-    {
-      "name": "러시아케이크",
-      "address": "서울 중구 을지로42길 7",
-      "category": "음식점 > 카페 > 테마카페 > 디저트카페",
-      "keyword": "머랭롤",
-      "gu": "중구",
-      "area": "",
-      "image": "https://search3.kakaocdn.net/argon/130x130_85_c/IEpXKqgNpd8",
-      "reviewUrl": "https://blog.naver.com/goodday_tomorrow/224488483537",
-      "mapUrl": "http://place.map.kakao.com/38432219"
-    },
-    {
-      "name": "이치제과",
-      "address": "서울 노원구 공릉로 204",
-      "category": "음식점 > 간식 > 제과,베이커리",
-      "keyword": "머랭롤",
-      "gu": "노원구",
-      "area": "",
-      "image": "https://search1.kakaocdn.net/argon/130x130_85_c/7sRgBQ6Lejj",
-      "reviewUrl": "https://blog.naver.com/zhuoye/224481923056",
-      "mapUrl": "http://place.map.kakao.com/494871094"
-    },
-    {
-      "name": "차차",
-      "address": "서울 마포구 월드컵로 133",
-      "category": "음식점 > 카페",
-      "keyword": "머랭롤",
-      "gu": "마포구",
-      "area": "홍대",
-      "image": "https://search4.kakaocdn.net/argon/130x130_85_c/JVLYWkn9TdQ",
-      "reviewUrl": "https://blog.naver.com/yeeguinam63/224481022593",
-      "mapUrl": "http://place.map.kakao.com/186054313"
-    },
-    {
-      "name": "플럼프",
-      "address": "서울 광진구 뚝섬로 672",
-      "category": "음식점 > 카페",
-      "keyword": "머랭롤",
-      "gu": "광진구",
-      "area": "",
-      "image": "https://search1.kakaocdn.net/argon/130x130_85_c/HiwTqepDJz9",
-      "reviewUrl": "https://blog.naver.com/arafatare/224462739650",
-      "mapUrl": "http://place.map.kakao.com/130162412"
-    },
-    {
       "name": "행복찹쌀떡",
       "address": "서울 서초구 방배로 248",
       "category": "음식점 > 간식 > 떡,한과",
@@ -1813,6 +1856,72 @@
       "mapUrl": "http://place.map.kakao.com/19232112"
     },
     {
+      "name": "카페공명 연남점",
+      "address": "서울 마포구 연희로 11",
+      "category": "음식점 > 카페 > 커피전문점",
+      "keyword": "커피",
+      "gu": "마포구",
+      "area": "홍대",
+      "image": "https://search3.kakaocdn.net/argon/130x130_85_c/GfIy6YBUfji",
+      "reviewUrl": "https://blog.naver.com/soap__0115/224461001373",
+      "mapUrl": "http://place.map.kakao.com/1797970569"
+    },
+    {
+      "name": "맨홀커피",
+      "address": "서울 영등포구 영신로 247",
+      "category": "음식점 > 카페 > 커피전문점",
+      "keyword": "커피",
+      "gu": "영등포구",
+      "area": "더현대",
+      "image": "https://search4.kakaocdn.net/argon/130x130_85_c/9VFx39wU3MO",
+      "reviewUrl": "https://winters-story.tistory.com/489",
+      "mapUrl": "http://place.map.kakao.com/99849164"
+    },
+    {
+      "name": "태양커피 서울사당점",
+      "address": "서울 서초구 방배천로 32",
+      "category": "음식점 > 카페 > 커피전문점",
+      "keyword": "커피",
+      "gu": "서초구",
+      "area": "",
+      "image": "https://search3.kakaocdn.net/argon/130x130_85_c/326wC6AI2x3",
+      "reviewUrl": "https://blog.naver.com/please31/224416233090",
+      "mapUrl": "http://place.map.kakao.com/278752760"
+    },
+    {
+      "name": "브루잉세레모니",
+      "address": "서울 성동구 연무장5가길 22-1",
+      "category": "음식점 > 카페 > 커피전문점",
+      "keyword": "커피",
+      "gu": "성동구",
+      "area": "성수",
+      "image": "https://search2.kakaocdn.net/argon/130x130_85_c/1AEGYCKLyub",
+      "reviewUrl": "https://blog.naver.com/loverumors/224424926116",
+      "mapUrl": "http://place.map.kakao.com/804984272"
+    },
+    {
+      "name": "테라로사 포스코센터점",
+      "address": "서울 강남구 테헤란로 440",
+      "category": "음식점 > 카페 > 커피전문점 > 테라로사",
+      "keyword": "커피",
+      "gu": "강남구",
+      "area": "",
+      "image": "https://search3.kakaocdn.net/argon/130x130_85_c/LWnXnnfTpPt",
+      "reviewUrl": "https://blog.naver.com/withchoi_/224478301802",
+      "mapUrl": "http://place.map.kakao.com/1860681564"
+    },
+    {
+      "name": "따우전드",
+      "address": "서울 광진구 긴고랑로12길 59",
+      "category": "음식점 > 카페 > 커피전문점",
+      "keyword": "커피",
+      "gu": "광진구",
+      "area": "",
+      "image": "https://search2.kakaocdn.net/argon/130x130_85_c/Kgm8iB9AO4e",
+      "reviewUrl": "https://blog.naver.com/shortstar180_/224478930811",
+      "mapUrl": "http://place.map.kakao.com/714768981"
+    },
+    {
       "name": "베어스덴브런치",
       "address": "서울 서대문구 연희로4길 10",
       "category": "음식점 > 카페 > 테마카페 > 디저트카페",
@@ -1844,59 +1953,126 @@
       "image": "https://search3.kakaocdn.net/argon/130x130_85_c/5c6pSYvGDkW",
       "reviewUrl": "https://blog.naver.com/flry0105/224483744072",
       "mapUrl": "http://place.map.kakao.com/372508158"
+    },
+    {
+      "name": "브릭샌드 서울",
+      "address": "서울 종로구 종로 33",
+      "category": "음식점 > 카페 > 테마카페 > 디저트카페",
+      "keyword": "브릭샌드",
+      "gu": "종로구",
+      "area": "",
+      "image": "https://search3.kakaocdn.net/argon/130x130_85_c/7vwEBk2wEzi",
+      "reviewUrl": "https://blog.naver.com/sssasssa1/224462814612",
+      "mapUrl": "http://place.map.kakao.com/1057980184"
+    },
+    {
+      "name": "브릭샌드 성수팩토리",
+      "address": "서울 성동구 성수이로20길 54",
+      "category": "음식점 > 카페 > 테마카페 > 디저트카페",
+      "keyword": "브릭샌드",
+      "gu": "성동구",
+      "area": "성수",
+      "image": "https://search3.kakaocdn.net/argon/130x130_85_c/7m2dgdvxIRN",
+      "reviewUrl": "https://blog.naver.com/osun148/224471913750",
+      "mapUrl": "http://place.map.kakao.com/516212732"
+    },
+    {
+      "name": "브릭샌드 명동점",
+      "address": "서울 중구 명동8길 8-10",
+      "category": "음식점 > 간식 > 제과,베이커리",
+      "keyword": "브릭샌드",
+      "gu": "중구",
+      "area": "",
+      "image": "https://search4.kakaocdn.net/argon/130x130_85_c/8RC4uqNFjsj",
+      "reviewUrl": "https://blog.naver.com/wlalswldbs42/224486329816",
+      "mapUrl": "http://place.map.kakao.com/1866724712"
+    },
+    {
+      "name": "브릭샌드 원그로브점",
+      "address": "서울 강서구 공항대로 165",
+      "category": "음식점 > 카페 > 테마카페 > 디저트카페",
+      "keyword": "브릭샌드",
+      "gu": "강서구",
+      "area": "",
+      "image": "https://search4.kakaocdn.net/argon/130x130_85_c/AkInk8hBBsC",
+      "reviewUrl": "https://blog.naver.com/tpxm231/224483144361",
+      "mapUrl": "http://place.map.kakao.com/332800830"
+    },
+    {
+      "name": "브릭샌드 여의도점",
+      "address": "서울 영등포구 여의대로 70",
+      "category": "음식점 > 간식 > 제과,베이커리",
+      "keyword": "브릭샌드",
+      "gu": "영등포구",
+      "area": "더현대",
+      "image": "https://search3.kakaocdn.net/argon/130x130_85_c/GTmFo2QPrhc",
+      "reviewUrl": "https://blog.naver.com/hyebbi_25/224478440562",
+      "mapUrl": "http://place.map.kakao.com/701385499"
+    },
+    {
+      "name": "안녕브릭샌드 인사동점",
+      "address": "서울 종로구 인사동길 49",
+      "category": "음식점 > 카페 > 테마카페 > 디저트카페",
+      "keyword": "브릭샌드",
+      "gu": "종로구",
+      "area": "",
+      "image": "https://search3.kakaocdn.net/argon/130x130_85_c/1reaRHix7EK",
+      "reviewUrl": "https://blog.naver.com/jjunee_e/224486694751",
+      "mapUrl": "http://place.map.kakao.com/241268823"
     }
   ],
   "sources": [
     {
-      "name": "코이뭉",
-      "count": 2
+      "name": "스퀴즈덤",
+      "count": 3
+    },
+    {
+      "name": "서초시그니처파티룸",
+      "count": 3
     },
     {
       "name": "꿈멍이 기록",
+      "count": 3
+    },
+    {
+      "name": "시트콩‘s Story",
       "count": 2
     },
     {
-      "name": "잘먹고 잘사는 방법",
+      "name": "Aube林",
       "count": 2
     },
     {
-      "name": "이기린의활동기",
+      "name": "스마일웰니즈",
       "count": 2
     },
     {
-      "name": "12년 차 리츠칼튼출신 라보아르 바닐라 선물전문점",
+      "name": "이슈탑",
       "count": 2
     },
     {
-      "name": "eat drink love : from. jane",
+      "name": "곡산",
       "count": 2
-    },
-    {
-      "name": "TOMMY'S DINER",
-      "count": 1
-    },
-    {
-      "name": "대구 토박이의 맛집·여행 기록",
-      "count": 1
     }
   ],
   "vocab": [
+    "머랭롤",
     "한정선",
     "찹쌀떡",
-    "머랭롤",
     "브릭샌드",
     "모찌",
     "대형카페",
     "셀렉티드닉스",
     "커피",
-    "티라미수",
     "도레도레",
-    "소금빵",
-    "수플레",
+    "티라미수",
     "파블로바",
-    "빵지순례",
     "브런치",
+    "수플레",
+    "빵지순례",
     "과일모찌",
+    "소금빵",
+    "버터앤쉘터",
     "루프탑",
     "에그타르트",
     "강남역카페",
@@ -1906,7 +2082,6 @@
     "케이크가",
     "초콜릿",
     "치즈케이크",
-    "버터앤쉘터",
     "버터샌드",
     "고디바",
     "디저트가",
@@ -2263,7 +2438,7 @@
     },
     "장소": {
       "ratio": 0.13,
-      "at": "2026-11-16T03:54:33.775Z"
+      "at": "2026-11-26T03:48:07.767Z"
     },
     "마켓": {
       "ratio": 0,
@@ -2667,7 +2842,7 @@
     },
     "먹어본": {
       "ratio": 0,
-      "at": "2026-11-14T03:38:12.368Z"
+      "at": "2026-11-26T03:48:09.230Z"
     },
     "와인": {
       "ratio": 0,
@@ -3100,9 +3275,847 @@
     "다음": {
       "ratio": 0.13,
       "at": "2026-11-25T15:52:43.680Z"
+    },
+    "저스틴": {
+      "ratio": 0.07,
+      "at": "2026-11-26T03:48:08.134Z"
+    },
+    "비버": {
+      "ratio": 0.33,
+      "at": "2026-11-26T03:48:08.493Z"
+    },
+    "야경": {
+      "ratio": 0.07,
+      "at": "2026-11-26T03:48:08.858Z"
     }
   },
   "items": [
+    {
+      "title": "2026 서울빛초롱축제 청계천 크리스마스 데이트 코스: 청계광장 실내 펍, 포토존, 기념 쿠키 정리",
+      "desc": "요소: 서울빛초롱축제 시즌에 맞춰 카우보이 포토존, ROAST & BAKE 기념 쿠키 및 파운드케이크 패키지가 운영됩니다. 3. 자주 묻는 질문 (Q&A) Q. 청계광장 빛...피해 이동하기 수월합니다. Q. 청계천 데이트 기념품이나 연말 선물용 디저트도 함께 구매할 수 있나요? A. 매장 내 ROAST&BAKE에서 서울빛초롱축제와 연말...",
+      "link": "https://jhtexas.tistory.com/24",
+      "source": "JH 텍사스 공식 블로그",
+      "date": "2026-11-26T03:32:36.000Z",
+      "thumb": "https://search4.kakaocdn.net/argon/130x130_85_c/LMJyeGgSAKZ",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "crawled": true,
+      "body": "연말과 크리스마스 시즌 서울 도심에서 야간 산책과 실내 식사, 기념품 구매를 한 번에 해결하려는 커플 방문객이 늘고 있습니다. 오는 12월 11일 개막하는 2026 서울빛초롱축제는 청계광장부터 삼일교 구간까지 야간 조명이 이어져 데이트 동선으로 수요가 높은 행사입니다.\n 겨울철 야간 관람 시 한파를 피하면서 데이트 만족도를 높일 수 있도록, 청계광장 출발점 바로 앞에 위치한 JH TEXAS(JH텍사스)와 ROAST & BAKE를 연계한 관람 동선과 이용 포인트를 정리했습니다.\n 1. 청계천 빛초롱축제 야간 데이트 추천 동선 \n 야간 조명 관람 (18:00 이후): 광화문역(5번 출구), 시청역(4번 출구), 종각역(4번, 5번 출구)에서 도보 3~5분 거리의 청계광장에서 출발해 광통교, 광교 일대 전시 구간을 산책합니다. \n 실내 휴식 및 저녁 식사 (청계광장 도보 1분): 야외 관람 후 청계광장 입구 바로 앞 효령빌딩 1층에 위치한 JH TEXAS로 이동해 추위를 피하고 식사와 음료를 즐깁니다. \n 포토존 촬영 및 기념품 구매: 매장 테라스 카우보이 포토존에서 기념사진을 남기고, ROAST & BAKE 수제 쿠키와 파운드케이크 패키지를 데이트 선물로 구매합니다. \n 2. JH TEXAS 공간 및 메뉴, 음료 구성 특징 \n 1층 평지 입지와 쾌적한 좌석: 계단을 오르내릴 필요 없는 1층 로드숍 구조이며, 테이블 간 간격이 여유로워 연말 시즌에도 편안하게 대화하기 좋습니다. \n Draft Beer Master 생맥주 및 주류 다양성: 전문 드래프트 비어 마스터가 매일 관리하는 기네스, 스텔라 아르투아 생맥주와 다양한 칵테일, 소주는 물론 술을 마시지 않는 방문객을 위한 무알콜 음료까지 구비되어 있습니다. \n 텍스멕스와 한식 동시 주문: 철판 위에서 따뜻하게 제공되는 시그니처 파히타, 타코, 퀘사디아 등 멕시칸 요리와 궁중소갈비찜, 미나리 철판 쭈삼 등 한식 메뉴를 취향에 맞춰 함께 구성할 수 있습니다. \n 축제 시즌 연계 요소: 서울빛초롱축제 시즌에 맞춰 카우보이 포토존, ROAST & BAKE 기념 쿠키 및 파운드케이크 패키지가 운영됩니다. \n 3. 자주 묻는 질문 (Q&A) \n Q. 청계광장 빛초롱축제 입구에서 가장 가까운 실내 펍이나 식당은 어디인가요? \n A. 청계광장 바로 앞 무교로 32 효령빌딩 1층에 위치한 JH TEXAS가 도보 1분 거리에 있어 야간 관람 직후 추위를 피해 이동하기 수월합니다.\n Q. 청계천 데이트 기념품이나 연말 선물용 디저트도 함께 구매할 수 있나요? \n A. 매장 내 ROAST&BAKE에서 서울빛초롱축제와 연말 시즌을 기념하는 수제 쿠키 및 카스테라 선물세트를 함께 만나볼 수 있습니다.\n Q. 술을 잘 못 마시는 커플도 방문하기 괜찮은가요? \n A. 기네스, 스텔라 생맥주와 칵테일, 소주 외에도 다양한 무알콜 음료와 식사 메뉴(파히타, 궁중소갈비찜 등)가 준비되어 있어 음주 여부와 무관하게 이용하기 좋습니다.\n 4. 매장 및 운영 정보 \n 상호명: JH TEXAS (JH텍사스, JH텍사스바) / ROAST & BAKE \n 주소 : 서울특별시 중구 무교로 32 효령빌딩 1 층 ( 청계광장 바로 앞 ) \n 영업시간 : 평일 11:00 ~ 다음 날 01:00 / 주말 12:30 ~ 24:00 \n 문의 및 예약 : 02-774-0804 \n JH텍사스 서울 중구 무교로 32",
+      "area": "",
+      "gu": "광진구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "[강남역/바바인디아] 인도요리 전문점 '바바인디아'",
+      "desc": "India 서울시 강남구 서초동 1328-11 대우도씨에빛2창 2층 2F, Daeu Dosseviche 2nd Bldg., 1328-11 Seocho-dong, Gangnam-gu, Seoul 02)521-4588 02) 521-4588 평일 낮이라서 손님이 많진 않았어요~ It was a weekday afternoon, so there weren't many customers~ 여유롭게 시삭할 수 있는 분위기였습니다 It had a...",
+      "link": "https://eundu5.tistory.com/58",
+      "source": "시트콩‘s Story",
+      "date": "2026-11-26T03:29:05.000Z",
+      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/1Au5JdZ8YTd",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "crawled": true,
+      "body": "[Gangnam Station/Baba India] An Indian Restaurant, 'Baba India'\n 점심과 저녁의 애매한 시간,\nAt that awkward hour between lunch and dinner,\n늦은 점심을 위해 인도요리를 먹으러 갔어요~\nwe went to eat Indian food for a late lunch~\n가장 자주가는 곳은 압구정 강가인데\nThe place I go to most often is Gangga in Apgujeong,\n이번에 다른곳 좀 가보자하고 찾아간 곳은\nbut this time we decided to try somewhere else and headed to\n강남역 근처에 위치한 '바바인디아' 입니다.\nBaba India, located near Gangnam Station.\n바바인디아\nBaba India\n서울시 강남구 서초동 1328-11 대우도씨에빛2창 2층\n2F, Daeu Dosseviche 2nd Bldg., 1328-11 Seocho-dong, Gangnam-gu, Seoul\n02)521-4588\n02) 521-4588\n 평일 낮이라서 손님이 많진 않았어요~\nIt was a weekday afternoon, so there weren't many customers~\n여유롭게 시삭할 수 있는 분위기였습니다\nIt had a relaxed atmosphere where we could take our time eating.\n 3명이서 방문했는데 런치메뉴2인과 가벼운 메뉴를 추가로 더 주문하기로합니다.\nThe three of us visited, and we decided to order the two-person lunch menu plus a couple of light dishes.\n런치메뉴는 평일에만 드실 수 있고 주말은 제외라네요~\nThe lunch menu is available only on weekdays and not on weekends, they said~\n저희는 런치c에 커리는 제가 젤 좋아라하는\nFor lunch C, the curry I chose is my all-time favorite,\n시금치와 치즈가 들어간 '팔락파니르' 와\nthe 'Palak Paneer' made with spinach and cheese,\n매콤한 '프로운 칠리 '로 선택했어요~\nand the spicy 'Prawn Chilli'~\n그리고 '사모사' 1개와 '짜파티'를 추가로 주문했어요~\nAnd we also ordered one 'Samosa' and a 'Chapati' on the side~\n 다른 메뉴들입니다~~\nHere are some of the other dishes~~\n 먼저 단호박 스프가 나왔는데 ㅋㅋㅋㅋㅋ\nFirst, the pumpkin soup came out lol\n다 먹고 나서야 '아~ 사진 ㅋㅋㅋ'\nand only after we had finished it did we go 'Ah~ the photo lol'\n그래서 이렇게 민망한 모습 ㅎㅎㅎ\nSo here's this awkward-looking shot haha\n단호박 스프는 매우 부드럽고 맛있었어요~\nThe pumpkin soup was very smooth and delicious~\n안에 몽글 몽글 치즈가 들어가 있어서 씹는 재미도 있더라구요~\nThere were soft little lumps of cheese inside, so it was fun to chew too~\n런치 2개 시켰는데도 3명이라고 스프랑 디저트도 3개씩 주더라구요~\nEven though we ordered only two lunches, they gave us three servings of soup and dessert because there were three of us~\n별거 아니지만 이런거에 너무 기분 좋아진다는 ㅎㅎ\nIt's nothing much, but little things like that make me so happy haha\n 그\nSo\n그리고 이어서 나온 런치 세트 메뉴\nAnd next up, the lunch set menus\n탄두리에구운 치킨 2조각에 왕새우1마리, 모굴라이빠라따, 샐러드, 커리, 플레인난\nTwo pieces of tandoori-grilled chicken, one jumbo shrimp, Mughlai Paratha, salad, curry and plain naan\n여기에 스프와 후식으로 요거트까지 나왔습니다.\nOn top of that, soup and yogurt for dessert came out as well.\n 치킨과 새우는 난에 올리고 커리를 찍어 먹으면\nPut the chicken and shrimp on the naan and dip them in the curry,\n우와~~ !\nand whoa~~ !\n사실 강가가 아주 조금(?) 더 맛있고 좋은거 같긴 하지만\nTo be honest, Gangga does seem just a tiny bit(?) tastier and better,\n(인테리어나 분위기에서 느껴지는 것 같기도 해요^^)\n(I think that's something you feel from the interior and the atmosphere too^^)\n바바인디아는 가격대비 너무 괜찮았어요~\nbut Baba India was really good value for the money~\n강가보다 저렴하면서 맛도 있는...\nCheaper than Gangga and still tasty...\n커리로 비교해 봤을때 맛은 비슷한데 커리 그릇이 바바인디아가 살짝 작은 느낌이었습니다.\nComparing the curries, the taste was similar, but the curry bowls at Baba India felt a little smaller.\n하지만 항상 강가가서 커리를 남겼던 지라\nBut since I always ended up leaving curry behind at Gangga,\n여기가 더 합리적이네요~\nthis place makes",
+      "area": "",
+      "gu": "서초구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "성심당 크리스마스 케이크 2026: 공식 발표 전, 작년 기준 예약 12월 1일·딸기시루 12월 23일 현장...",
+      "desc": "15겹 크레페 3호 39,000원 (블로그 정리) 예약 가능으로 정리됨 메종 케익 2호 36,000원 (블로그 정리) 예약 가능으로 정리됨 출처: 동아일보·서울경제·이데일리 2025.12.3 보도, 성심당 공식 인스타그램 2025.11.30. 크레페와 메종 케익 가격은 2026년 11월 블로그 정리를 인용했어요. 4. 딸기시루: 왜 예약이 안...",
+      "link": "https://acro100.com/262",
+      "source": "Money Crawler",
+      "date": "2026-11-26T03:15:50.000Z",
+      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/EVCKKPMQWRo",
+      "type": "blog",
+      "query": "서울 성심당",
+      "collectedAt": "2026-11-26T03:48:15.018Z",
+      "crawled": true,
+      "body": "해마다 12월이 다가오면 \"성심당 크리스마스 케이크 예약 언제 해요?\" , \"딸기시루 예약되나요?\" 같은 질문이 쏟아져요. 결론부터 말하면 제가 확인한 11월 25일 새벽 기준으로 2026년 성심당 크리스마스 케이크 라인업과 판매 일정은 공식 발표를 찾지 못했어요. 그래서 이 글은 확정된 것처럼 쓰지 않고, 2024년과 2025년에 성심당이 공식 SNS와 언론을 통해 알린 일정&middot;가격&middot;구매 방식 을 정리해서 올해 준비 순서를 잡을 수 있게 만들었어요. 공식 발표가 나오면 바뀐 부분을 바로 비교할 수 있도록 표로 묶었습니다.\n 2026년 11월 25일 기준 &middot; 2026년 일정과 가격은 공식 발표 전이에요. 아래 날짜와 가격은 2025년 시즌 공식 공지와 동아일보, 서울경제, 이데일리 2025년 12월 3일 보도 등을 정리한 것이며 올해는 달라질 수 있어요.\n 1. 지금 확인된 것과 아직 모르는 것 \n 구분 \n 내용 \n 상태 \n 2026 크리스마스 케이크 라인업 \n 공식 발표 미확인 \n 아직 모름 \n 2026 예약 오픈일 \n 공식 발표 미확인 (작년 12월 1일) \n 아직 모름 \n 2026 딸기시루 판매 시작일 \n 공식 발표 미확인 (작년 12월 23일) \n 아직 모름 \n 2026 가격 \n 공식 발표 미확인 (작년 딸기시루 2.3kg 49,000원) \n 아직 모름 \n 딸기시루 구매 방식 \n 작년에는 예약 없이 현장 구매만 가능했어요 \n 올해도 같을지 미확인 \n 판매 일정 변동 \n 성심당은 \"재료 수급에 따라 변동될 수 있다\"고 매번 안내 \n 확인된 안내 \n 성심당은 예약 일정과 라인업을 공식 인스타그램(@sungsimdang_official, @sungsimdang_cakeboutique)과 홈페이지, 성심당몰, 각 지점 안내로 알려요. 올해도 같은 경로로 공지가 나올 가능성이 커서, 아래 비교표를 먼저 읽어 두면 공지가 뜬 날 훨씬 빨리 판단할 수 있어요.\n 2. 최근 두 시즌 일정 비교 \n 항목 \n 2024 시즌 \n 2025 시즌 \n 2026 시즌 \n 공식 공지 \n 11월 20일 홈페이지 공개(매일경제 보도) \n 11월 30일 딸기시루 안내, 12월 1일 라인업 안내 \n 아직 발표 미확인 \n 일반 케이크 예약 오픈 \n 12월 2일 \n 12월 1일(월) \n 미정 \n 딸기시루 판매 시작 \n 12월 23일부터 현장 판매 \n 12월 23일(화)부터 현장 판매 \n 미정 \n 딸기시루 2.3kg 가격 \n 49,000원 \n 49,000원 (가격 동결로 보도) \n 미공개 \n 딸기시루 막내 가격 \n 43,000원 \n 43,000원 \n 미공개 \n 출처: 매일경제 2024.11.20, 성심당 공식 인스타그램(2025.11.30&middot;12.1), 동아일보&middot;서울경제 2025.12.3\n 두 시즌 모두 예약은 12월 초, 딸기시루는 12월 23일 이라는 패턴이었어요. 다만 이건 과거 흐름일 뿐이라 올해도 그대로라는 보장은 없어요. 공식 공지에는 \"재료 수급 상황에 따라 판매시기에 변동이 있을 수 있다\"는 문구가 매번 들어가요.\n 3. 작년(2025년) 라인업과 가격 \n 작년 가격은 2만 9천 원에서 5만 2천 원 사이였어요(이데일리 보도). 올해 라인업이 나오면 이 표와 비교해 보세요.\n 제품 \n 2025년 가격 \n 구매 방식(작년) \n 딸기시루 2.3kg \n 49,000원 \n 본점 현장 구매만, 예약 불가 \n 딸기시루 막내 \n 43,000원 \n 전 매장 현장 구매, 예약 불가 \n 딸기설기 \n 52,000원 \n 전 매장 현장 구매, 예약 불가 \n 딸기타워타르트 2호 \n 43,000원 \n 예약 가능 \n 키리쉬 모짜르트 3호 \n 36,000원 \n 예약 가능 \n 부띠끄 생케익 2호 \n 35,000원 \n 예약 가능 \n 딸기모짜르트 2호 \n 31,000원 \n 예약 가능 \n 메리무스 1호 \n 29,000원 \n 예약 가능 \n 15겹 크레페 3호 \n 39,000원 (블로그 정리) \n 예약 가능으로 정리됨 \n 메종 케익 2호 \n 36,000원 (블로그 정리) \n 예약 가능으로 정리됨 \n 출처: 동아일보&middot;서울경제&middot;이데일리 2025.12.3 보도, 성심당 공식 인스타그램 2025.11.30. 크레페와 메종 케익 가격은 2026년 11월 블로그 정리를 인용했어요.\n 4. 딸기시루: 왜 예약이 안 되나요 \n 성심당 딸기시루는 해마다 오픈런이 벌어지는 제품이에요. 작년 공식 공지는 이렇게 안내했어요.\n 딸기시루 시리즈는 오직 현장에서만 구매할 수 있고 예약이 불가 해요. \n 딸기시루 2.3kg은 케익부띠끄 본점에서만 판매해요(49,000원). \n 딸기시루 막내(43,000원)와 딸기설기(52,000원)는 케익부띠끄 전 매장에서 현장 구매할 수 있어요. \n 재료 수급 상황에 따라 판매 시기가 달라질 수 있어요. \n 동아일보 2025년 12월 보도는 2024년 겨울 오픈런 때 최대 7시간을 대기해 구매한 사례가 있었다고 전했어요. 당시 후기에는 크리스마스이브 전날에도 새벽 4시부터 줄을 섰다는 글이 있었다고 해요. 올해 줄이 얼마나 길지는 알 수 없지만, 판매 시작 직후 며칠은 붐빌 가능성을 염두에 두는 게 좋아요.\n 5. 예약 가능한 케이크와 예약 불가일 \n 딸기시루를 제외한 일반 크리스마스 케이크는 작년에 사전 예약을 받았고, 지점별로 예약을 아예 받지 않는 날 이 정해져 있었어요. 크리스마스 직전에는 현장 구매만 가능한 날이 있다는 뜻이에요.\n 지점 \n 2025년 예약 불가일 \n 주문 문의(작년 공지) \n 케익부띠끄 본점 \n 12월 23일~25일, 12월 29일~1월 1일 \n 1588-8069 (쇼핑몰 사전 예약 불가로 안내) \n 롯데백화점 대전점 \n 12월 23일~25일, 12월 30일~31일 \n 042-229-5343 \n DCC점 \n 12월 22일~25일, 12월 30일~31일 \n 042-229-5363 \n 출처: 성심당 공식 인스타그램(2025.12.1 안내), 서울경제&middot;이데일리 2025.12.3. 올해 번호와 일정은 공식 공지로 다시 확인하세요.\n 20개 이상 대량 주문은 작년에 12월 1일부터 각 지점으로 문의하도록 안",
+      "area": "",
+      "gu": "",
+      "seoul": true,
+      "keywords": [
+        "성심당"
+      ],
+      "popup": false
+    },
+    {
+      "title": "답십리 브런치 카페 코엔, 담백한 사워도우로 만든 샌드위치 내돈내산 후기",
+      "desc": "조금 아쉬울 수 있어요. 고소한 맛 아이스라떼 아이스라떼는 고소한 커피 맛이었어요. 커피가 엄청 특별하게 느껴지지는 않았지만 샌드위치와 같이 마시기에...같이 먹는 것을 추천드려요. 위치·영업시간·주차 주소: 서울 동대문구 서울시립대로 4길 영업시간 화~금 9:00~18:00(라스트오더 17:30) 토~일 09:00~16:00...",
+      "link": "https://bokgilism.me/439",
+      "source": "복길스러운 일상",
+      "date": "2026-11-26T03:02:27.000Z",
+      "thumb": "https://search4.kakaocdn.net/argon/130x130_85_c/31ElGWGeU3J",
+      "type": "blog",
+      "query": "서울 커피",
+      "collectedAt": "2026-11-26T03:47:13.176Z",
+      "crawled": true,
+      "body": "",
+      "area": "",
+      "gu": "",
+      "seoul": true,
+      "keywords": [
+        "브런치"
+      ],
+      "popup": false
+    },
+    {
+      "title": "잠실 인도커리 맛집 아그라 에비뉴엘점, 스페셜 코스 가격·창가석 예약·주차 정리",
+      "desc": "위치 서울 송파구 올림픽로 300 롯데 에비뉴엘 6층 가는 길 잠실역 1번 출구 → 에스컬레이터로 6층 운영시간 평일 11:00~22:00 / 주말 10:30~22:00 라스트오더 21:00 주문한 메뉴 아그라 스페셜 코스 2인 89,200원 (1인 44,600원) 코스 혜택 난·음료 무제한 창가석 네이버 예약 가능, 90분 이용 주차 유료 (최초 10분...",
+      "link": "https://yeeooonl.tistory.com/32",
+      "source": "Aube林",
+      "date": "2026-11-26T03:00:33.000Z",
+      "thumb": "https://search3.kakaocdn.net/argon/130x130_85_c/DAjJwvplrIF",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "crawled": true,
+      "body": "안녕하세요! Aube입니다.\n 잠실에서 분위기 있는 저녁을 먹고 싶어서 롯데 에비뉴엘 6층에 있는 인도 레스토랑 아그라 잠실에비뉴엘점 에 다녀왔어요. 창밖으로 석촌호수가 내려다보이는 곳이라 데이트 장소로 많이 찾는 곳이에요.\n 이 글에서는 스페셜 코스 구성과 가격, 창가석 예약 방법, 주차 요금, 그리고 롯데백화점 잠실점과의 가격 차이 까지 솔직하게 정리해 볼게요.\n 📌 한눈에 보기 \n 항목 \n 내용 \n 위치 \n 서울 송파구 올림픽로 300 롯데 에비뉴엘 6층 \n 가는 길 \n 잠실역 1번 출구 &rarr; 에스컬레이터로 6층 \n 운영시간 \n 평일 11:00~22:00 / 주말 10:30~22:00 \n 라스트오더 \n 21:00 \n 주문한 메뉴 \n 아그라 스페셜 코스 2인 89,200원 (1인 44,600원) \n 코스 혜택 \n 난&middot;음료 무제한 \n 창가석 \n 네이버 예약 가능, 90분 이용 \n 주차 \n 유료 (최초 10분 500원) \n 아그라 잠실에비뉴엘점은 어떤 곳인가요? \n 입구에 들어서는 순간 다른 나라에 온 것처럼 꾸며진 공간이 펼쳐져요. 어두운 조명 아래 파란빛으로 빛나는 아그라 로고, 조각 장식과 소품들이 이어져서 사진으로 다 담기 어려울 만큼 이색적인 분위기예요.\n 이곳의 가장 큰 장점은 창가석 풍경 이에요.\n 낮에는 바로 아래 석촌호수가 한눈에 들어오고, 해가 지면 잠실 야경을 보면서 식사할 수 있어요. 기\n 념일이나 데이트처럼 분위기가 중요한 날에 잘 어울리는 곳이에요.\n 창가석 예약과 이용 시간 \n 저희는 주말 저녁에 갔는데 창가석이 이미 만석 이었어요. 창가에서 먹고 싶다면 미리 예약하는 걸 꼭 추천해요.\n 예약 방법: 네이버에서 '아그라 잠실에비뉴엘'을 검색하면 창가석 예약 상품이 있어요. 인원에 따라 1~2인, 3~4인 상품이 나뉘어 있어요. \n 이용 시간: 창가석은 90분 제한 이에요. 코스를 천천히 즐기려면 시간을 조금 여유 있게 잡는 게 좋아요. \n 창가석이 아니어도 실내 인테리어가 워낙 화려해서 분위기는 충분히 즐길 수 있어요. \n 주차 요금과 찾아가는 길 \n 찾아가는 길 \n 잠실역 1번 출구 로 나와 에비뉴엘 입구 앞 에스컬레이터를 타거나, 지하 1층 에스컬레이터를 타고 6층 으로 올라가면 돼요.\n 주차 요금 \n 에비뉴엘 주차장은 유료 예요.\n 구분 \n 요금 \n 최초 10분 \n 500원 \n 10:00~20:00 \n 추가 10분당 500원 \n 그 외 시간 \n 추가 10분당 200원 \n 최대 \n 10만 원 \n 코스를 먹으면 보통 1시간 반 이상 머무르게 되는데, 낮 시간 기준으로 1시간에 3,000원 정도라 주차비도 무시할 수 없어요. 가능하면 지하철로 오는 걸 추천해요.\n 아그라 스페셜 코스 구성 \n 자리에 앉으면 태블릿 으로 주문해요. 저희는 아그라 스페셜 코스 2인(89,200원) 을 골랐어요. 코스를 시키면 난과 음료가 무제한 이라, 주문한 뒤에는 태블릿을 옆에 두고 필요할 때마다 추가 주문을 했어요.\n 코스는 아래 순서로 나왔어요.\n 1. 프라타 \n 가장 먼저 나오는 메뉴예요. 얇게 구운 빵에 소스를 곁들여 입맛을 돋우는 역할이에요.\n 2. 스노윙 브레드 (머쉬룸) \n 난에 샐러드를 싸 먹을 수 있게 나오는 메뉴인데, 플레이팅이 화려해서 눈이 먼저 즐거웠어요.\n 3. 탄두리 치킨 \n 불꽃 연출과 함께 등장해서 테이블 분위기가 확 살아나요. 겉은 바삭하고 속은 촉촉 했어요. 다만 바삭하게 구워져서 포크와 나이프만으로 먹기는 조금 불편했어요.\n 4. 커리 2종 + 난 2종 \n 코스의 메인이에요. 커리 두 가지와 난 두 가지를 고를 수 있어요. 난은 식으면 맛이 떨어지기 때문에 조금씩 나눠서 추가 주문 하라는 안내가 있어요. 저희도 처음에 두 장만 받고 먹으면서 더 시켰어요.\n 커리와 난, 뭘 고를까? \n 버터 프로운 마니크 (새우 커리) \n 버터의 크리미함에 토마토의 산미가 더해져서 부드럽고 순한 맛 이에요. 향신료에 익숙하지 않은 분도 편하게 먹을 수 있어서 처음 가는 분께 추천해요.\n 고아 커리 \n 양파, 콩, 버섯, 감자가 들어간 커리예요. 제가 좋아하는 재료가 다 들어 있어서 골랐는데 이번 방문의 최애 메뉴였어요 ㅎㅎ 아주 살짝 매콤 하면서 재료 하나하나의 맛이 살아 있어요.\n 비교 \n 버터 프로운 마니크 \n 고아 커리 \n 맛 \n 크리미, 토마토 산미 \n 은은하게 매콤 \n 주재료 \n 새우 \n 양파, 콩, 버섯, 감자 \n 추천 대상 \n 인도 커리 입문자 \n 건더기 많은 커리 좋아하는 분 \n 갈릭 난 & 허니버터 난 \n 갈릭 난 은 위에 뿌린 갈릭 플레이크가 바삭해서 식감이 좋아요. 허니버터 난 은 꿀이 발려 윤기가 돌고 달콤해서, 매콤한 커리 사이사이 디저트처럼 먹기 좋았어요.\n 가격, 롯데백화점 잠실점과 비교하면? \n 솔직히 가장 아쉬웠던 부분은 가격 이에요. 아그라는 바로 옆 건물인 롯데백화점 잠실점 에도 매장이 있는데, 같은 코스의 1인 가격이 꽤 달라요.\n 매장 \n 같은 코스 1인 가격 \n 롯데 잠실에비뉴엘점 \n 44,600원 \n 롯데백화점 잠실점 \n 27,800원 \n 1인당 16,800원 , 2인이면 33,600원 차이가 나요. 에비뉴엘점은 인테리어와 창가 풍경 값이 더해진 셈이에요. 여기에 주차비까지 따로 내야 해서 부담이 더 커졌어요.\n 정리하면 이렇게 고르면 돼요. \n 기념일&middot;데이트처럼 분위기와 뷰가 중요하다면 &rarr; 잠실에비뉴엘점 (창가석 예약 필수) \n 인도 커리 맛 자체가 목적이라면 &rarr; 롯데백화점 잠실점이 가성비가 좋아요 \n 이런 분께 추천해요 \n 추천 \n 잠실에서 기념일&middot;데이트 장소를 찾는 분 \n 석촌호수 뷰나 야경 을 보며 식사하고 싶은 분 \n 커리와 난을 배부르게 여러 가지 맛보고 싶은 분 (난&middot;음료 무제한) \n 아쉬울 수 있어요 \n 가성비 를 중요하게 생각하는 분 \n 자동차로 방문할 예정인 분 (주차비 별도) \n 창가석 예약 없이 주말에 가는 분 (만석일 수 있어요) \n 자주 묻는 질문 \n Q. 아그라 잠실에비뉴엘점 창가석은 예약할 수 있나요? \nA. 네, 네이버 예약으로 창가석을 예약할 수 있어요. 이용 시간은 90분이에요.\n Q. 코스를 시",
+      "area": "",
+      "gu": "송파구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "고향사랑기부제 2026 총정리 — 12월 말 전에 챙기는 세액공제와 답례품 선택 가이드",
+      "desc": "한 줄 정리 주소지가 아닌 지자체에 기부 → 세액공제 + 기부액 30% 이내 답례품 → 올해 안에 결제해야 올해 연말정산에 반영 2. 누가, 어디에, 얼마까지 기부...현재 주소지의 시·도와 시·군·구는 제외합니다. 예를 들어 서울 관악구에 살고 있다면 서울시와 관악구에는 기부할 수 없고, 그 외의 지자체 중에서...",
+      "link": "https://endbalance.tistory.com/1182",
+      "source": "도금 설계자의 비밀공간",
+      "date": "2026-11-26T03:00:03.000Z",
+      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/DTZcoHKn3B9",
+      "type": "blog",
+      "query": "서울 답례품",
+      "collectedAt": "2026-11-26T03:47:21.689Z",
+      "crawled": true,
+      "body": "고향사랑기부제 세액공제 연말정산 답례품 12월 31일 \n 고향사랑기부제는 2026년 귀속으로 인정받으려면 12월 31일까지 결제를 마쳐야 합니다. 이 글은 세액공제율과 기부액별 현금 부담, 답례품 고르는 기준을 표로 나눠서 봅니다. 신청만 하고 결제를 미루면 올해 공제를 받을 수 없으니, &ldquo;10만원 내면 13만원 혜택&rdquo;이라는 말만 보고 따라 하기 전에 조건부터 확인하는 게 좋습니다.\n 이 글은 2026년 기부분 기준, 행정안전부 고향사랑e음 안내와 조세특례제한법 제58조를 바탕으로 정리한 일반 정보입니다. 개인별 세금 상황은 다르고 제도와 세율은 바뀔 수 있으니, 최종 금액은 국세청 홈택스 연말정산 간소화 서비스와 고향사랑e음 공식 안내에서 확인해 주세요. 세무 조언이 아니라, 결정을 돕는 정보 정리입니다.\n 결론부터 정리하면 이렇습니다. \n&bull; 10만원까지는 사실상 전액 세액공제 에 답례품까지 더해집니다.\n&bull; 2026년부터 10만원 초과~20만원 이하 구간 공제율이 44%로 올랐습니다. 20만원을 기부하면 계산상 세액공제만 14만 4천원 수준입니다.\n&bull; 2026년 귀속으로 인정받으려면 12월 31일까지 결제를 마쳐야 합니다. 해를 넘기면 올해 공제는 사라집니다.\n 목차 \n 고향사랑기부제, 무엇인가요? \n 누가, 어디에, 얼마까지 기부할 수 있나요? \n 2026년 세액공제 구조 &mdash; 10만원, 20만원이 기준인 이유 \n 기부액별 혜택 가늠표 \n 혜택 계산기 \n 답례품 고르는 기준 5가지 \n 고향사랑e음에서 기부하는 순서 \n 12월 말 전 체크리스트 \n 흔한 실수 6가지 \n 자주 묻는 질문 Q&A \n 1. 고향사랑기부제, 무엇인가요? \n 고향사랑기부제는 개인이 주민등록상 주소지가 아닌 지방자치단체에 기부하면, 세액공제와 답례품을 함께 받는 제도 입니다. 고향이 아니어도 괜찮습니다. 주소지만 아니면, 응원하고 싶은 지역, 여행 갔다가 마음에 들었던 지역, 특산품이 탐나는 지역 어디든 고를 수 있습니다.\n 기부금은 해당 지자체의 주민 복리 증진 사업 등에 쓰인다고 안내됩니다. 기부자 입장에서는 &ldquo;세금으로 낼 돈을 지역으로 돌리고, 답례품까지 받는&rdquo; 구조라 연말에 특히 많이 찾습니다. 다만 공제는 내야 할 세금이 있을 때만 의미가 있습니다. 결정세액이 공제액보다 적으면, 남은 공제를 다음 해로 넘길 수 없습니다. 이 점이 다른 기부금 공제와 다른, 고향사랑기부제의 가장 중요한 특징입니다.\n 한 줄 정리 \n주소지가 아닌 지자체에 기부 &rarr; 세액공제 + 기부액 30% 이내 답례품 &rarr; 올해 안에 결제해야 올해 연말정산에 반영\n 2. 누가, 어디에, 얼마까지 기부할 수 있나요? \n 누가 할 수 있나요? \n 개인만 가능합니다. 법인은 할 수 없습니다. 직장인, 자영업자, 프리랜서 등 개인이라면 누구나 기부할 수 있지만, 공제를 실제로 받으려면 해당 연도에 낼 세금(결정세액)이 있어야 합니다.\n 어디에 기부할 수 있나요? \n 주민등록상 현재 주소지의 시&middot;도와 시&middot;군&middot;구는 제외 합니다. 예를 들어 서울 관악구에 살고 있다면 서울시와 관악구에는 기부할 수 없고, 그 외의 지자체 중에서 고르면 됩니다. 고향사랑e음에서 기부할 지자체를 고를 때 주소 확인 절차가 있어, 주소지이면 그 단계에서 기부 가능 여부가 막힙니다.\n 얼마까지 기부할 수 있나요? \n 1인당 연간 2,000만원이 상한 입니다. 여러 지자체에 나눠서 기부해도 합계로 따집니다. 물론 상한까지 채울 필요는 없습니다. 대부분의 직장인에게는 10만원, 혹은 20만원 선에서 가늠해보는 것이 현실적인 출발점입니다. 금액을 늘릴수록 공제율이 낮아지는 구간이 오기 때문입니다.\n 구분 \n 기준 \n 비고 \n 기부 가능 대상 \n 개인만 가능 \n 법인은 제외 \n 기부 가능 지역 \n 주민등록 주소지 제외한 모든 지자체 \n 시&middot;도와 시&middot;군&middot;구 모두 제외 \n 연간 한도 \n 1인당 2,000만원 \n 여러 지자체 합계 기준 \n 답례품 \n 기부액의 30% 이내 \n 포인트로 지급되는 경우가 많고, 유효기간 확인 필요 \n 3. 2026년 세액공제 구조 &mdash; 10만원, 20만원이 기준인 이유 \n 2026년 기부분부터 달라진 점이 있습니다. 10만원 초과~20만원 이하 구간의 공제율이 기존 16.5%에서 44%로 확대 됐습니다. 아래 비율은 지방소득세를 포함한 값입니다.\n 연간 기부액 구간 \n 세액공제율 (지방소득세 포함) \n 설명 \n 10만원까지 \n 100% \n 사실상 전액 공제 \n 10만원 초과~20만원 \n 44% \n 2026년부터 상향된 구간 \n 20만원 초과 \n 16.5% \n 초과분에 적용 \n 20만원 초과분, 특별재난지역 \n 33% \n 선포 후 일정 기간 안에 기부한 경우로, 해당 여부는 공식 안내 확인 필요 \n 중요한 것은 기부금 전체에 하나의 공제율을 적용하는 것이 아니라 구간별로 나눠서 계산 한다는 점입니다. 20만원을 기부했다고 해서 20만원 전체에 44%가 붙는 것이 아니라, 첫 10만원은 100%, 다음 10만원은 44%로 계산합니다. 그래서 20만원 기부의 계산상 세액공제액은 10만원 + 4만 4천원 = 14만 4천원 이 됩니다. 여기에 답례품 상한 6만원(기부액의 30%)을 더하면, 계산상 혜택 합계는 20만 4천원이 됩니다.\n 다만 이 계산은 산출세액이 충분하다는 가정 아래의 계산값입니다. 실제 공제액은 내 결정세액을 넘을 수 없고, 답례품을 실제로 얼마어치 받는지는 선택한 상품과 포인트 사용 여부에 따라 달라집니다. &ldquo;무조건 이득&rdquo;이라는 말은 피하고, 내 세금과 답례품 사용 계획까지 함께 보는 것이 안전합니다.\n 꼭 기억할 점 &mdash; 이월공제가 안 됩니다 \n고향사랑기부금은 남은 공제를 다음 해로 넘길 수 없습니다. 올해 낼 세금이 적어 공제를 다 못 받으면, 그 공제는 그냥 사라집니다. 그래서 &ldquo;일단 많이 내고 보자&rdquo;보다, 올해 내 세금 규모를 먼저 가늠해보는 순서가 중요합니다.\n 4. 기부액별 혜택 가늠표 \n 아래",
+      "area": "",
+      "gu": "관악구",
+      "seoul": true,
+      "keywords": [
+        "답례품"
+      ],
+      "popup": false
+    },
+    {
+      "title": "우리가 먹는 음식, 순서만 바꿔도 몸이 달라진다",
+      "desc": "달콤한 디저트를 먹는 흐름이죠. ​ 야채는 혈당지수(GI)도 혈당부하(GL)도 모두 낮아요(물론 예외적으로 당근은 GI가 80, 호박은 65 정도로 조금 높은 편이긴 해요). 반면 과일은 혈당지수는 상대적으로 높지만, 혈당부하는 낮은 편이라 식사 후반에 먹는 게 더 잘 맞아요. ​ 가끔 “과일을 마지막에 먹으면 위에서 썩는...",
+      "link": "https://jainhanyak.tistory.com/177",
+      "source": "jainhanyak",
+      "date": "2026-11-26T02:58:58.000Z",
+      "thumb": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Ftistory_admin%2Fstatic%2Fimages%2FopenGraph%2Fopengraph.png",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "crawled": true,
+      "body": "그런 점에서 혈당지수가 낮은 음식부터 높은 음식 순으로 먹는 &lsquo; 거꾸로 식사법 &rsquo;은 꽤 의미가 있어요. 생각해보면 유럽의 풀코스 요리도 이 원리와 딱 맞아요. 식사가 보통 혈당지수가 낮은 음식으로 시작해서, 점점 높은 음식으로 넘어가면서 마무리되거든요. 먼저 야채 요리로 입맛을 돋우고, 그다음 메인 요리로 고기나 생선을 즐기고, 마지막에 밥이나 달콤한 디저트를 먹는 흐름이죠. \n ​ \n 야채는 혈당지수(GI)도 혈당부하(GL)도 모두 낮아요(물론 예외적으로 당근은 GI가 80, 호박은 65 정도로 조금 높은 편이긴 해요). 반면 과일은 혈당지수는 상대적으로 높지만, 혈당부하는 낮은 편이라 식사 후반에 먹는 게 더 잘 맞아요 . \n ​ \n 가끔 &ldquo;과일을 마지막에 먹으면 위에서 썩는 거 아니냐?&rdquo; 하고 물어보는 사람들이 있는데, 그건 사실이 아니에요. 음식이 부패하려면 며칠, 길게는 몇 주가 걸리는데, 우리의 위는 pH 1~2 수준의 강한 산성 환경이라 박테리아가 거의 번식하지 못해요. 즉, 위 안에서는 어떤 음식도 썩을 수 없어요. 실제로 위와 식도는 소화관 중에서도 세균이 가장 적은 부위예요. \n ​ \n 또 &ldquo;고기나 기름진 음식과 과일을 같이 먹으면 위에서 오래 머무르면서 발효되는 거 아니냐&rdquo;라고 말하는 사람들이 있는데 이것도 사실이 아니에요. 과일은 위에서 거의 발효되지 않아요. 위산(pH 1~2)은 대부분의 미생물을 죽여요. 그래서 미생물이 당을 분해해 가스를 만드는 진짜 발효는 주로 대장에서 일어나요. 즉, 정상적인 소화 상태라면 과일이 위에서 술처럼 발효되는 일은 거의 없어요. 다만 조건에 따라 예외적으로 &lsquo;발효처럼 느껴지는 현상&rsquo;이 생길 수는 있어요. 위의 배출이 느릴 때, 즉 위무력증, 위염, 기능성 소화불량이 있을 때 기름진 음식&middot;단백질을 많이 먹은 뒤 과일을 먹으면 과일의 당(과당, 포도당)이 위에 오래 머물면서 실제 발효는 아니지만 가스&middot;더부룩함&middot;트림이 생길 수 있어요. 또 위산이 너무 약할 때, 즉 고령이거나 위산억제제(PPI)를 장기 복용 중이거나 만성 위염이 있다면 위산의 &ldquo;살균 기능&rdquo;이 떨어지면 일부 세균이 살아남아 미약한 발효 비슷한 현상이 가능하긴 해요. 그리고 소장에서의 문제를 &lsquo;위 문제&rsquo;로 착각하는 경우가 있어요. 과당 흡수 장애나 SIBO(소장 세균 과다증식)인 경우 실제 발효는 소장이나 대장에서 일어나는데 증상(가스, 팽만감)이 빨리 나타나서 &ldquo;위에서 발효된 것 같다&rdquo;고 느끼는 거예요. \n ​ \n 결국 &lsquo;채소과일식&rsquo;, 즉 채소로 시작해서 과일로 마무리하는 식사 순서가 혈당 조절에도 좋고, 소화 부담도 가장 적은 방법 이라고 할 수 있어요. \n 채소나 과일은 공복에 먹거나 간식으로 먹어도 정말 좋아요. 왜냐하면 채소와 과일에는 항산화물질이 아주 풍부한데, 그 이유가 바로 &lsquo;광합성&rsquo; 때문이에요. 식물은 햇빛을 받아 에너지를 만들죠. 그런데 그 과정에서 자외선까지 함께 받다 보니 활성산소가 많이 생겨요. 식물 입장에선 이 활성산소가 큰 스트레스예요. 그래서 스스로를 지키려고 항산화물질을 만들어내는 거예요. 이런 이유로 채소와 과일의 항산화물질은 대부분 햇빛을 직접 받는 껍질 부분에 가장 많이 들어 있어요. 그래서 가능하면 껍질째 먹는 게 좋아요 . 껍질을 벗기면 중요한 영양소도 같이 버리는 셈이니까요. \n ​ \n 채소나 과일을 자주 먹으라고 하는 이유는 간단해요. 요즘 우리는 채소와 과일은 예전보다 훨씬 적게 먹으면서, 반대로 정제당&middot;정제 탄수화물은 지나치게 많이 먹고 있기 때문이에요. \n ​ \n 정제당이나 정제 탄수화물을 많이 먹으면 혈당이 확 올라가는 &lsquo; 혈당 스파이크 &rsquo;가 생겨요. 혈당이 갑자기 치솟으면, 췌장은 인슐린을 급하게 분비해서 혈당을 낮추려고 하죠. 그런데 인슐린이 급하게 분비될수록 필요 이상으로 과하게 분비되기가 쉬워요. 인슐린이 과하게 나오면 혈당이 정상 이하로 떨어지면서 반동성 저혈당이 생기고, 혈당이 급강하한 만큼 배고픔이 심하게 올라와요. 그래서 급하게 단 걸 찾게 되면서 과식하고, 또 혈당이 치솟고, 인슐린이 과하게 분비되고... \n 혈당 스파이크 &rarr; 인슐린 스파이크 &rarr; 저혈당 &rarr; 식욕폭증 &rarr; 과식 \n 이 악순환이 계속되는 거예요. 이 과정이 반복되면 결국 인슐린 저항성이 생기고, 그게 바로 당뇨병과 비만의 시작이에요. \n ​ \n 이 악순환을 끊으려면 우선 혈당을 급격히 올리는 정제당이나 정제 탄수화물을 줄여야 해요. 그리고 저혈당이 왔을 때는 설탕처럼 단순당을 먹기보다는 섬유질&middot;수분&middot;단백질&middot;지방이 들어 있는 음식을 먹는 게 좋아요. 그래야 혈당이 완만하게 천천히 올라가고, 안정적으로 유지되는 &lsquo; 포도당 항상성 &rsquo;이 이뤄지거든요. \n ​ \n 결국 음식의 목적은 단순히 배를 채우는 게 아니라, 몸에 필요한 영양소를 균형 있게 공급하는 것이에요. 영양소를 충분히 먹는 건 좋지만, 과하면 결국 독이 돼요. 내 식습관을 돌아봤을 때 한쪽으로 치우쳐 있다면 &lsquo; 균형 &rsquo;을 잡는 게 정말 중요해요. \n ​ \n 그러므로 좋은 음식과 나쁜 음식을 구별해서, 균형 있게 먹는 것 &mdash;이게 건강을 지키고 노화를 늦추는 가장 확실한 방법이에요. \n 자인한약국 서울 강남구 선릉로 313",
+      "area": "",
+      "gu": "강남구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "서울 5성급 호텔 딸기 뷔페 가격 비교 및 예약 오픈일: 반얀트리·인터컨티넨탈·롯데호텔 라인업",
+      "desc": "파르나스 11월 20일 예정 125,000원 세이버리 메뉴 강화 롯데호텔 서울 (페닌슐라) 12월 1일 예정 115,000원 가성비 및 폭포 뷰 명당 JW 메리어트 동대문 11월...바로 확인하기 호텔별 시그니처 메뉴 및 카드 할인 혜택 활용법 단순히 딸기 디저트만 제공하는 시대는 지났습니다. 최근 트렌드는 식사 대용으로 가능한...",
+      "link": "https://trend.smile-infoshare.com/45",
+      "source": "트렌드 이슈 노트",
+      "date": "2026-11-26T02:47:02.000Z",
+      "thumb": "https://search2.kakaocdn.net/argon/130x130_85_c/5oOTmt3daNb",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "crawled": true,
+      "body": "",
+      "area": "",
+      "gu": "",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "딤섬의 모든 것! 종류와 유래부터 서울 맛집, 홍콩 현지 유명 딤섬집까지",
+      "desc": "페이스트리 안에 달걀과 우유, 설탕 등을 섞은 커스터드 크림을 넣어 구운 디저트입니다. 홍콩식 에그타르트는 바삭한 페이스트리 타입과 쿠키처럼 부드러운...하는 식당이 늘어나면서 다양한 종류의 딤섬을 맛볼 수 있게 되었습니다. 서울을 중심으로 대표적인 식당을 소개합니다. ​ ① 딤딤섬(Dim Dim Sum) ​ 홍콩식...",
+      "link": "https://biteatlas.tistory.com/19",
+      "source": "Bite Atlas 님의 블로그",
+      "date": "2026-11-26T02:32:17.000Z",
+      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/BNgYlWvcoU5",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "crawled": true,
+      "body": "안녕하세요! \n 오늘은 작지만 다채로운 맛으로 세계인의 입맛을 사로잡은 홍콩의 대표 음식, 딤섬(Dim Sum) 이야기를 준비했습니다. \n ​ \n 얇고 투명한 만두피 속에 탱글탱글한 새우가 들어간 하가우, 돼지고기와 새우를 넣어 쪄낸 샤오마이, 달콤한 소가 들어 있는 차슈바오까지! \n ​ \n 딤섬은 한입 크기의 음식 안에 다양한 재료와 조리 기술, 오랜 식문화가 담겨 있는 요리입니다. \n ​ \n 이번 글에서는 딤섬의 유래와 대표적인 종류를 알아보고, 우리나라에서 딤섬으로 유명한 맛집과 딤섬의 본고장 홍콩에서 꼭 한 번 방문해 볼 만한 식당까지 소개하겠습니다. \n 1. 딤섬이란? 이름과 유래 \n ​ \n 딤섬은 중국어로 點心(점심), 광둥어 발음으로는 'Dim Sum'이라고 합니다. \n ​ \n 글자 그대로 해석하면 '마음에 점을 찍다' 또는 '마음을 살짝 건드리다'라는 의미를 가지고 있습니다. 식사 사이에 가볍게 즐기는 작은 음식이라는 의미로도 이해할 수 있습니다. \n 딤섬의 역사는 중국 남부 광둥 지역의 차 문화와 깊은 관계가 있습니다. \n ​ \n 과거 중국에서는 차를 마시며 간단한 음식을 곁들이는 풍습이 발달했습니다. 특히 광둥 지역에서는 차를 마시는 행위를 '얌차(Yum Cha)'라고 부르며, 차와 함께 여러 종류의 작은 음식을 나누어 먹는 문화가 자리 잡았습니다. \n ​ \n 전통적인 얌차 문화에는 '일잔양건(一盅兩件)'이라는 표현도 있습니다. 차 한 주전자와 딤섬 두 가지를 곁들인다는 뜻으로, 소박한 차 한 끼에서 출발한 식문화의 모습을 보여줍니다. \n 이후 딤섬은 다양한 재료와 조리법을 활용하는 정교한 요리로 발전했고, 오늘날에는 홍콩을 대표하는 음식 문화 중 하나로 자리 잡았습니다. \n 딤섬과 얌차의 차이 \n 딤섬: 하가우, 샤오마이, 바오 등 작은 음식 자체를 의미합니다. \n 얌차: 차를 마시며 딤섬을 함께 즐기는 식사 문화입니다. \n 즉, 딤섬은 음식이고 얌차는 그 음식을 즐기는 문화라고 이해하면 쉽습니다. \n 2. 딤섬의 대표적인 종류 \n ​ \n 딤섬은 재료와 모양뿐 아니라 찌거나 튀기고, 굽거나 쌀가루로 만드는 등 조리법도 매우 다양합니다. 대표적인 딤섬을 살펴보겠습니다. \n ​ \n ① 하가우(蝦餃, Har Gow) \n ​ \n 하가우는 딤섬을 대표하는 새우만두입니다. \n 얇고 반투명한 전분 반죽 안에 통통한 새우를 넣어 쪄내는 음식으로, 속이 살짝 비칠 정도로 얇은 만두피가 특징입니다. \n 잘 만든 하가우는 만두피가 지나치게 두껍지 않으면서도 쉽게 찢어지지 않고, 새우의 탱글탱글한 식감과 감칠맛을 느낄 수 있습니다. \n 딤섬을 처음 접한다면 가장 먼저 주문해 볼 만한 메뉴입니다. \n ​ \n ② 샤오마이(燒賣, Siu Mai) \n ​ \n 샤오마이는 돼지고기와 새우 등을 다져 넣고 얇은 만두피로 감싸 쪄낸 딤섬입니다. \n 윗부분을 완전히 덮지 않고 속이 보이도록 만든 모양이 특징입니다. 지역과 식당에 따라 돼지고기, 새우, 버섯 등의 재료와 고명이 달라집니다. \n 한입 베어 물면 육즙과 재료의 풍미가 어우러져 부담 없이 즐기기 좋습니다. \n ​ \n ③ 차슈바오(叉燒包, Char Siu Bao) \n ​ \n 차슈바오는 달콤하고 짭짤하게 양념한 중국식 바비큐 돼지고기인 차슈를 넣은 찐빵입니다. \n 폭신하고 부드러운 빵 안에 달콤한 돼지고기 소가 들어 있어 남녀노소 누구나 좋아할 만한 메뉴입니다. \n 홍콩에서는 찐 차슈바오뿐 아니라 겉면을 바삭하게 구운 베이크드 차슈바오도 인기가 많습니다. \n ​ \n ④ 샤오롱바오(小籠包, Xiao Long Bao) \n ​ \n 샤오롱바오는 얇은 만두피 안에 고기소와 뜨거운 육즙을 넣어 찐 만두입니다. \n 일반 만두와 달리 안에 뜨거운 국물이 들어 있기 때문에 먹을 때 주의해야 합니다. \n 숟가락에 올려 만두피를 살짝 터뜨린 다음 육즙을 먼저 맛보고 먹으면 좋습니다. \n 참고로 샤오롱바오는 상하이&middot;장쑤 지역과 관련이 깊은 음식으로, 광둥식 딤섬과는 지역적 배경이 다릅니다. 오늘날에는 넓은 의미의 중국식 딤섬 메뉴로 함께 소개되곤 합니다. \n ​ \n ⑤ 창펀(腸粉, Cheung Fun) \n ​ \n 창펀은 쌀가루 반죽을 얇게 쪄서 만든 뒤 돌돌 말아내는 음식입니다. \n 새우, 소고기, 돼지고기 등을 넣기도 하며, 간장 베이스의 소스를 곁들여 먹습니다. \n 부드럽고 매끄러운 식감이 특징이며, 홍콩의 아침 식사나 얌차 메뉴로도 사랑받고 있습니다. \n ​ \n ⑥ 로박고(蘿蔔糕, Turnip Cake) \n ​ \n 로박고는 무를 잘게 썰어 쌀가루와 함께 반죽한 뒤 쪄서 만든 음식입니다. \n 먹기 직전에 팬에 노릇하게 구워 내는 경우가 많습니다. \n 겉은 바삭하고 속은 부드러우며, 말린 새우나 중국식 소시지 등을 넣어 감칠맛을 더하기도 합니다. \n ​ \n ⑦ 펑자오(鳳爪, Chicken Feet) \n ​ \n 닭발을 간장, 두반장, 마늘 등의 양념으로 조리한 광둥식 딤섬입니다. \n 부드럽게 익힌 닭발에 진한 양념이 배어 있어 홍콩 현지에서 즐겨 먹는 메뉴 중 하나입니다. \n 우리나라에서는 닭발을 주로 매콤하게 조리하지만, 홍콩식 펑자오는 짭짤하고 감칠맛이 강한 양념이 특징입니다. \n ​ \n ⑧ 에그타르트(Egg Tart) \n ​ \n 에그타르트는 바삭한 페이스트리 안에 달걀과 우유, 설탕 등을 섞은 커스터드 크림을 넣어 구운 디저트입니다. \n 홍콩식 에그타르트는 바삭한 페이스트리 타입과 쿠키처럼 부드러운 타르트 타입 등 여러 형태가 있습니다. \n 따뜻할 때 먹으면 달걀의 고소함과 부드러운 크림의 풍미를 더욱 잘 느낄 수 있습니다. \n 3. 우리나라에서 유명한 딤섬 맛집 \n ​ \n 최근에는 우리나라에서도 홍콩식 딤섬을 전문으로 하는 식당이 늘어나면서 다양한 종류의 딤섬을 맛볼 수 있게 되었습니다. \n 서울을 중심으로 대표적인 식당을 소개합니다. \n ​ \n ① 딤딤섬(Dim Dim Sum) \n ​ \n 홍콩식 딤섬을 국내에서 즐기고 싶을 때 떠올릴 만한 브랜드입니다. \n 다양한 찜 딤섬과 튀김 딤섬, 중국식 면 요리 등을 함께 맛볼 수 있습니다. \n 대표 메뉴로는 하가우, 샤오마이, 차슈바오 등이 있습니다. \n 홍콩식 딤섬을 처음 경험하는 사람",
+      "area": "",
+      "gu": "",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "반려견 놀이터 간식 반입 규칙, 원주 멍꿈자람과 서울어린이대공원 비교",
+      "desc": "반려견 놀이터에 갈 때 보상용 간식 주머니부터 챙기는 분이 많지만, 서울어린이대공원 반려견 놀이터에는 간식도 사료도 들고 들어갈 수 없습니다. 원주에서는 11월 24일 원주천 산책로에 새 놀이터가 문을 열었고, 이곳은 동물등록과 현장 명부 작성이 필수예요. 어느 지역 놀이터에 가는지, 우리 개가 대형견인지...",
+      "link": "https://mynote52319.tistory.com/105",
+      "source": "유가반려",
+      "date": "2026-11-26T02:30:18.000Z",
+      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/ExpzhHl75AV",
+      "type": "blog",
+      "query": "서울 간식",
+      "collectedAt": "2026-11-26T03:48:14.149Z",
+      "crawled": true,
+      "body": "반려견 놀이터에 갈 때 보상용 간식 주머니부터 챙기는 분이 많지만, 서울어린이대공원 반려견 놀이터에는 간식도 사료도 들고 들어갈 수 없습니다. 원주에서는 11월 24일 원주천 산책로에 새 놀이터가 문을 열었고, 이곳은 동물등록과 현장 명부 작성이 필수예요. 어느 지역 놀이터에 가는지, 우리 개가 대형견인지 소형견인지에 따라 미리 확인해야 할 수칙이 조금씩 다릅니다.\n 원주천 산책로에 새로 생긴 '멍꿈자람' 이용법 \n 원주시는 우산동 405-3번지 원주천 산책로 일대에 조성한 반려견 놀이터 '멍꿈자람'을 24일부터 운영합니다. 전체 면적은 2,039㎡ 규모로 꽤 넓은 편이에요. 안전 펜스와 이중 출입문을 설치해 반려견이 자유롭게 뛰어놀 수 있도록 만들었습니다.\n 원주시에는 이미 반려견 놀이터가 두 곳 더 운영되고 있습니다. 이번에 문을 연 멍꿈자람이 기존 시설과 다른 점은 관리 인력이 현장에 상주한다는 것이에요. 저라면 시설 이용이 낯설 때 현장 관리자에게 먼저 주의사항을 물어보고 입장하겠어요.\n 입장하려면 동물등록이 되어 있어야 하고 현장에서 명부도 작성해야 합니다. 등록 여부를 어떻게 확인하는지는 보도에 나오지 않았으니, 외장 칩이나 등록증을 미리 챙기는 편이 안전합니다. 쉬는 날도 기억해 두세요. 멍꿈자람은 매주 월요일에 문을 닫습니다. 주말에 사람이 몰릴 것 같아 월요일에 가려 했다면 일정을 화요일 이후로 조정해야 헛걸음을 하지 않습니다.\n 대형견과 소형견 공간 분리 여부 확인 \n 몸집 차이가 큰 개들이 한 공간에서 뛰다 보면 의도치 않은 사고가 생길 수 있습니다. 작은 개를 키우는 분은 큰 개가 다가오는 것만으로도 불안할 수 있고, 대형견 보호자는 자기 개가 실수할까 봐 긴장하게 됩니다. 멍꿈자람은 중&middot;소형견 공간과 대형견 공간을 따로 나누어 두었습니다.\n 우리 개가 어느 쪽 공간에 들어가야 하는지 기준이 모호하다면 현장 관리 인력의 안내를 받으면 됩니다. 다른 지역의 사설 운동장이나 공공 놀이터는 공간 분리 기준이 시설마다 다를 수 있어요. 대형견과 함께 생활한다면 방문하려는 곳이 대형견 입장을 허용하는지, 전용 공간이 따로 있는지부터 공식 채널을 통해 확인하는 과정이 필요합니다.\n 서울어린이대공원 놀이터의 엄격한 음식물 제한 \n 서울어린이대공원 반려견 놀이터를 방문할 계획이라면 가방 안을 비워야 합니다. 이곳은 반려견 간식이나 사료를 일절 가져갈 수 없기 때문이에요. 보호자가 먹을 음식도 반입 금지 대상입니다. 다만 음료는 예외입니다.\n 이런 규칙은 단순히 공원 자체의 방침이 아니라 '서울특별시 반려견 놀이터 설치&middot;운영 기준'에 근거하고 있습니다. 사람 음식과 반려견 사료에 관한 반입 제한 내용이 이 기준에 담겨 있어요. 평소 간식으로 개를 부르거나 통제해 온 보호자라면 놀이터 안에서는 그 방법을 쓸 수 없다는 점을 미리 계산하고 움직여야 합니다.\n 서울의 다른 반려견 놀이터들도 이 기준을 똑같이 적용하는지까지는 보도에 명시되지 않았습니다. 가려는 곳의 세부 수칙을 서울시 공식 채널이나 해당 공원 관리소에서 한 번 더 보고 가는 게 확실합니다.\n 방문 전 체크리스트 \n 동물등록 여부 확인 (멍꿈자람 필수) \n 가려는 날이 휴장일인지 확인 (멍꿈자람 월요일 휴무) \n 중&middot;소형견과 대형견 공간이 나뉘어 있는지 보기 \n 간식, 사료, 사람 음식은 두고 음료만 챙기기 (서울어린이대공원 기준) \n 도착 후 현장 명부 작성 절차 지키기 \n 운영 시간과 구체적인 입장 기준은 지자체 공식 채널에서 최종 확인하기 \n 한눈에 정리 \n 구분 \n 원주천 멍꿈자람 \n 서울어린이대공원 반려견 놀이터 \n 위치 \n 원주시 우산동 405-3번지 일대 \n 서울어린이대공원 내 \n 면적 \n 2,039㎡ \n 보도 내용 없음 \n 특징 \n 관리 인력 상주, 이중 출입문 \n 서울시 설치&middot;운영 기준 적용 \n 입장 조건 \n 동물등록 필수, 현장 명부 작성 \n 보도 내용 없음 (공식 확인 권장) \n 음식 반입 \n 보도 내용 없음 \n 간식&middot;사료&middot;음식 금지 (음료 가능) \n 공간 분리 \n 중&middot;소형견 / 대형견 분리 운영 \n 보도 내용 없음 \n 휴장일 \n 매주 월요일 \n 보도 내용 없음 \n 자주 묻는 질문 \n Q. 동물등록을 안 했는데 멍꿈자람에 들어갈 수 있나요? \n A. 보도에 따르면 방문 시 동물등록이 되어 있어야 하며 현장에서 명부를 작성해야 합니다. 등록 확인 방식은 원주시 공식 채널에 문의하는 것이 정확합니다.\n Q. 원주 멍꿈자람의 운영 시간은 어떻게 되나요? \n A. 개장일과 월요일 휴장 사실은 확인되지만 구체적인 운영 시간은 보도에 나오지 않았습니다. 원주시청 홈페이지나 관련 부서를 통해 확인하고 방문하세요.\n Q. 서울어린이대공원 놀이터에서 강아지 물은 줄 수 있나요? \n A. 보도에 따르면 음식 반입 금지에서 음료는 예외입니다. 반려견용 물을 챙겨도 되는지는 공원 관리소에 한 번 확인해 보세요. 다만 간식과 사료는 금지됩니다.\n Q. 멍꿈자람에 대형견도 갈 수 있나요? \n A. 네, 대형견 공간이 중&middot;소형견 공간과 분리되어 조성되어 있어 입장이 가능합니다.\n Q. 원주에 멍꿈자람 말고 다른 놀이터도 있나요? \n A. 기존에 원주시에서 운영하던 반려견 놀이터가 두 곳 더 있습니다. 멍꿈자람은 관리 인력이 상주한다는 점이 기존 시설과 다릅니다.\n 출처: 원주시 발표(강원일보&middot;비건뉴스 보도), 서울특별시 반려견 놀이터 설치&middot;운영 기준(비건뉴스 보도)\n 사진: Photo by Enchanted Insider on Unsplash / Photo by Ayla Verschueren on Unsplash / Photo by Stefan Szankowski on Unsplash / Photo by Ayla Verschueren on Unsplash / Photo by Anthony Maw on Unsplash / Photo by Ayla Verschueren on Unsplash",
+      "area": "",
+      "gu": "",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "잠실 소피텔 스시우미 디너 오마카세 방문기 | 특별한 날 다녀오기 좋은 곳 🍣",
+      "desc": "가성비 스시 오마카세 풍성한 츠마미부터 알찬 니기리, 상큼한 샤베트 디저트까지 만끽한 디너 코스 잠실 소피텔 앰배서더 지하 1층에 있는 스시우미 잠실점에서...코스가 생각보다 풍성해서 천천히 즐기기 좋았음. 📍 위치: 서울 송파구 잠실로 209 KT송파타워(소피텔) 지하 1층 🚇 교통: 2·8호선 잠실역 10번 출구...",
+      "link": "https://daddy-economy.tistory.com/16",
+      "source": "초보아빠의 경제 한 스푼",
+      "date": "2026-11-26T02:16:27.000Z",
+      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/3dtuQsZfKca",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "crawled": true,
+      "body": "잠실 소피텔 앰배서더 지하 1층에 자리한 가성비 스시 오마카세\n 풍성한 츠마미부터 알찬 니기리, 상큼한 샤베트 디저트까지 만끽한 디너 코스\n 잠실 소피텔 앰배서더 지하 1층에 있는 스시우미 잠실점에서 디너 오마카세를 즐겼어요.\n 츠마미부터 니기리, 시그니처와 디저트까지 이어지는 코스가 생각보다 풍성해서 천천히 즐기기 좋았음.\n 📍 위치: 서울 송파구 잠실로 209 KT송파타워(소피텔) 지하 1층\n 🚇 교통: 2&middot;8호선 잠실역 10번 출구 도보 3~5분\n ⏰ 영업시간: 매일 12:00 ~ 22:00 (브레이크타임 15:00~18:00)\n 🍣 메뉴: 디너 오마카세\n 🅿️ 주차: 건물 내 주차 지원 가능\n 코스는 먼저 츠마미와 사시미로 가볍게 시작해요. 차가운 한입부터 바삭한 메뉴까지 이어져서 입맛이 차근차근 살아났음.\n 차가운 흰살 생선 사시미를 산뜻한 소스와 함께 담아낸 첫 접시예요. 부드러운 식감과 새콤한 맛으로 입맛이 깔끔하게 열렸음.\n 잘게 다진 생선 츠마미도 작은 그릇에 나왔어요. 한입마다 감칠맛이 올라오고 사시미와는 또 다른 식감이라 재미있었어요.\n 간장빛 양념에 담긴 생선 한 점은 츠마미 사이에서 차분한 감칠맛을 더해줬어요. 짭조름한 맛이 과하지 않아 좋았음.\n 작은 그릇에 담긴 해산물 츠마미는 진한 소스와 쫄깃한 식감이 포인트예요. 한입으로 코스의 맛을 또 바꿔주더라고요.\n 바삭하게 튀겨 낸 츠마미도 이어졌어요. 고소한 튀김옷 덕분에 사시미 뒤에 먹기 좋았고, 한 점 더 생각났음.\n 츠마미를 즐기고 나면 이제 스시 니기리 차례예요. 한 점씩 재료와 식감이 달라서 다음 접시가 기다려졌어요.\n 붉은빛이 도는 생선 니기리부터 시작했어요. 생선 결이 살아 있고 샤리와 함께 씹을수록 담백한 맛이 올라왔어요.\n 은빛 껍질과 분홍빛 살이 한눈에 들어오는 니기리예요. 기름기가 은근히 올라와 입안에 고소한 여운이 남았음.\n 초록색 곁들임을 올린 흰살 생선 니기리는 담백하고 산뜻했어요. 앞 접시의 진한 맛을 가볍게 정리해주는 한 점.\n 선명한 붉은 참치 니기리는 살의 촉촉함이 잘 느껴졌어요. 심플한 구성일수록 재료 맛이 또렷해서 좋더라고요.\n 성게알 군함은 크리미한 질감과 바다 향이 한 번에 퍼져요. 김의 고소함까지 더해져 기억에 남는 한입이었음.\n 결이 고운 기름진 참치 니기리는 입에 넣자마자 부드럽게 풀렸어요. 샤리와 만나니 진한 맛도 부담스럽지 않았어요.\n 연어알 군함은 톡톡 터지는 식감이 매력적이에요. 짭짤한 감칠맛이 살아 있어 코스 중간에 딱 기분 좋은 포인트였음.\n 투명한 살결 사이로 분홍빛이 비치는 생선 니기리예요. 촉촉하고 깔끔한 맛이라 다음 한 점으로 자연스럽게 이어졌어요.\n 소스를 곁들인 작은 니기리 두 점도 나왔어요. 달큰한 풍미와 부드러운 살이 잘 어울려 한입씩 천천히 즐겼음.\n 껍질을 노릇하게 구운 생선 니기리는 고소한 향이 먼저 올라와요. 겉의 바삭한 부분과 부드러운 살의 대비가 좋았어요.\n 분홍빛 생선을 도톰하게 올린 니기리예요. 살의 촉촉함과 은은한 기름기가 어우러져 든든한 한 점이었음.\n 니기리 끝에는 달큰하고 폭신한 계란구이가 나왔어요. 생선의 여운을 부드럽게 이어주며 스시 코스를 마무리해줬음.\n 니기리 뒤에는 스시우미의 시그니처가 이어져요. 구이의 고소함과 고등어 봉초밥의 묵직한 감칠맛이 코스의 중심을 잡아줬음.\n 시그니처 생선 구이는 겉면이 노릇하고 속은 촉촉해요. 곁들인 초록 소스까지 더하니 겉바속촉이라는 말이 딱 맞았어요.\n 고등어 봉초밥은 고등어의 진한 풍미와 밥의 담백함이 잘 맞았어요. 단면에서도 넉넉하게 말아낸 구성이 보여 만족스러웠음.\n 가까이서 본 고등어 봉초밥은 살짝 그을린 표면이 특히 먹음직스러워요. 기름진 고등어와 샤리가 어우러져 시그니처다운 존재감이 있었어요.\n 이제 디저트로 코스를 산뜻하게 마무리해요.\n 마지막은 상큼한 배 샤베트예요. 차갑고 산뜻하게 입안을 정리해줘서 긴 디너 코스를 기분 좋게 마무리했음.\n 츠마미가 풍성하고 니기리도 알차게 이어져 만족스러운 저녁이었어요. 고등어 봉초밥과 겉바속촉 생선 구이는 특히 기억에 남았음.\n 코스 구성을 한눈에 정리하면 이래요.\n 구분상세 내용\n 방문 매장 \n 스시우미 잠실점 (KT송파타워 B1) \n 추천 코스 \n 디너 오마카세 (풍성한 츠마미 + 니기리) \n 시그니처 \n 겉바속촉 생선 구이, 고등어 봉초밥 \n 디저트 \n 상큼하고 깔끔한 수제 배 샤베트",
+      "area": "",
+      "gu": "송파구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "사무실 탕비실 회사간식 추천｜강남구 00관리연구소가 주문한 데일리바이비 과자 12종",
+      "desc": "좋아하는 과자가 달라 고민이 되는데요. 커피와 함께 먹을 달콤한 간식도 필요하고, 오후에 출출할 때는 짭짤한 과자가 더 당기는 분도 있으니까요. 이번에 서울 강남구 00관리연구소에서 직원들이 사무실 탕비실에서 함께 드실 간식으로 데일리바이비 과자 12종 세트를 주문해 주셨어요. 초코 디저트, 쿠키, 샌드, 감자...",
+      "link": "https://bagbybaek.tistory.com/157",
+      "source": "데일리바이비 님의 블로그",
+      "date": "2026-11-26T02:13:06.000Z",
+      "thumb": "https://search2.kakaocdn.net/argon/130x130_85_c/JbJr1C3rC0Y",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "crawled": true,
+      "body": "",
+      "area": "",
+      "gu": "강남구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "[연말 식탁] 접시를 더 사지 않아도 됩니다 — 1인 60cm·3접시·30cm 기준",
+      "desc": "Weather 서울 예보, 11월 26일 오전 조회). 5주 뒤면 12월 31일이고, 그 전에 집으로 사람을 부르는 날이 한두 번은 생깁니다. 작년 12월, 네 명을 초대하고 접시를 여섯 장 새로 샀습니다. 그런데 상에 올리고 나니 오히려 더 어수선했습니다. 접시는 넘쳤고, 손님들은 팔꿈치를 붙이고 앉았고, 가운데 꽃병 때문에...",
+      "link": "https://arveno.tistory.com/16",
+      "source": "ARVENO",
+      "date": "2026-11-26T02:12:35.000Z",
+      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/5GMtDlcWaYL",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "crawled": true,
+      "body": "연말 손님을 부르기 전에 접시부터 사는 집이 많습니다. 그런데 상이 답답해 보이는 이유는 접시가 모자라서가 아니라, 접시 사이의 간격이 없어서인 경우가 더 많습니다. 이번 겨울에 저는 새 그릇을 한 장도 사지 않고 작년의 상을 다시 차려 봤어요.\n 오늘(26일) 서울은 아침 5℃로 시작해 낮 15℃까지 오르고, 해는 17시 15분에 집니다. 그런데 모레(28일) 아침은 0℃로 뚝 떨어지는 예보예요(출처: Apple Weather 서울 예보, 11월 26일 오전 조회). 5주 뒤면 12월 31일이고, 그 전에 집으로 사람을 부르는 날이 한두 번은 생깁니다.\n 작년 12월, 네 명을 초대하고 접시를 여섯 장 새로 샀습니다. 그런데 상에 올리고 나니 오히려 더 어수선했습니다. 접시는 넘쳤고, 손님들은 팔꿈치를 붙이고 앉았고, 가운데 꽃병 때문에 마주 앉은 사람 얼굴이 가려졌어요.\n 그때 배운 건 하나입니다. 연말 상차림은 '무엇을 더 놓을까'가 아니라 '무엇을 빼고 얼마씩 띄울까'의 문제라는 것. 오늘은 그때 다시 정리한 세 가지 숫자와, 실제로 상을 차리는 순서를 적어 보려 합니다.\n 1. 손님이 네 명이면, 먼저 재는 건 접시가 아니라 식탁입니다\n 성인 한 사람이 팔을 움직이며 먹으려면 폭 60cm가 최소입니다. 여유 있게 먹고 싶다면 70cm, 접시와 잔을 함께 놓고 이야기까지 하려면 80cm가 편해요. 4인용 식탁의 긴 변이 120~140cm라면 한 사람당 60cm 안팎이 나오는 셈입니다.\n 이 숫자를 먼저 재면 초대 인원이 정해집니다. 120cm 식탁에 네 명은 앉지만, 다섯 명이 되면 한 사람은 모서리를 쓰게 되고 그 자리만 유독 불편해집니다. 저는 이번에 네 명으로 정하고, 대신 접시를 줄이는 쪽을 택했어요.\n 식탁이 짧다면 식탁을 늘리는 것보다 한 명을 줄이는 편이 낫습니다. 좁은 상에 많이 앉히면 음식은 남고 대화는 줄어들더라고요.\n 2. 접시는 세 개면 충분합니다\n 집에서 손님을 맞을 때 실제로 필요한 접시는 세 종류입니다. 앞접시(지름 20cm 이하), 메인 접시(25cm 안팎), 그리고 작은 볼 하나. 이 세 개면 전채부터 디저트까지 한 끼가 끝납니다. 중요한 건 개수가 아니라 통일이라서, 같은 흰 접시 세트로 맞추면 세 개여도 정돈돼 보이고 모양이 제각각이면 여섯 개를 놓아도 어수선해요.\n 국물 요리는 작은 볼에 따로 담아 메인 접시 위에 올립니다. 이렇게 하면 접시를 두 개 더 꺼낼 필요가 없고, 상 위에 놓이는 그릇 수가 눈에 띄게 줄어요. 설거지도 그만큼 줄어듭니다.\n 3. 촛대와 꽃은 눈높이 아래로\n 센터피스는 테이블 위로 30cm를 넘기지 않는 게 좋습니다. 다이닝 테이블 스타일링에서 흔히 쓰는 기준인데, 이 높이를 넘으면 앉은 사람의 시선이 가운데에 걸려 마주 앉은 얼굴이 가려지기 시작해요. 꽃을 크게 하고 싶다면 식탁이 아니라 사이드 테이블로 옮기는 편이 낫습니다.\n 촛대도 같은 이유로 낮은 것을 씁니다. 긴 촛대는 분위기는 있지만 불꽃이 눈높이에 오면 대화 중에 시선이 자꾸 그쪽으로 갑니다. 저는 높이 10cm 안쪽의 유리 홀더 두 개를 가운데에 나란히 두고, 그 옆에 작은 화병 하나만 놓아요. 그릇을 다 놓은 뒤 가운데 자리에 앉아 눈을 맞춰 보면 바로 알 수 있습니다. 손님 얼굴이 가려지면 그 물건은 높은 것입니다.\n 4. 따뜻한 음식이 식지 않는 순서\n 겨울 상은 차리는 순서에서 갈립니다. 저는 국이나 찌개를 냄비째 올리고, 뚜껑을 덮은 채로 마지막에 엽니다. 접시에 미리 담아 두면 대화가 시작되는 10분 사이에 이미 미지근해져요. 그릇과 수저를 먼저 놓고, 상온 음식(김치&middot;샐러드&middot;전)을 올린 뒤, 손님이 초인종을 누르면 그때 밥과 국을 가져옵니다.\n 접시를 미리 데워 두는 것도 간단합니다. 빈 접시를 오븐에 60~70℃로 5분만 넣어 두거나, 뜨거운 물을 부었다 비우면 됩니다. 다만 데운 접시는 뜨거우니 행주로 받쳐야 해요.\n 5. 한 번 차려 보고 남은 것\n 좋았던 건 준비 시간이 줄었다는 점입니다. 예전에는 상을 차리는 데 한 시간 넘게 걸렸는데, 이번에는 25분이면 끝났습니다. 그릇을 꺼내는 횟수가 줄어서, 손님이 오기 전에 앉아 있을 여유가 생겼어요. 솔직히 아쉬운 점도 있습니다. 접시를 세 개로 줄이니 코스 요리를 대접하기는 어렵고, 낮은 촛대는 불빛이 약해서 저녁 늦게까지 이야기할 때는 결국 스탠드 조명을 하나 더 켜게 되더라고요.\n 이번 연말에 제가 지키는 기준을 정리하면 이렇습니다. &middot; 자리: 4인 식탁에 5~6명 대신 1인 60cm로 인원을 먼저 정하기 &middot; 접시: 새 접시 6장 대신 앞접시&middot;메인&middot;작은 볼 3종, 개수보다 통일 &middot; 센터피스: 큰 꽃병&middot;긴 촛대 대신 높이 30cm 이하의 낮은 홀더 2개 &middot; 음식: 접시에 미리 담는 대신 냄비째 올리고 뚜껑은 마지막에\n 연말 상은 많이 차릴수록 좋아 보이지 않습니다. 간격을 조금 띄우고, 접시를 세 개로 맞추고, 가운데를 낮추는 것만으로 같은 식탁이 훨씬 여유 있어 보입니다. 이번 주말 장보기 전에 식탁부터 한 번 재 보셔도 좋겠어요.",
+      "area": "",
+      "gu": "",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "호빵 편의점 매출 44% 급증, 발효미종과 이색 호빵 열풍",
+      "desc": "함께 보면 좋은 글 붕어빵의 매력, 겨울 서민 간식에서 글로벌 K-디저트까지 용어 정리 숏폼 보통 1분 안팎의 짧은 길이로 제작해 스마트폰으로 가볍게 즐기는...삼립, 호빵 식감부터 맛까지 바꿨다…편의점 매출 44% '쑥' [연말 히든템] 서울신문 - 삼립, 갓 쪄낸 듯 쫄깃… ‘발효미종’ 호빵 신기술 통했다 S저널...",
+      "link": "https://cerulean85.tistory.com/683",
+      "source": "스퀴즈덤",
+      "date": "2026-11-26T02:12:30.000Z",
+      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/LyBkLvlwUXP",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "crawled": true,
+      "body": "",
+      "area": "",
+      "gu": "",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "안동시 고향사랑기부제 답례품 이벤트 총정리 (2026)",
+      "desc": "모아 주민 복리에 쓰고 기부자에게는 세액공제와 답례품을 주는 제도입니다. 지방 재정을 늘리고, 답례품으로 지역 특산품 소비까지 살리는 효과가 있습니다...들어 안동시 주민은 안동시와 경상북도에는 기부할 수 없지만, 서울·부산·경기 등 다른 지역 주민이라면 안동시에 기부할 수 있습니다. ▸ 연간 한도와...",
+      "link": "https://dustm.tndlrs.com/351",
+      "source": "정보세상",
+      "date": "2026-11-26T02:05:29.000Z",
+      "thumb": "https://search3.kakaocdn.net/argon/130x130_85_c/10q0ir6R5Ty",
+      "type": "blog",
+      "query": "서울 답례품",
+      "collectedAt": "2026-11-26T03:47:21.689Z",
+      "crawled": true,
+      "body": "고향사랑기부제 &middot; 2026년 11월 18일 업데이트\n 연말정산을 앞두고 가장 확실한 절세 방법으로 꼽히는 것이 바로 고향사랑기부제 입니다. 10만 원을 기부하면 10만 원을 그대로 돌려받고, 3만 원어치 지역 특산품까지 받을 수 있기 때문이죠. 그중에서도 안동시 는 안동간고등어 증량과 네이버페이 지급까지 겹친 연말 이벤트로 눈길을 끌고 있습니다.\n 이 글에서는 고향사랑기부제 안동시 기부 방법을 중심으로, 2026년에 바뀐 세액공제율, 안동시 대표 답례품, 연말 이벤트 혜택, 기부금 사용처와 주의사항까지 고향사랑e음 공식 안내를 바탕으로 정리했습니다.\n 📌 바쁜 분들을 위한 3줄 요약\n ① 10만 원까지 100% 세액공제 + 기부액 30% 답례품 , 2026년부터 20만 원까지 44% \n② 안동시 답례품은 안동간고등어&middot;양반쌀&middot;안동사랑상품권 등\n③ 12월 31일까지 10만 원 이상 기부 시 간고등어 증량 + 선착순 700명 네이버페이 1만 원 \n 더 알아보기 &rarr; \n 함께 보기: 고향사랑기부제 거창군 총정리\n ▲ [안동 현장 리포트] 고향사랑기부제 혜택 안내 (영상 출처: 마카다안동 안동시청 공식 유튜브)\n 📖 목차\n 1. 고향사랑기부제란? 기본 규칙 정리\n2. 2026년 세액공제율, 이렇게 바뀌었다\n3. 경북 안동시는 어떤 곳?\n4. 안동시 대표 답례품\n5. 안동시 연말 이벤트 혜택\n6. 안동시 기부금은 어디에 쓰일까\n7. 고향사랑기부 하는 방법\n8. 기부 전 꼭 알아둘 주의사항\n9. 자주 묻는 질문(FAQ)\n10. 정리: 연말 전에 안동에 마음 전하기\n 1. 고향사랑기부제란? 기본 규칙 정리 \n 고향사랑기부제 는 개인이 고향이나 응원하고 싶은 지방자치단체에 기부하면, 지자체는 그 돈을 모아 주민 복리에 쓰고 기부자에게는 세액공제와 답례품을 주는 제도입니다. 지방 재정을 늘리고, 답례품으로 지역 특산품 소비까지 살리는 효과가 있습니다.\n ▸ 누가, 어디에 기부할 수 있나 \n 기부는 개인만 할 수 있고 법인은 할 수 없습니다. 기부처는 주민등록상 거주지를 제외한 모든 지자체 입니다. 예를 들어 안동시 주민은 안동시와 경상북도에는 기부할 수 없지만, 서울&middot;부산&middot;경기 등 다른 지역 주민이라면 안동시에 기부할 수 있습니다.\n ▸ 연간 한도와 답례품 \n 한 사람이 1년에 기부할 수 있는 금액은 모든 지자체를 합쳐 2,000만 원 까지입니다. 기부하면 기부액의 30% 가 포인트로 쌓이고, 이 포인트로 기부한 지역의 답례품을 고를 수 있습니다. 포인트 유효기간은 5년 이라 모아 두었다가 써도 됩니다.\n 👉 그렇다면 올해 기부하면 세금은 얼마나 돌려받을까요? 2026년에 공제율이 올랐습니다.\n 2. 2026년 세액공제율, 이렇게 바뀌었다 \n 고향사랑e음 공식 안내에 따르면 2026년 기부금부터 공제율이 상향됐습니다. 10만 원까지는 100% , 10만 원 초과 20만 원 이하는 44% (2026년 신설), 20만 원 초과분은 16.5% 가 공제됩니다. 특별재난지역에 선포일로부터 3개월 안에 기부하면 20만 원 초과분은 33%가 적용됩니다.\n 기부액 \n 세액공제 \n 답례품 포인트 \n 10만 원 \n 10만 원 \n 3만 원 \n 20만 원 \n 14만 4천 원 \n 6만 원 \n 100만 원 \n 27만 6천 원 \n 30만 원 \n ▲ 2026 고향사랑기부제 세액공제&middot;답례품 한눈에\n 단, 세액공제는 본인이 낸 세금(결정세액) 안에서만 이뤄지고 이월되지 않습니다. 근로소득이 적어 낼 세금이 없다면 공제 효과가 없을 수 있으니 확인하세요.\n 👉 제도를 알았다면, 이제 기부할 곳을 살펴볼 차례입니다. 안동은 어떤 도시일까요?\n 3. 경북 안동시는 어떤 곳? \n 안동시 는 경북 북부의 행정&middot;교육&middot;문화 중심지로, 한국정신문화의 수도 라는 브랜드를 갖고 있습니다. 고향사랑e음 소개에 따르면 지자체 최초로 유네스코 세계문화유산&middot;무형문화유산&middot;기록유산 3대 카테고리를 모두 보유 한 역사문화도시이고, KTX-이음 개통으로 청량리에서 2시간 안에 닿을 수 있습니다. 인구는 154,860명 입니다.\n 안동은 2025년 봄 초대형 산불 피해를 입은 지역 중 한 곳으로, 당시 전국에서 응원 기부가 몰리기도 했습니다. 지역 언론 보도에 따르면 2025년 상반기에만 16억 원가량이 모였습니다.\n ▲ 경북 안동시 한눈에 (고향사랑e음 자치단체 정보)\n 👉 기부의 즐거움은 역시 답례품이죠. 안동시는 어떤 특산품을 준비했을까요?\n 4. 안동시 대표 답례품 \n 안동시는 관내에서 생산된 농축산물, 가공식품, 공예품과 안동사랑상품권 을 답례품으로 준비했습니다. 대표 품목은 이렇습니다.\n 🐟 안동간고등어 &mdash; 안동을 대표하는 간고등어 순살 팩 세트 \n 🍚 안동 양반쌀 10kg &mdash; 밥상에 바로 쓰는 실속 답례품 \n 🎫 안동사랑상품권 &mdash; 1만 포인트부터, 안동 여행 때 쓰기 좋음 \n 🍎 지역 특산품 &mdash; 안동사과, 산약(마), 안동한우, 안동고추 등 \n ▲ 안동시 대표 답례품\n 👉 그런데 지금 기부하면 같은 답례품을 더 많이 받을 수 있다는 사실, 알고 계셨나요?\n 5. 안동시 연말 이벤트 혜택 \n 안동시는 2026년 11월 16일부터 12월 31일까지 연말 이벤트를 진행합니다. 기간 중 10만 원 이상 기부하면 두 가지 혜택을 받을 수 있습니다.\n 💳 네이버페이 포인트 1만 원 &mdash; 선착순 700명, 고향사랑e음 문자 수신 동의 필요, 기부 후 30일 안에 순차 발송 \n 🐟 안동간고등어 증량 &mdash; '순살 180g 10팩' 선택 시 1팩 추가, 총 11팩 \n 두 혜택은 중복으로 받을 수 있습니다. 10만 원을 기부하면 세액공제 10만 원, 답례품 3만 원, 네이버페이 1만 원까지 받아 사실상 기부액보다 큰 혜택이 돌아옵니다.\n ▲ 안동시 연말 이벤트 (2026.11.16~12.31)\n 지금 바로 더 알아보기 &rarr; \n 다음 글: 고향사랑기부제 진도군 재기부 이벤트 총정리\n 👉 혜택도 좋지만, 내가 낸 기부금이 어디에 쓰이는지도 궁",
+      "area": "",
+      "gu": "",
+      "seoul": true,
+      "keywords": [
+        "답례품"
+      ],
+      "popup": false
+    },
+    {
+      "title": "1,000원 ‘금어빵’ 시대, 붕세권 지도와 냉동·말차 붕어빵 열풍",
+      "desc": "사실이다. 서울 종로구 견지동의 한 노점은 재료비 상승에도 손님이 줄어들까 우려해 이윤을 줄이며 ‘팥 붕어빵 4개 1,000원, 슈크림 3개 1,000원’ 가격을 유지하고 있는데, 이 소식이 인스타그램과 유튜브 등 SNS를 통해 퍼지면서 영상을 보고 일부러 찾아와 줄을 서는 손님들까지 생겨나고 있다. 반응형 ▶ 연결...",
+      "link": "https://cerulean85.tistory.com/682",
+      "source": "스퀴즈덤",
+      "date": "2026-11-26T02:01:59.000Z",
+      "thumb": "https://search4.kakaocdn.net/argon/130x130_85_c/IZArN06BeMO",
+      "type": "blog",
+      "query": "서울 대형카페",
+      "collectedAt": "2026-11-26T03:47:18.322Z",
+      "crawled": true,
+      "body": "",
+      "area": "",
+      "gu": "종로구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "커피 에세이 42 - (더 몰트하우스 강남역점, 커피가 앞설 수 없는 날)",
+      "desc": "직전 서울로 올라오면서 시작된 인연이었다. 서로 하는 일을 응원하고 때로 조언도 아끼지 않았다. 세월을 함께 하는 동안 자식이 성장하는 과정을 지켜보았고 작년에는 친구 아들이 결혼도 했다. 노마가 아들이 결혼하지 않아 속 태우는 소리라도 하면 쓸데없는 걱정 한다고 핀잔을 주었다. 신중한 성격이니 알아서 할...",
+      "link": "https://ano-noma.tistory.com/65",
+      "source": "anoma 아노마",
+      "date": "2026-11-26T01:59:59.000Z",
+      "thumb": "https://search3.kakaocdn.net/argon/130x130_85_c/8VDII8qvxDf",
+      "type": "blog",
+      "query": "서울 커피",
+      "collectedAt": "2026-11-26T03:47:13.176Z",
+      "crawled": true,
+      "body": "강남에서 거의 1년만에 친구를 만났다. 작년 12월 친구 아들 결혼식장에서 본 뒤 처음이었다. 간간이 통화하고 카카오톡으로 안부와 소식을 주고 받기는 했다. 몇번이나 한번 보자고, 친구 가게가 있는 서울역 근처로 가겠다고 했지만 번번이 약속을 잡지 못하고 시간이 지나갔다. \n 서운할 건 없었다. 그렇게 여기지도 않았다. 오히려 자꾸 보자고 해 미안한 마음도 없지 않았다. 시간이 많으니 자꾸 보자고, 놀아 달라고 투정 부린다고 여기지 않을까 염려 아닌 염려도 했다. 물론 그리 여기지 않으리란 것을 잘 알고 있었다. 친구를 향한 염려임을, 직접 만나 따뜻한 밥 한 끼 먹으며 위로를 전하고 싶은 마음을 알리라 믿었다. \n 더 몰트하우스 강남역점 \n 어제, 친구가 금요일날 시간 있냐고 카카오톡을 했다. 바로 답을 보냈다. 다음날 그동안 미루던 병원에 갈 계획이었지만 오후 늦게 서둘러 진료와 치료를 받았다. 어렵게 시간을 낸 것을 알고 있었고 병원 이야기를 하면 다음에 보자고 할 것 같아 일체 내색하지 않았다. 6년만의 수능 한파가 왔다더니 다음날도 기온이 낮았다. 옷을 얇게 입었는지 조금 추웠다. 신논현역에서 버스를 내려 거센 바람과 인파를 뚫고 약속 장소로 달려갔다. 강남역 9번 출구에서 만난 친구는 다소 살이 빠져 보였다. \n 친구와 가까이 지낸 것이 벌써 이십 년도 훌쩍 넘었다. 아들이 중학교 입학하기 직전 서울로 올라오면서 시작된 인연이었다. 서로 하는 일을 응원하고 때로 조언도 아끼지 않았다. 세월을 함께 하는 동안 자식이 성장하는 과정을 지켜보았고 작년에는 친구 아들이 결혼도 했다. 노마가 아들이 결혼하지 않아 속 태우는 소리라도 하면 쓸데없는 걱정 한다고 핀잔을 주었다. 신중한 성격이니 알아서 할 것이라고, 때가 되면 갈 테니 아무 걱정 말라고 다독여 주었다. \n 부모님 나이 들고 투병하는 과정과 그 사이에서 겪는 갈등도 고스란히 공유했다. 또 세상을 떠났을 때는 슬픔도 함께 나눴다. 부모님이 떠나자 노마와 친구도 나이가 들었고 곧바로 건강 문제에 부딪혔다. 그때마다 자신의 일인 양 지켜보며 걱정하고 속도 태웠다. 그뿐만이 아니었다. 서로의 남편도 나이 들고 건강 문제가 불거졌다. \n 그동안 만나지 못한 이유가 친구 남편 건강 때문이었다. 친구는 몇년 전부터 남편 가게에서 함께 일했고 건강 문제가 생긴 뒤부터 안팎의 일을 홀로 감당하고 처리했다. 그러다 보니 가게를 비우고 외출하는 것이 쉽지 않았던 것이다. \n 더 몰트하우스 강남역점에서 마주 앉았다. 점심 먹을만한 곳을 찾아서 걷다 눈에 들어온 것이었다. 런치 스페셜을 주문하자 식전 빵과 커피, 파스타가 나왔다. 식사와 커피까지 한 자리에서 먹을 수 있어 자리를 옮기는 번거로움이 없었다. 가격도 합리적이었다. 빵을 먹고 커피 한 모금하고 파스타를 먹는 중에도 이야기가 끊이지 않았다. 얼굴을 마주 보는 것만으로 마음을 놓았다. 친구는 건강이 나빠 보이지 않았고 현실적인 문제에도 낙담하지 않고 농담을 던지는 여유를 보였다. 마냥 걱정이 앞서기보다 유쾌함을 보여 안쓰러운 한편 믿음직스럽기도 했다. \n 식사가 끝난 뒤에도 미지근한 커피를 조금씩 마셨다. 평소 일부러 남겨뒀다 마시기도 하지만 맛도 향도 느낄 수 없었다. 몰트하우스 커피가 만족스럽지 않았다는 뜻은 아니었다. 이야기에 집중하다 보니 맛을 음미할 겨를이 없기도 했다. 맛있는 점심 먹고 향 좋은 커피 즐기자고 만난 자리가 아니었다. 그런 것은 중요하지 않았고 커피가 앞설 수 없는 날이었다. \n 언제 기회되면 남편과 로마 여행을 가 바티칸을 보고 싶다고 했다. 가게를 하고 있어 몸이 묶여 있지만 친구의 계획이 실현되기를 바랐다. 그리고 건강 관리 필요성을 느꼈다는 말도 했다. 자신이 건강해야 남편을 건사할 수 있지 않겠냐며 슬로우 러닝을 한다는 거였다. 노마도 러닝을 하고 있어 더없이 안심이 되었다. \n 집으로 돌아가기 위해 다시 강남거리를 걸었다. 서로 건강해야 한다고, 건강관리 잘하자고 다짐하며 손을 맞잡았다. 이십몇년 전 만나 나이 들어 서로를 걱정하고 있다는 사실이 어쩐지 뭉클하기도 했다. 또 앞으로도 함께 할 인생길이 가급적이면 즐겁고 유쾌하기를 바랐다. 살다보면 어쩔 수 없이 아픈 일도 겪겠지만 그때마다 든든한 위로가 될 것임을 믿어 의심치 않았다. \n 마주앉아 밥 한 끼 먹고 커피 나누는 시간이 위안이 되었길 바랐다. 노마 역시 친구가 있다는 사실이 새삼 고맙고 감사했다.",
+      "area": "",
+      "gu": "강남구",
+      "seoul": true,
+      "keywords": [
+        "커피"
+      ],
+      "popup": false
+    },
+    {
+      "title": "영화 <할머니 DJ, 비카를 보고>",
+      "desc": "올해는 미리 예약을 하였더니 11월 20일 오후 5시의 개막식 참석도 가능하였다. 매주 화.목 2차례 다니는 헬스장도 조금 빠르게 끝내고 시간 넉넉하게 서울역사박물관으로 향했다. 식전 오프닝 행사가 시작되었는데 나는 혼자 참석하였으므로 구석자리에서 와인 1잔과 디저트를 즐겼다. 개막작은 폴란드 영화 <할머니 DJ...",
+      "link": "https://greenrain3362.tistory.com/15978771",
+      "source": "푸른비의 사랑",
+      "date": "2026-11-26T01:47:44.000Z",
+      "thumb": "https://search2.kakaocdn.net/argon/130x130_85_c/IL7TT2ig1Du",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "crawled": true,
+      "body": "2026. 11. 20.금\n 2026년 제 12회 유럽영화제가 시작되었다. \n 올해 영화제의 주제는 <과거의 기억, 미래의 비전>. \n 영화는 우리 사회를 형성해온 이야기와 경험을 되돌아 보게 하며, \n 앞으로 다가올 가능성을 상상할 수 있게 한다. \n 과거를 돌아볼 때 영화는 기억을 살아 있게 만들며, \n 각 세대가 자신이 어디에서 왔는지 이해할 수 있게 한다. \n 미래를 내다볼 때, 영화는 우리에게 꿈을 꾸게 한다. \n 급변하는 세상 속에서 우리에게 뿌리가 되어 줄 기억과, \n 희망을 안겨줄 비전이 필요하다. \n 국경을 넘어 기억과 비전을 나누는 것이 \n 유럽 영화제가 지향하는 것이다....라고 리플릿에 적혀 있었다. \n 유럽영화제의 인기 속에 올해는 폴란드. 이탈리아. 독일 \n 영국, 스페인 포루투갈.덴마크. 라트비아 등 23개국이 참가하였다. \n 시중 극장에서 잘 마주하지 못하는 유럽의 영화들이라 \n 가능한 다 보고 싶다는 욕심이 들지만 그게 쉬운가? \n 주말이라 시간은 가능하지만 하루에 3편은 소화가 어려울 것 같다. \n 이 영화제가 있다는 사실을 알고 난 후 해마다 참가하였다. \n 코로나 시기에는 시중의 극장을 대여하여 보여주기도 하였다. \n 기억에 남는 몇 편의 영화가 있지만 대부분 기억 밖으로 사라지지만, \n 아름다운 풍경과 함께 내가 경험하지 못한 유럽의 삶을 엿볼 수 있어 좋았다. \n 올해는 미리 예약을 하였더니 11월 20일 오후 5시의 \n 개막식 참석도 가능하였다. \n 매주 화.목 2차례 다니는 헬스장도 조금 빠르게 끝내고 \n 시간 넉넉하게 서울역사박물관으로 향했다. \n 식전 오프닝 행사가 시작되었는데 \n 나는 혼자 참석하였으므로 구석자리에서 와인 1잔과 디저트를 즐겼다. \n 개막작은 폴란드 영화 <할머니 DJ, 비카!>(2024년) \n 84세의 비키는 바르샤바 클럽 문화의 스타이자 카리스마 넘치는 DJ. \n 얼굴은 주름투성이이고 몸의 선도 다 허물어졌지만, \n 정성들여 화장도 하고 화사한 의상으로 자신을 꾸미는 할머니이다. \n 행사에서 DJ로 활동하면서 춤도 추고 젊은이들과 함께 한다. \n 그래도 문득문득 먼저 간 남편을 그리워하며 다정함을 받고 싶어한다. \n 가까이에 아들 2과 손자들도 있지만, 독립적으로 살고 싶어 찾아가지 않는다. \n 집안일도 스스로 하려고 하여 지저분한 벽에 손수 페이팅도 한다. \n 그런 비카를 보면서 나는 미래의 내 모습을 상상해 보았다. \n 나는 지금도 의존적으로 살아가는데 미래는 어떻게 살아 갈까? \n 가까이에 사는 딸을 이틀만 볼 수 없어도 벌써 외로움을 느낀다. \n 괜스레.... 자식 다 소용없어.....서러운 마음까지 든다. \n 인터넷 쇼핑. 인터넷 예약.등 아무리 가르쳐 줘도 스스로 하지 않는다. \n 그것을 빌미로 딸을 집으로 불러 이것저곳 밀린 이야기를 한다. \n 전철타고 가다가 깜밖 졸았던 이야기. 마음으로는 교대역에서 \n 서초역에서 내려가고 있었던 바보짓 한 이야기 등등. \n 멀리 마산에 있는 며칠만 아들이 전화가 없으면 서운한 마음이 든다. \n 어린애처럼 ....엄마 치킨이 먹고 싶어....하고 카톡을 보낸다. \n 엄마. 임신했어? 입덧해요?.... \n 농담과 함께 치킨을 배달해주는 아들에게도 \n 자꾸만 의존하는 것을 언제까지 하려고 하는지 모르겠다. \n 나도 자식들에게 의존하지 않고 독립적으로 살아야 하는데.... \n 하는 것은 마음뿐이고 행동은 여전히 기대어 살 것이다. \n 영화 속의 비카 할머니를 부러워하면서도 역시 \n 나는 정말 못말리는 할머니다. \n 영화제 개막을 알리는 무대\n 환영사\n 축사.\n 축사",
+      "area": "",
+      "gu": "서초구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "삼성 코엑스 디저트 카페 <카페드리옹 코엑스점> - 티라미수 내돈내산 솔직 후기 가격",
+      "desc": "오더 : 20:4 mingky-hyung-a.com 디저트 카페 <카페드리옹 코엑스점> - 바닐라 밀푀유, 쇼콜라 샹티, 오, 쏠 라떼 (Vanila millefeuille, C 안녕하세요.밍키형...디저트 카페 <노틀던> - 과나하 40(Guanaja 40) 내돈내산 솔직후기 / [서울숲/ 성수동/ 뚝섬] 안녕하세요.밍키형아입니다. ^0^ 오늘의 포스팅은노틀던의...",
+      "link": "https://mingky-hyung-a.com/1203",
+      "source": "밍키형아",
+      "date": "2026-11-26T01:23:15.000Z",
+      "thumb": "https://search3.kakaocdn.net/argon/130x130_85_c/Eal1VqED67Q",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "crawled": true,
+      "body": "",
+      "area": "성수",
+      "gu": "성동구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "[서초시그니처파티룸] 🎃 할로윈 파티 장소 추천, 친구들과 즐기는 특별한 테마 파티",
+      "desc": "우리만의 콘셉트로 공간을 꾸미고 특별한 사진을 남겨보는 건 어떨까요? ​ 서울 서초구에서 이색적인 파티 장소를 찾고 있다면 서초시그니처파티룸을 살펴보세요...소품 ​ 🕸️ 거미줄 패턴과 테이블 장식 ​ 🦇 블랙·오렌지 컬러의 풍선 ​ 🍬 사탕과 디저트를 활용한 스낵 테이블 ​ 📸 친구들과 함께하는 콘셉트 사진 촬영 ​ 소품을...",
+      "link": "https://hiahige44.tistory.com/931",
+      "source": "서초시그니처파티룸",
+      "date": "2026-11-26T01:09:02.000Z",
+      "thumb": "https://search2.kakaocdn.net/argon/130x130_85_c/2QDTcEAvW4F",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "crawled": true,
+      "body": "​ \n 평범한 모임도 테마 하나만 더하면 전혀 다른 분위기로 변신합니다. 🕸️ \n ​ \n 매년 가을이면 개성 있는 의상과 재미있는 소품으로 즐기는 할로윈 파티에 관심이 높아지는데요. 친구들과 함께하는 파티부터 동호회 모임, 브랜드 콘셉트 촬영까지 다양한 방식으로 할로윈을 즐길 수 있습니다. \n ​ \n 올해는 익숙한 카페나 식당을 벗어나 우리만의 콘셉트로 공간을 꾸미고 특별한 사진을 남겨보는 건 어떨까요? \n ​ \n 서울 서초구에서 이색적인 파티 장소를 찾고 있다면 서초시그니처파티룸을 살펴보세요. \n ────────────────── \n ​ \n 🕷️ 할로윈 분위기를 살리는 공간 스타일링 \n ​ \n 할로윈 파티의 매력은 콘셉트가 분명한 장식과 소품입니다. \n ​ \n 블랙과 오렌지 컬러를 기본으로 활용하고, 포인트 소품을 더하면 할로윈 특유의 분위기를 연출할 수 있습니다. \n ​ \n 🎃 호박 모양 장식과 할로윈 소품 \n ​ \n 🕸️ 거미줄 패턴과 테이블 장식 \n ​ \n 🦇 블랙&middot;오렌지 컬러의 풍선 \n ​ \n 🍬 사탕과 디저트를 활용한 스낵 테이블 \n ​ \n 📸 친구들과 함께하는 콘셉트 사진 촬영 \n ​ \n 소품을 지나치게 많이 배치하기보다는 한쪽에 포토존을 마련하면 공간을 효율적으로 활용하면서도 인상적인 사진을 남길 수 있습니다. \n ────────────────── \n ​ \n 🧛 드레스 코드와 함께 즐기는 테마 파티 \n ​ \n 할로윈 파티를 더욱 재미있게 즐기고 싶다면 간단한 드레스 코드를 정해보세요. \n ​ \n 블랙 의상에 모자나 액세서리만 더해도 할로윈 분위기를 낼 수 있고, 친구들과 캐릭터 콘셉트를 맞춰 입으면 단체 사진도 특별해집니다. \n ​ \n 참석자들이 직접 준비한 의상이나 소품을 소개하는 시간을 마련하거나, 가장 재미있는 스타일을 뽑는 작은 이벤트를 진행해도 좋습니다. \n ​ \n 모두가 부담 없이 참여할 수 있는 방식으로 준비하는 것이 파티를 더욱 즐겁게 만드는 포인트입니다. \n ────────────────── \n ​ \n 📺 대형 스크린으로 더하는 할로윈 무드 \n ​ \n 서초시그니처파티룸에는 200인치 대형 스크린이 마련되어 있습니다. \n ​ \n 할로윈 콘셉트 영상이나 행사에 어울리는 시각 자료를 활용해 공간의 분위기를 연출하거나, 준비한 사진과 영상을 함께 감상하는 방식으로 활용할 수 있습니다. \n ​ \n 사용할 콘텐츠의 재생 방식과 연결 장비는 예약 전에 확인해 주세요. \n ────────────────── \n ​ \n 📝 할로윈 파티 예약 전 체크리스트 \n ​ \n ✔️ 참석 인원과 대관 시간 확인 \n ​ \n ✔️ 음식 및 음료 반입 가능 여부 확인 \n ​ \n ✔️ 장식 설치 및 부착 기준 확인 \n ​ \n ✔️ 촬영과 소품 배치 가능 여부 확인 \n ​ \n ✔️ 주차 및 공간 이용 규정 확인 \n ​ \n ✔️ 행사 종료 후 정리 기준 확인 \n ​ \n 테마 장식은 설치와 철거에 시간이 걸릴 수 있으므로 준비 시간을 포함해 대관 일정을 계획하는 것이 좋습니다. \n ​ \n ────────────────── \n ​ \n 🧡 올해 할로윈은 우리만의 콘셉트로 \n ​ \n 특별한 파티를 만드는 것은 거창한 장식보다 함께하는 사람들과 즐길 수 있는 아이디어입니다. \n ​ \n 재미있는 드레스 코드와 테마 소품, 사진으로 남길 순간까지 준비해 올해 할로윈을 더욱 기억에 남는 하루로 만들어 보세요. \n ​ \n 감성 넘치는 각종 행사와 파티🎀 \n 이제 쏘플 파티룸에서 완성하세요🥳 \n ​ \n 📍 주소 : 서울시 서초구 마방로 48, 통인빌딩 \n 📞 예약 및 문의 : 1577-2123 \n https://pf.kakao.com/_xiGLxkn \n 서초시그니처파티룸\n 전국 파티룸 및 모임공간! 케이터링서비스! 통인엔딩컨시어지에서 운영하는 서초시그니처파티룸!\n pf.kakao.com\n ​ \n #서초시그니처파티룸 #서초파티룸 #할로윈파티 #할로윈파티장소 #서울파티룸 #테마파티 #할로윈촬영 #친구모임장소 #서초구공간대여 #공간대여",
+      "area": "",
+      "gu": "서초구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "[서초시그니처파티룸] 🐶 루프탑 펫파티 추천, 반려견과 함께 즐기는 특별한 하루",
+      "desc": "이용 규정, 야외 공간 등 확인해야 할 부분이 생각보다 많습니다. ​ 이번에는 사랑하는 반려견과 함께 사진도 남기고 추억도 만들 수 있는 루프탑 펫파티를 계획해 보세요. ​ 서울 서초구에서 색다른 반려견 모임 장소를 찾는다면 서초시그니처파티룸을 살펴보세요. ​ ​ 🐾 반려견의 취향을 담은 생일 파티 ​ 강아지 생일 파티...",
+      "link": "https://hiahige44.tistory.com/926",
+      "source": "서초시그니처파티룸",
+      "date": "2026-11-26T01:06:14.000Z",
+      "thumb": "https://search3.kakaocdn.net/argon/130x130_85_c/HpOZ8jFhQyb",
+      "type": "blog",
+      "query": "서울 루프탑",
+      "collectedAt": "2026-11-26T03:48:09.769Z",
+      "crawled": true,
+      "body": "​ \n 우리 집 강아지에게도 특별한 하루를 선물하고 싶다면? 🐾 \n ​ \n 반려견의 생일이나 입양 기념일을 맞아 가족, 친구들과 함께 작은 파티를 준비하는 보호자분들이 많아지고 있습니다. \n ​ \n 하지만 반려견과 함께 갈 수 있는 장소를 찾다 보면 인원이나 이용 규정, 야외 공간 등 확인해야 할 부분이 생각보다 많습니다. \n ​ \n 이번에는 사랑하는 반려견과 함께 사진도 남기고 추억도 만들 수 있는 루프탑 펫파티를 계획해 보세요. \n ​ \n 서울 서초구에서 색다른 반려견 모임 장소를 찾는다면 서초시그니처파티룸을 살펴보세요. \n ​ \n ────────────────── \n ​ \n 🐾 반려견의 취향을 담은 생일 파티 \n ​ \n 강아지 생일 파티는 보호자와 반려견 모두 편안하게 즐길 수 있도록 준비하는 것이 중요합니다. \n ​ \n 좋아하는 간식과 장난감, 생일 케이크를 준비하고 반려견의 이름을 활용한 장식으로 포인트를 더해 보세요. \n ​ \n 🎂 반려견 전용 생일 케이크 \n ​ \n 🎈 생일 분위기를 살리는 풍선과 장식 \n ​ \n 🦴 평소 좋아하는 간식과 장난감 \n ​ \n 📸 보호자와 함께하는 기념사진 \n ​ \n 🧸 반려견이 편하게 쉴 수 있는 자리 \n ​ \n 장식은 반려견이 물거나 삼킬 수 있는 작은 소품을 피하고, 안전하게 사용할 수 있는 제품으로 준비하는 것이 좋습니다. \n ────────────────── \n ​ \n 🌿 루프탑에서 남기는 특별한 추억 \n ​ \n 야외 분위기를 좋아하는 반려견이라면 루프탑 공간에서 색다른 사진을 남기는 것도 좋은 방법입니다. \n ​ \n 보호자들과 함께하는 단체 사진부터 반려견의 자연스러운 모습을 담은 사진까지, 평소와 다른 분위기의 추억을 만들 수 있습니다. \n ​ \n 다만 반려견의 안전을 위해 목줄을 착용하고, 난간이나 출입구 주변에서는 각별히 주의해 주세요. 날씨와 기온에 따라 야외 활동 시간을 조절하는 것도 중요합니다. \n ​ \n 루프탑 이용 가능 범위와 반려견 동반 조건은 예약 전에 꼭 확인해 주세요. \n ────────────────── \n ​ \n 💦 펫 수영을 계획한다면 사전 확인은 필수 \n ​ \n 물놀이를 좋아하는 반려견과 함께하는 펫파티를 생각하고 있다면 수영 시설의 운영 여부와 이용 조건을 먼저 확인해야 합니다. \n ​ \n 모든 반려견이 수영을 좋아하거나 물놀이에 적합한 것은 아니므로, 반려견의 건강 상태와 성향을 고려해 무리하지 않는 것이 좋습니다. \n ​ \n ✔️ 수영 시설 운영 여부와 이용 가능 시간 \n ​ \n ✔️ 반려견 크기 및 동반 기준 \n ​ \n ✔️ 수건과 물놀이 용품 준비 여부 \n ​ \n ✔️ 물놀이 후 휴식 및 정리 기준 \n ​ \n 수영 시설 이용은 날짜와 운영 조건에 따라 달라질 수 있으므로 예약 상담 시 반드시 확인해 주세요. \n ────────────────── \n ​ \n 🐕 반려인 친구들과 함께하는 펫 모임 \n ​ \n 반려견 생일 파티뿐 아니라 평소 산책 모임에서 만난 보호자들과 친목 모임을 열거나, 반려견을 주제로 한 기념사진 촬영을 계획해도 좋습니다. \n ​ \n 서로의 반려견을 소개하고 간식을 나누며 이야기를 나누는 시간은 보호자들에게도 즐거운 경험이 됩니다. \n ​ \n 다만 반려견마다 성격과 사회성이 다르기 때문에 처음 만나는 강아지끼리는 충분한 거리를 두고 천천히 적응할 수 있도록 배려해 주세요. \n ────────────────── \n ​ \n 💗 반려견과 함께하는 하루를 더 특별하게 \n ​ \n 반려견에게는 보호자와 함께 보내는 시간이 무엇보다 소중합니다. \n ​ \n 생일이나 기념일처럼 특별한 날, 평소와 다른 공간에서 사진을 남기고 즐거운 시간을 보내며 오래 기억할 추억을 만들어 보세요. \n ​ \n 감성 넘치는 각종 행사와 파티🎀 \n 이제 쏘플 파티룸에서 완성하세요🥳 \n ​ \n 📍 주소 : 서울시 서초구 마방로 48, 통인빌딩 \n 📞 예약 및 문의 : 1577-2123 \n https://pf.kakao.com/_xiGLxkn \n 서초시그니처파티룸\n 전국 파티룸 및 모임공간! 케이터링서비스! 통인엔딩컨시어지에서 운영하는 서초시그니처파티룸!\n pf.kakao.com\n ​ \n #서초시그니처파티룸 #서초파티룸 #루프탑펫파티 #반려견파티 #강아지생일파티 #펫파티장소 #반려견동반 #강아지모임 #펫프렌들리공간 #서울파티룸",
+      "area": "",
+      "gu": "서초구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "성수 신상 디저트 올기 오픈! 12겹 찹쌀초콜릿 메뉴·웨이팅·위치 총정리",
+      "desc": "요즘 SNS에서 화제가 되고 있는 디저트 브랜드가 있습니다. 바로 한국의 찹쌀과 진한 초콜릿을 결합한 이색 디저트 브랜드 **올기(OLGI)**입니다. 더현대 서울 팝업스토어에서 먼저 인기를 얻었던 올기가 드디어 성수동에 첫 오프라인 매장을 오픈했습니다. 특히 일반적인 초콜릿이나 찹쌀떡과는 다른 12겹의 독특한...",
+      "link": "https://memo50718.tistory.com/235",
+      "source": "햄찌",
+      "date": "2026-11-26T01:01:23.000Z",
+      "thumb": "https://search4.kakaocdn.net/argon/130x130_85_c/GZLM700jap",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "crawled": true,
+      "body": "",
+      "area": "더현대",
+      "gu": "영등포구",
+      "seoul": true,
+      "keywords": [],
+      "popup": true
+    },
+    {
+      "title": "[서초시그니처파티룸] 🏆 동호회 정기모임 장소 추천, 서울 서초구 프라이빗 모임 공간",
+      "desc": "것이 좋습니다. ​ ✔️ 참석자들과 나눠 먹을 간단한 음식 ​ ✔️ 커피와 음료, 디저트 ​ ✔️ 모임 활동에 필요한 준비물 ​ ✔️ 단체사진 촬영용 소품 ​ ✔️ 다음 모임 일정을...바랍니다. 🎈 ​ 감성 넘치는 각종 행사와 파티🎀 이제 쏘플 파티룸에서 완성하세요🥳 ​ 📍 주소 : 서울시 서초구 마방로 48, 통인빌딩 📞 예약 및 문의 : 1577-2123...",
+      "link": "https://hiahige44.tistory.com/917",
+      "source": "서초시그니처파티룸",
+      "date": "2026-11-26T00:57:46.000Z",
+      "thumb": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Ftistory_admin%2Fstatic%2Fimages%2FopenGraph%2Fopengraph.png",
+      "type": "blog",
+      "query": "서울 커피",
+      "collectedAt": "2026-11-26T03:47:13.176Z",
+      "crawled": true,
+      "body": "같은 취미를 공유하는 사람들과 만나 이야기를 나누고 즐거운 시간을 보내는 동호회 모임! 😊 \n ​ \n 정기적으로 만나는 모임이라면 매번 비슷한 식당에서 식사하는 것보다 새로운 공간에서 특별한 시간을 계획해 보는 것도 좋습니다. \n ​ \n 사진을 함께 보거나 활동 결과를 공유하고, 간단한 이벤트까지 진행할 수 있다면 모임의 즐거움도 한층 커집니다. \n ​ \n 서울 서초구에서 동호회 모임이나 친목 행사를 준비하고 있다면 서초시그니처파티룸을 확인해 보세요. \n ────────────────── \n ​ \n 🤝 취미를 함께 나누는 프라이빗 모임 \n ​ \n 동호회는 단순히 사람들을 만나는 자리를 넘어 서로의 경험과 관심사를 공유하는 공간입니다. \n ​ \n 사진 동호회, 독서 모임, 여행 모임, 친목 모임 등 모임의 성격에 따라 필요한 공간과 프로그램도 달라집니다. \n ​ \n 서초시그니처파티룸에서는 모임의 목적에 맞춰 일정을 구성하고, 참석자들이 함께 시간을 보낼 수 있는 자리를 계획할 수 있습니다. \n ​ \n 📸 사진과 여행 기록을 공유하는 모임 \n ​ \n 📚 관심 분야를 나누는 소규모 토론 \n ​ \n 🎲 게임과 레크리에이션을 곁들인 친목 모임 \n ​ \n 🎉 동호회 창립 기념일 및 특별 행사 \n ​ \n 🥂 정기모임 후 편안한 네트워킹 \n ​ \n 참석 인원과 필요한 좌석 구성, 진행 프로그램을 미리 정하면 보다 효율적으로 모임을 준비할 수 있습니다. \n ────────────────── \n ​ \n 📺 200인치 대형 스크린으로 자료 공유하기 \n ​ \n 모임에서 사진이나 영상을 함께 감상하고 싶다면 화면을 활용한 프로그램을 준비해 보세요. \n ​ \n 서초시그니처파티룸에는 200인치 대형 스크린이 마련되어 있어 여행 사진, 활동 영상, 발표 자료 등을 활용하는 행사를 계획할 수 있습니다. \n ​ \n 여행 동호회라면 지난 여행의 추억을 함께 돌아보고, 사진 동호회라면 서로의 작품을 감상하며 의견을 나누는 시간을 마련할 수 있습니다. \n ​ \n 취미와 활동에 맞는 콘텐츠를 준비하면 평소 정기모임과는 또 다른 즐거움을 만들 수 있습니다. ✨ \n ────────────────── \n ​ \n 🍕 음식과 함께 더욱 편안하게 \n ​ \n 모임이 길어질 예정이라면 음식과 휴식 시간도 함께 고려하는 것이 좋습니다. \n ​ \n ✔️ 참석자들과 나눠 먹을 간단한 음식 \n ​ \n ✔️ 커피와 음료, 디저트 \n ​ \n ✔️ 모임 활동에 필요한 준비물 \n ​ \n ✔️ 단체사진 촬영용 소품 \n ​ \n ✔️ 다음 모임 일정을 정리할 메모 \n ​ \n 음식 반입 가능 여부와 이용 시간, 장비 사용 조건 등은 예약 전에 확인해 주세요. 특히 정기적으로 이용할 계획이라면 날짜별 예약 가능 여부와 이용 조건을 미리 문의하는 것이 좋습니다. \n ────────────────── \n ​ \n 📍 매번 만나는 모임도 새로운 분위기로 \n ​ \n 좋은 모임은 특별한 프로그램이 없어도 편안하게 대화하고 서로의 관심사를 나눌 수 있을 때 더욱 즐거워집니다. \n ​ \n 이번 정기모임은 평소와 다른 공간에서 준비해 보세요. 함께한 사람들과 새로운 추억을 만들고, 다음 만남을 기다리게 되는 즐거운 시간을 계획할 수 있습니다. \n ​ \n 서초시그니처파티룸에서 동호회 모임과 친목 행사를 준비해 보시기 바랍니다. 🎈 \n ​ \n 감성 넘치는 각종 행사와 파티🎀 \n 이제 쏘플 파티룸에서 완성하세요🥳 \n ​ \n 📍 주소 : 서울시 서초구 마방로 48, 통인빌딩 \n 📞 예약 및 문의 : 1577-2123 \n https://pf.kakao.com/_xiGLxkn \n 서초시그니처파티룸\n 전국 파티룸 및 모임공간! 케이터링서비스! 통인엔딩컨시어지에서 운영하는 서초시그니처파티룸!\n pf.kakao.com\n #서초시그니처파티룸 #서초파티룸 #서초구파티룸 #동호회모임장소 #정기모임장소 #서울모임장소 #친목모임장소 #소규모모임 #프라이빗대관 #공간대여",
+      "area": "",
+      "gu": "서초구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "성수동 카페 바리스타 로봇 도입 사례, 동가홍상은 어떻게 운영할까?",
+      "desc": "동가홍상 📍서울 성동구 성수일로8길 42 🕰️월-일 07:00-22:00 https://naver.me/xJczc5UT 네이버지도 동가홍상 map.naver.com 1. 성수동 카페 '동가홍상', 이름에서 시작된 원두 이야기 동가홍상 상호명 매장 이름에는 대표님의 생각이 담겨 있습니다. 동가홍상(同價紅裳)은 ‘같은 값이면 다홍치마’라는 뜻의 표현입니다...",
+      "link": "https://xyzcorp-official.tistory.com/119",
+      "source": "xyzcorp-official",
+      "date": "2026-11-26T00:53:48.000Z",
+      "thumb": "https://search4.kakaocdn.net/argon/130x130_85_c/JtO7ryWXxAd",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "crawled": true,
+      "body": "로봇카페라고 하면 정해진 모습의 매장이 먼저 떠오르기 쉽습니다. \n 하지만 실제 카페는 공간의 크기도, 손님이 움직이는 동선도, 판매하는 메뉴도 제각각입니다. 개인카페라면 점주의 운영 방식과 취향까지 더해지죠. \n ​ \n 지난 11월 20일 성수동에 문을 연 동가홍상 은 엑스와이지의 바리스타 로봇 바리스브루 슬림(Barisbrew Slim)을 들인 개인카페입니다. \n 기기 구조부터 메뉴, 멤버십까지 이 매장만의 방식으로 꾸렸습니다. 동가홍상이 어떻게 운영되는지 하나씩 소개해드릴게요. \n 성수동 개인카페 동가홍상 전경이미지 \n ☕동가홍상\n 📍 서울 성동구 성수일로8길 42 \n 🕰️월-일 07:00-22:00\n https://naver.me/xJczc5UT \n 네이버지도\n 동가홍상\n map.naver.com\n 1. 성수동 카페 '동가홍상', 이름에서 시작된 원두 이야기 \n 동가홍상 상호명 \n 매장 이름에는 대표님의 생각이 담겨 있습니다. \n 동가홍상(同價紅裳)은 &lsquo;같은 값이면 다홍치마&rsquo;라는 뜻의 표현입니다. 동가홍상은 이를 커피에 빗대 &lsquo;이왕이면 좋은 원두로 커피를 만들자&rsquo;는 의미를 담았습니다. \n ​ \n 이 생각은 실제 원두 선택으로도 이어집니다. 동가홍상은 &lsquo;바리스타 대신 원두에 투자한다&rsquo;는 방향으로 커피 품질을 만들어가는 라운지엑스에서 로스팅한 원두를 공급받아 Barisbrew 음료에 사용하고 있습니다. \n ​ \n 매장 이름에 담긴 &lsquo;좋은 원두&rsquo;에 대한 생각을 실제 한 잔의 커피로 이어가고 있는 셈입니다. \n 2. 매장 동선에 맞춘 바리스타 로봇, 좌우를 바꾼 첫 바리스브루 \n 동가홍상의 바리스브루에는 언뜻 봐서는 알아채기 쉬운 변화가 두 가지 있습니다. \n 최초 좌우 구조를 반전한 바리스브루Slim \n ✔ 좌우 구조를 반전한 첫 매장 \n 매장 구조와 고객 동선에 맞춰 바리스브루의 좌우 구조를 반전해 설치했습니다. \n 기존 형태를 공간에 그대로 끼워 맞추지 않고, 주문에서 음료 픽업까지 자연스럽게 이어지도록 구성을 조정했습니다. \n 바리스브루를 좌우 반전해 실제 매장에 적용한 건 동가홍상이 처음입니다. \n 첫 플라스틱 컵을 적용한 바리스타 로봇 바리스브루Slim \n ✔ 바리스브루 슬림 첫 플라스틱컵 적용 \n 매장 콘셉트와 음료 판매 방식에 맞춰 컵 운영 방식도 달리했습니다. \n 바리스브루 슬림에 플라스틱컵을 적용한 것 역시 동가홍상이 첫 사례입니다. \n 3. 베이커리도 함께 파는 로봇카페, 커피는 로봇이 빵은 매장에서 \n 동가홍상은 커피만 파는 카페가 아닙니다. \n 음료는 바리스브루가 만들고, 매장에서는 버터번과 소금빵, 에그타르트 같은 베이커리를 함께 판매합니다. \n ​ \n ✔ 오픈 초기에는 완제품으로 \n 버터번과 소금빵은 오픈 초기 운영을 돕기 위해 라운지엑스에서 완제품으로 공급하고 있습니다. \n ✔ 앞으로는 매장에서 직접 굽기 \n 이후에는 생지를 납품받아 매장에서 직접 구워 판매하는 방식으로 바꿀 예정입니다. \n 음료 제조를 바리스브루가 맡는 만큼, 메뉴 구성은 커피와 음료에 한정되지 않습니다. \n 베이커리나 디저트를 더해 매장만의 라인업을 만들어갈 수 있습니다. \n 4. 개인카페 운영 아이디어, 무료 토스트부터 멤버십 카드까지 \n 동가홍상의 운영 방식에는 오래 머물고, 자주 찾아오게 만드는 장치가 여럿 있습니다. \n ​ \n ✔ 오픈이벤트_ 무료 토스트 \n 오픈이벤트로 아침 10시까지 토스트를 무료로 제공합니다. \n 아침에 커피를 찾는 손님이라면 음료와 함께 간단한 식사까지 해결할 수 있습니다. \n 성수동 개인카페 동가홍상에서는 오픈이벤트로 매일 오전 10시까지 토스트를 무료로 먹을 수 있다. \n ✔ 외부 음식 반입 가능 \n 매장에서 베이커리를 팔고 있지만, 손님이 가져온 음식도 자유롭게 먹을 수 있습니다. 다만 외부 음료만 반입할 수 없습니다. \n 커피만 빠르게 마시고 나가는 곳보다는, 편하게 머물다 가는 카페에 가깝습니다. \n ✔ 직접 만든 멤버십 카드 \n 동가홍상은 자체 멤버십 카드도 직접 만들었습니다. \n 10% 할인 카드 300장은 인근 상점 대표들에게 나눠드렸습니다. \n 주변에서 일하는 사람들이 매장을 자주 찾도록 하기 위한 동가홍상만의 운영 방식입니다. \n ​ \n 음료 제조는 바리스타 로봇에 맡겼지만, 손님을 다시 매장으로 부르는 방법은 점주가 직접 설계했습니다. \n 로봇 운영과 별개로 멤버십과 메뉴, 프로모션을 조합하면 개인카페도 자기만의 고객 관리 방식을 만들어갈 수 있습니다. \n 로봇을 도입하되, 매장의 개성까지 로봇에 맞출 필요는 없었던 것입니다. \n 따뜻한 공간으로 꾸며진 성수동 개인카페 동가홍상 \n 동가홍상 매장전경 \n 개인카페에서 Barisbrew를 활용하는 방식도 결국 하나의 정답으로 정해져 있지 않습니다. \n 공간과 메뉴, 운영 방식에 맞춰 필요한 부분을 조정해 나가는 것. \n 동가홍상은 개인카페와 바리스타 로봇이 만났을 때 어떤 매장이 만들어질 수 있는지 보여주는 또 하나의 사례입니다. \n ✅성수동 개인카페 동가홍상에서 선택한 바리스브루 무료 상담받기 \n https://kr.xyzcorp.ai/contact \n 서비스 로봇 XYZ 협업 문의\n 인공지능 로봇이 전하는 세련된 서비스를 만나보세요. 엑스와이지 XYZ는 우리 일상 속 다양한 서비스 로봇 기술을 연구하고 시도합니다.\n kr.xyzcorp.ai",
+      "area": "성수",
+      "gu": "성동구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "[2026 이웃기웃] 📚어르신 모임-책 읽는 선비들 평가회 이야기💬",
+      "desc": "느낌을 여기서 쏟아놓으면 같이 웃고 이야기하다가 나름대로 해결할 방법도 나오지 않겠어요?” “만나면 금방 정이 가고 좋아요.” 질문 4) 올해 우리 모임(모임 이름)에서 가장 기억에 남는 활동은 무엇인가요? “전등사에 갔을 때 참 좋았어요. 전등사를 정말 오랜만에 가봤거든요.” “서울에 살면서도 서울역사...",
+      "link": "https://banghwa11.or.kr/4104",
+      "source": "방화11종합사회복지관",
+      "date": "2026-11-26T00:52:43.000Z",
+      "thumb": "",
+      "type": "blog",
+      "query": "서울 모임",
+      "collectedAt": "2026-11-26T03:48:10.679Z",
+      "area": "",
+      "gu": "",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "[22900]소셜미디어를 타고 디저트 유행이 두세 달 단위로 빠르게 바뀌면서 카페나 빵집을 하는",
+      "desc": "서울 강남구에서 카페를 하는 노모(49)씨는 올해 들어 두세 달에 한 번꼴로 디저트 메뉴를 바꿨다. 지난해 12월 소셜미디어(SNS)에서 ‘두바이 쫀득 쿠키(두쫀쿠)’가 인기를 끌자 노씨도 만들어 팔기 시작했다고 한다. 하지만 해가 바뀌면서 찾는 손님이 줄더니 2월쯤에는 뚝 끊어졌다. 3월에 노씨는 ‘버터떡’을...",
+      "link": "https://ironcow6200.tistory.com/8529696",
+      "source": "ironcow6200",
+      "date": "2026-11-26T00:38:14.000Z",
+      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/EJX8W88ORKN",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "area": "",
+      "gu": "강남구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "스타벅스 구로디지털교차로점 콘센트 자리와 주차 2시간 등록, 영업시간·화장실 위치 (구로디지털단지...",
+      "desc": "스타벅스 구로디지털교차로점은 서울 관악구 시흥대로 552-1(신림동) G밸리M타워에 있는 매장입니다. 콘센트는 매장 가운데 긴 탁자에만 있는 것을 확인했고, 메뉴를 구매하면 주차를 최대 2시간까지 등록할 수 있습니다. 영업시간은 네이버 지도 기준 월~토 08:00~21:30, 일요일 09:00~21:30입니다. 화장실은 매장 후문...",
+      "link": "https://woofa.tistory.com/77",
+      "source": "우파더의 잡학다식",
+      "date": "2026-11-26T00:37:48.000Z",
+      "thumb": "https://search2.kakaocdn.net/argon/130x130_85_c/6VnkEMNsoHX",
+      "type": "blog",
+      "query": "서울 스타벅스",
+      "collectedAt": "2026-11-26T03:48:12.386Z",
+      "area": "",
+      "gu": "관악구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "2026 고향사랑기부제 총정리｜10만 원 전액 공제 + 20만 원 44% 신설 & 답례품 30% 꿀팁",
+      "desc": "기초·광역 지자체)에는 기부할 수 없습니다. · 예를 들어 서울 강서구에 거주 중이라면 서울특별시 본청과 강서구를 제외한 타 시·도 및 시·군·구에 기부할...위기브 등 3) 오프라인 신청처 · 전국 NH농협은행 지점 방문 접수 ③ 답례품 포인트와 연말정산 반영 팁 · 기부 즉시 기부금의 30%에 해당하는 포인트가...",
+      "link": "https://diary43359.tistory.com/10",
+      "source": "오늘의 생활꿀팁 & 맛집 노트",
+      "date": "2026-11-26T00:36:55.000Z",
+      "thumb": "https://search2.kakaocdn.net/argon/130x130_85_c/9q6hYQINeaX",
+      "type": "blog",
+      "query": "서울 답례품",
+      "collectedAt": "2026-11-26T03:47:21.689Z",
+      "area": "",
+      "gu": "강서구",
+      "seoul": true,
+      "keywords": [
+        "답례품"
+      ],
+      "popup": false
+    },
+    {
+      "title": "개포동역 37.5 시그니처 — 브런치부터 파스타·스테이크까지, 세련된 다이닝 아이와 가기 좋은 개포...",
+      "desc": "여유로워 가족·아이 동반, 모임에 좋음. 주차·예약 편리. 🍽 식당 기본 정보 항목 내용 상호 37.5 시그니처 개포점 종류 브런치&다이닝(파스타·피자·스테이크·버거·브런치) 위치 서울 강남구 개포동(개포동역 생활권) 콘셉트 네이비·골드·화이트 톤의 세련된 올데이 브런치 다이닝 추천 상황 가족 외식·브런치...",
+      "link": "https://jimkim0101.tistory.com/4209",
+      "source": "스마일웰니즈",
+      "date": "2026-11-26T00:35:39.000Z",
+      "thumb": "https://search2.kakaocdn.net/argon/130x130_85_c/AIheFoQWP4D",
+      "type": "blog",
+      "query": "서울 브런치",
+      "collectedAt": "2026-11-26T03:47:16.605Z",
+      "area": "",
+      "gu": "강남구",
+      "seoul": true,
+      "keywords": [
+        "브런치"
+      ],
+      "popup": false
+    },
+    {
+      "title": "2026 고향사랑기부제 12월 31일 마감, 10만원 기부하면 13만원 돌려받는 세액공제율·답례품 조건 총정리",
+      "desc": "창구에서도 기부할 수 있고 세제혜택은 같습니다. 2단계. 로그인 후 기부하기를 눌러 주민등록번호 뒷자리로 거주지를 확인하고, 기부할 지자체와 금액, 답례품 수령 여부를 고릅니다. 3단계. 결제합니다. 간편결제, 계좌이체, 신용카드 중 무엇을 써도 공제는 같습니다. 서울시에 기부하면 이택스, 다른 시·도는 별도...",
+      "link": "https://whatsome.tistory.com/31",
+      "source": "머니로그",
+      "date": "2026-11-26T00:19:55.000Z",
+      "thumb": "https://search4.kakaocdn.net/argon/130x130_85_c/1jUiguErz0D",
+      "type": "blog",
+      "query": "서울 답례품",
+      "collectedAt": "2026-11-26T03:47:21.689Z",
+      "area": "",
+      "gu": "",
+      "seoul": true,
+      "keywords": [
+        "답례품"
+      ],
+      "popup": false
+    },
+    {
+      "title": "12월 캐릭터 굿즈 총정리, 스타벅스 헬로키티, 공차 해리포터, 치이카와, 한교동",
+      "desc": "클리닉 2차 예약 12월 7일 14:00 쇼핑백 500원 팝콘D플레이 예약, 더현대 서울 에버랜드 × 먼작귀 홀리데이 위시 12월 19일 ~ 3월 24일 공개 전 에버랜드 파파...존스 주문 공차 해리포터 키링 12월 31일까지 4,900~9,700원(할인가) 공차 매장 스타벅스 헬로키티 굿즈 가격과 구매 제한 이미지 출처: 스타벅스 코리아...",
+      "link": "https://checktrip.tistory.com/11",
+      "source": "체크트립, 가기 전에 확인하는 국내여행 정보",
+      "date": "2026-11-26T00:18:46.000Z",
+      "thumb": "https://search3.kakaocdn.net/argon/130x130_85_c/HkCa14y6DC6",
+      "type": "blog",
+      "query": "서울 스타벅스",
+      "collectedAt": "2026-11-26T03:48:12.386Z",
+      "area": "더현대",
+      "gu": "영등포구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "딸기값은 내렸는데 크리스마스 케이크는 왜 55만원일까? 호텔 케이크 가격의 경제학",
+      "desc": "알아? 올해 딸기값, 작년보다 싸요. 11월 24일 서울 가락시장 딸기 2kg 평균 경락가는 4만4,267원으로, 작년 11월 평균보다 18.6%, 평년 11월보다 21.6%...움직일 힘은 거의 없어요. 고가 케이크의 가격은 재료보다 다른 요소가 정한다는 뜻이에요. 2. 호텔 케이크는 '디저트'가 아니라 '선물'로 팔려요 55만원짜리 워커...",
+      "link": "https://geureonikkawae.tistory.com/12",
+      "source": "그러니까왜",
+      "date": "2026-11-26T00:05:07.000Z",
+      "thumb": "",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "area": "",
+      "gu": "",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "금옥당 양갱 선물 세트 가격·보관법 꿀팁 및 우유 팥빙수 내돈내산 리뷰",
+      "desc": "달콤한 디저트 맛집 정보로 다시 찾아오겠습니다. 오늘도 행복한 하루 보내세요~ 안녕~! 👋🍀 교대맛집) 겨울에도 줄서는 삼계탕맛집 '3대삼계장인' 교대역 삼계탕...싫고. 어디갈까 하다 교대의 많고 많은 고깃집들 중 찾아간 곳은 바로 라무진 교대점이에요😀 양갈비로 유명한 geotv.tistory.com 금옥당 서초점 서울 서초...",
+      "link": "https://geotv.tistory.com/1359",
+      "source": "지구탐험 지오티비",
+      "date": "2026-11-26T00:01:24.000Z",
+      "thumb": "https://search4.kakaocdn.net/argon/130x130_85_c/9zly1Fak6wG",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "area": "",
+      "gu": "서초구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "홍천군 고향사랑기부제 답례품 이벤트 총정리 (2026)",
+      "desc": "홍천군은 서울에서 가까운 강원 서부의 군으로, 면적이 전국 시·군 가운데 가장 넓습니다. 홍천강과 수타사 계곡, 팔봉산이 있어 여름 물놀이와 캠핑 명소로 꼽히고, 잣과 찰옥수수, 인삼, 쌀, 늘푸름한우를 홍천 5대 명품으로 내세웁니다. 인구는 67,789명(고향사랑e음 기준)이며, 행정안전부가 지정한 인구감소지역...",
+      "link": "https://xkqdltb.tistory.com/70",
+      "source": "이슈탑",
+      "date": "2026-11-26T00:00:20.000Z",
+      "thumb": "",
+      "type": "blog",
+      "query": "서울 커피",
+      "collectedAt": "2026-11-26T03:47:13.176Z",
+      "area": "",
+      "gu": "성동구",
+      "seoul": true,
+      "keywords": [
+        "답례품"
+      ],
+      "popup": false
+    },
+    {
+      "title": "기념일에 가기 좋은 프라이빗 한옥 파인다이닝의 유형과 예약·이용 가이드",
+      "desc": "셰프가 제철 식재료를 현대적인 감각으로 재해석해 전채부터 메인, 디저트까지 순차적으로 선보이는 고급 코스 레스토랑을 뜻합니다. 여기에 전통주 소믈리에가...페어링이 더해져 식사의 완성도를 높여줍니다. 모던 한식 코스형 (서울 북촌·삼청동·서촌 일대): 고궁과 인접한 한옥에서 제철 해산물, 한우, 발효 장류...",
+      "link": "https://dlrkdal63.tistory.com/423",
+      "source": "하이클래스",
+      "date": "2026-11-25T23:08:33.000Z",
+      "thumb": "",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "area": "",
+      "gu": "",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "주유별장 광화문점 모임 후기｜전복들기름 카펠리니·항정살 구이·반달 치즈 감자전 | 퓨전 한식 술집",
+      "desc": "더 취향. 감자전은 정희쪽이 더 도톰했던것 같다. 피자느낌스. 퓨전 한식 식당 정희 모임 후기｜새우감자전·강된장 케일쌈밥·들기름메밀면 세트로 먹고옴...새우감자전·강된장 케일쌈밥·들기름메밀면 세트로 먹고옴 정희 강남역점서울 강남구 강남대로102길 15 퓨전 한식 정희친구들 모임이 있던 날. 어디 갈까 어디...",
+      "link": "https://info19570.tistory.com/37",
+      "source": "다먹을거야",
+      "date": "2026-11-25T23:02:27.000Z",
+      "thumb": "",
+      "type": "blog",
+      "query": "서울 모임",
+      "collectedAt": "2026-11-26T03:48:10.679Z",
+      "area": "",
+      "gu": "강남구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "기부제 연말정산 10만·20만 원 세액공제 계산표] 2026년 44% 구간 신설·답례품 30%·결정세액 0원 주의점",
+      "desc": "이때는 기부금 10만 원을 내고 10만 원을 돌려받는 구조가 아니라, 답례품 3만 원만 받고 7만 원을 잃는 구조가 됩니다. 연말정산 미리보기에서 결정세액이 0원...자치단체와 기초자치단체는 제외되므로, 대치동에 살면 강남구와 서울시에는 기부할 수 없습니다. 경기도나 부산처럼 다른 지역을 골라야 합니다. 셋째...",
+      "link": "https://joannelee3802.tistory.com/155",
+      "source": "대치픽 리포트",
+      "date": "2026-11-25T23:00:10.000Z",
+      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/CZakFLztLSA",
+      "type": "blog",
+      "query": "서울 답례품",
+      "collectedAt": "2026-11-26T03:47:21.689Z",
+      "area": "",
+      "gu": "강남구",
+      "seoul": true,
+      "keywords": [
+        "답례품"
+      ],
+      "popup": false
+    },
+    {
+      "title": "그릭요거트 만들기 유청분리 12시간, 플레인 요거트 2.45L 10ml당 37원 단가 비교",
+      "desc": "가격은 작성일 오전에 본 값이고, 쿠팡은 쿠폰과 시점에 따라 금액이 바뀌니 결제 직전 금액을 기준으로 보시면 됩니다. 제품명 서울우유 더진한 순수 플레인 요거트, 2.45L, 1개입, 1개 가격대 작성일 기준 9,160원 · 쿠팡 실시간 할인가 확인 용량 단가 10ml당 37원(2.45L 기준) · 제가 11월 15일 결제한 금액은...",
+      "link": "https://nurung-jjim.tistory.com/25",
+      "source": "누룽찌미",
+      "date": "2026-11-25T22:45:23.000Z",
+      "thumb": "https://search4.kakaocdn.net/argon/130x130_85_c/2AmXIlx36bz",
+      "type": "blog",
+      "query": "서울 요거트",
+      "collectedAt": "2026-11-26T03:48:16.713Z",
+      "area": "",
+      "gu": "",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "고향사랑기부제 연말정산 100% 세액공제 조건 및 답례품 신청방법",
+      "desc": "물론이고 서울특별시, 제주도, 강원도 강릉시 등 전국 어디에나 기부하고 그 지역의 맛있는 한우나 과일을 선물로 받으실 수 있습니다. 2. 연말정산 고향사랑기부금 한도 및 20만 원 구간 44% 확대 계산법 가장 궁금한 점은 내가 얼마를 냈을 때 세금은 정확히 얼마를 돌려받고, 선물은 얼마어치가 나오는지일 것입니다...",
+      "link": "https://bokjicat.tistory.com/38",
+      "source": "복지캣",
+      "date": "2026-11-25T22:30:33.000Z",
+      "thumb": "https://search2.kakaocdn.net/argon/130x130_85_c/Gi1ZRwmW3LS",
+      "type": "blog",
+      "query": "서울 답례품",
+      "collectedAt": "2026-11-26T03:47:21.689Z",
+      "area": "",
+      "gu": "",
+      "seoul": true,
+      "keywords": [
+        "답례품"
+      ],
+      "popup": false
+    },
+    {
+      "title": "2026 고향사랑기부제 연말정산 10만원 전액 세액공제 받는 법과 답례품 3만원 꿀팁",
+      "desc": "수 없습니다. 같은 광역 안의 다른 시·군·구는 가능합니다. 서울 중구에 산다면 서울특별시와 중구는 안 되고, 마포구나 부산 해운대구는 됩니다. 태어난 고향...처리하는 방법도 있지만, 세액공제와 필요경비 처리는 하나만 택해야 하니 금액이 크면 세무 상담을 받아 보세요. 🔗 고향사랑e음 기부·답례품 바로가기",
+      "link": "https://jeffrey0218.tistory.com/112",
+      "source": "제프쌤의 세상이야기",
+      "date": "2026-11-25T22:30:26.000Z",
+      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/CABkZYxdO0K",
+      "type": "blog",
+      "query": "서울 답례품",
+      "collectedAt": "2026-11-26T03:47:21.689Z",
+      "area": "",
+      "gu": "마포구",
+      "seoul": true,
+      "keywords": [
+        "답례품"
+      ],
+      "popup": false
+    },
+    {
+      "title": "[신제품 출시] 건강한 간식부터 크리스마스 디저트까지…식품·외식업계, 겨울 시즌 공략",
+      "desc": "SNS 인증 사진을 활용한 ‘내 이름을 찾아라’ 이벤트를 진행한다. 서울 잠실 롯데타운 크리스마스 마켓 내 ‘칸쵸 탐정하우스’ 팝업스토어에서도 제품을 만나...브라우니 루돌프 벽난로 만들기’와 ‘다이제 크리스마스 DIY 디저트’는 인기 과자와 초코펜을 활용해 가족, 친구와 함께 크리스마스 디저트를 만들 수...",
+      "link": "https://why4416.tistory.com/15993296",
+      "source": "곡산",
+      "date": "2026-11-25T22:06:50.000Z",
+      "thumb": "",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "area": "",
+      "gu": "송파구",
+      "seoul": true,
+      "keywords": [],
+      "popup": true
+    },
+    {
+      "title": "9000원에도 오픈런…'할머니 간식' 떡의 화려한 변신[NW리포트]",
+      "desc": "6.7%)과 식빵 및 기타빵(6.6%), 한과 및 기타과자(6.4%), 케이크(4.7%) 등 주요 디저트 품목의 지출 증가율을 모두 웃돌았다. ◆찹쌀떡으로 몸값 3000억…높아진...앞세워 젊은 소비층과 외국인 관광객 사이에서 인기를 끌었다. 더현대 서울과 신세계백화점 강남점 등 주요 백화점으로 판매망을 확대했고 누적 판매량은...",
+      "link": "https://why4416.tistory.com/15993294",
+      "source": "곡산",
+      "date": "2026-11-25T22:03:03.000Z",
+      "thumb": "https://search2.kakaocdn.net/argon/130x130_85_c/C4mchBsNF3D",
+      "type": "blog",
+      "query": "더현대 디저트",
+      "collectedAt": "2026-11-26T03:47:07.142Z",
+      "area": "더현대",
+      "gu": "영등포구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "[서울 중구] 서울세계도시문화축제 2026 일정과 프로그램 정보",
+      "desc": "놀이 체험 zone, 세계 영상·사진전, K-컬처 zone(K-뷰티 zone, 서울시 연계 홍보부스), 서울 팝업 야외도서관 등 3. 음식 프로그램 세계 음식 zone, 세계 디저트 zone, K-푸드 zone 행사장 위치 및 찾아가는 길 주소 서울특별시 중구 을지로 281 (을지로7가) 카카오맵에서 보기 카카오맵 길찾기 네이버 지도에서 보기...",
+      "link": "https://festive-korea.sailing-blog.click/403",
+      "source": "대한민국 축제공연행사 정보",
+      "date": "2026-11-25T21:33:21.000Z",
+      "thumb": "",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "area": "",
+      "gu": "",
+      "seoul": true,
+      "keywords": [],
+      "popup": true
+    },
+    {
+      "title": "2026.11.26 일기",
+      "desc": "둘째치고 양이 3인분이더라 그리고 디저트들...몽슈슈가 너무좋다. 비싸긴한데 맛있음. 왼쪽은 해피파우치. 가운데는 후르츠롤 (오른쪽은 걍 코코아임) 몇년전만...가서 콜캎갈계획인데 근데 굿즈욕심은없어서 느긋하게 갈듯 이것도 후기 낋여올까...?싶다가 잠깐만 구경하다 나올거같고 홍대가서 밥먹고 펍가서 놀생각...",
+      "link": "https://zjaltusqkesmsek.tistory.com/29",
+      "source": "(ㅇ\"ㅅㅇ)",
+      "date": "2026-11-25T21:21:43.000Z",
+      "thumb": "https://search2.kakaocdn.net/argon/130x130_85_c/Ai30j3hovJf",
+      "type": "blog",
+      "query": "홍대 디저트",
+      "collectedAt": "2026-11-26T03:47:04.573Z",
+      "area": "홍대",
+      "gu": "마포구",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "김포 브런치 맛집 베스트 10 순위 추천",
+      "desc": "미입력, 미입력 태그 리스트 관련 주제 미입력 플레이스 정보 9. 55갤런카페,디저트 친절한 서비스로 채워지는 따뜻한 경험 블로그 리뷰 1,888개방문자 리뷰...55갤런은 반려동물과 함께 입장할 수 있는 김포대평 카페 입니다 서울근교에 있는 55갤런은 장기동(먹자골목),장기역,운양동,운양역,라베니체(수변상가...",
+      "link": "https://little-cat.tistory.com/7590",
+      "source": "꿈멍이 기록",
+      "date": "2026-11-25T20:26:41.000Z",
+      "thumb": "",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "area": "",
+      "gu": "",
+      "seoul": true,
+      "keywords": [
+        "브런치"
+      ],
+      "popup": false
+    },
+    {
+      "title": "Y언니에게",
+      "desc": "지기도 하고. 그나저나 나 같은 게 어떻게 서울에서 용케도 살아남았던 걸까. 언니만 만나면 늘 직장생활 힘들다고 투덜거렸던 게 생각나네. 언니는 다...좀 늙었겠지만 서로 안타까운 눈으로 바라보지는 말기. 꼬옥 안아주기. 맛있는 것 먹으러 가기. 2차로 카페에 가서 차랑 디저트 먹고서 3차로 다른 카페 가기. 예전...",
+      "link": "https://brunch.co.kr/@marylee1126/6",
+      "source": "로빈순",
+      "date": "2026-11-25T20:13:53.000Z",
+      "thumb": "",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "area": "",
+      "gu": "",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
+    {
+      "title": "서울 추억의 맛집 2곳 | 면목동 면동떡볶이, 전농동 추억의 생크림빵",
+      "desc": "빵 사이에 하얀 생크림이 빈틈없이 채워져 있습니다. ​ 요즘에는 예쁘고 화려한 디저트가 참 많지만 이렇게 빵과 생크림만으로 만들어진 옛날 생크림빵도 참...정보 ​ 영업시간 안내 사진 산육 서울특별시 동대문구 전농로20길 4 1층 예약 📍 서울 동대문구 전농동 산육 건물 지하 1층 ⏰ 영업시간 월요일~토요일 13:00...",
+      "link": "https://kk-ny.tistory.com/5",
+      "source": "꼼냥이네┃교감사 수빈의 기록",
+      "date": "2026-11-25T17:48:23.000Z",
+      "thumb": "",
+      "type": "blog",
+      "query": "서울 디저트",
+      "collectedAt": "2026-11-26T03:47:01.907Z",
+      "area": "",
+      "gu": "",
+      "seoul": true,
+      "keywords": [],
+      "popup": false
+    },
     {
       "title": "스타벅스 클래식 뱅쇼 | 블랙 글레이즈드 부생카",
       "desc": "인기 디저트 부드러운 생크림 카스텔라 부생카의 파생 신메뉴인 블랙 글레이즈드 부생카 주문해봤는데요.. 가격이 무려 6,500원으로 기본 부생카보다 무려 2천원이나 더 비싸게 나와서 놀랐는데.. 이번에 부생카 11년만에 700원 가격인상을 단행했다는 소식.. 기존 가격 4,500원이 많이 저렴하긴 했는데.. 그래도 너무...",
@@ -3173,8 +4186,8 @@
       "gu": "마포구",
       "seoul": true,
       "keywords": [
-        "한정선",
-        "머랭롤"
+        "머랭롤",
+        "한정선"
       ],
       "popup": false
     },
@@ -3574,7 +4587,9 @@
       "area": "",
       "gu": "",
       "seoul": true,
-      "keywords": [],
+      "keywords": [
+        "성심당"
+      ],
       "popup": false
     },
     {
@@ -5049,7 +6064,9 @@
       "area": "",
       "gu": "",
       "seoul": true,
-      "keywords": [],
+      "keywords": [
+        "성심당"
+      ],
       "popup": false
     },
     {
@@ -5066,8 +6083,8 @@
       "gu": "",
       "seoul": true,
       "keywords": [
-        "한정선",
         "머랭롤",
+        "한정선",
         "찹쌀떡"
       ],
       "popup": false
@@ -5085,9 +6102,7 @@
       "area": "",
       "gu": "마포구",
       "seoul": true,
-      "keywords": [
-        "티라미수"
-      ],
+      "keywords": [],
       "popup": false
     },
     {
@@ -5287,7 +6302,9 @@
       "area": "",
       "gu": "",
       "seoul": true,
-      "keywords": [],
+      "keywords": [
+        "성심당"
+      ],
       "popup": false
     },
     {
@@ -5371,8 +6388,8 @@
       "gu": "",
       "seoul": true,
       "keywords": [
-        "한정선",
-        "머랭롤"
+        "머랭롤",
+        "한정선"
       ],
       "popup": false
     },
@@ -5437,9 +6454,7 @@
       "area": "",
       "gu": "강남구",
       "seoul": true,
-      "keywords": [
-        "티라미수"
-      ],
+      "keywords": [],
       "popup": false
     },
     {
@@ -5781,7 +6796,9 @@
       "area": "",
       "gu": "용산구",
       "seoul": true,
-      "keywords": [],
+      "keywords": [
+        "성심당"
+      ],
       "popup": false
     },
     {
@@ -6564,7 +7581,9 @@
       "area": "",
       "gu": "",
       "seoul": true,
-      "keywords": [],
+      "keywords": [
+        "성심당"
+      ],
       "popup": false
     },
     {
@@ -6873,8 +7892,7 @@
       "gu": "마포구",
       "seoul": true,
       "keywords": [
-        "커피",
-        "티라미수"
+        "커피"
       ],
       "popup": false
     },
@@ -6925,7 +7943,9 @@
       "area": "",
       "gu": "",
       "seoul": true,
-      "keywords": [],
+      "keywords": [
+        "성심당"
+      ],
       "popup": false
     },
     {
@@ -7426,800 +8446,9 @@
       "gu": "영등포구",
       "seoul": true,
       "keywords": [
-        "모찌",
-        "찹쌀떡"
-      ],
-      "popup": false
-    },
-    {
-      "title": "서촌 브런치 맛집 마사마드레 샌드위치 주말 웨이팅 후기",
-      "desc": "영업시간: 매일 10:00 ~ 18:00 (재료 소진 시 조기 마감) ✔휴무: 매주 월요일, 화요일 📞전화번호: 02-525-7234 🍀기타: 포장 마사마드레 서울특별시 종로구 자하문로7길 68-3 서촌 브런치 맛집 마사마드레는 지하철 3호선 경복궁역에서 서촌 골목 쪽으로 걸어서 10-15분정도. ​ 매장앞 주차공간이 있다면 2대정도 가능...",
-      "link": "https://blog.naver.com/eathyeny/224491121523",
-      "source": "멍순이의 하루",
-      "date": "2026-11-25T02:01:00.000Z",
-      "thumb": "https://search2.kakaocdn.net/argon/130x130_85_c/IojXaBCYiOj",
-      "type": "blog",
-      "query": "서울 브런치",
-      "collectedAt": "2026-11-25T03:51:03.423Z",
-      "area": "",
-      "gu": "종로구",
-      "seoul": true,
-      "keywords": [
-        "브런치"
-      ],
-      "popup": false
-    },
-    {
-      "title": "[서울/성수] 한정선 찹쌀떡 반값!?ㅣ 성수 가성비 빵집 슈카 ETF 베이커리 요거트 찹쌀떡 2,980원...",
-      "desc": "etf베이커리의 찹쌀떡은 요거트 크림과 과일의 조화가 정말 훌륭해서 나중에 서울 간다면 또 가고싶습니다!! ​ 감사합니다!! ​ ​ ​ #성수빵집 #성수동빵집 #성수...성수소금빵 #소금빵맛집 #콘소메소금빵 #명란소금빵 #칠리소금빵 #성수디저트 #성수빵지순례 #성수핫플 #성수역맛집 #내돈내산 #솔직후기",
-      "link": "https://blog.naver.com/ddiyong_log/224491170592",
-      "source": "ddiyong_log님의 블로그",
-      "date": "2026-11-25T01:59:00.000Z",
-      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/Bk6CS9pp3zP",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "성수",
-      "gu": "성동구",
-      "seoul": true,
-      "keywords": [
-        "한정선",
-        "찹쌀떡"
-      ],
-      "popup": false
-    },
-    {
-      "title": "고향사랑기부 12월 31일 마감, 10만 원은 전액 세액공제·답례품 30% 챙기는 법",
-      "desc": "원 = 혜택 25만 500원 · 100만 원 기부 : 세액공제 27만 6,000원 + 답례품 30만 원 = 혜택 57만 6,000원 · 20만 원을 넘기면 1만 원을 더 낼 때마다 공제는...곳이 모두 제외됩니다. 성남시에 산다면 경기도와 성남시에는 낼 수 없고 서울·강원·부산 등 다른 지역에는 낼 수 있습니다. · 기준은 실제 거주지가...",
-      "link": "https://seiron2026.tistory.com/27",
-      "source": "seiron2026 님의 블로그",
-      "date": "2026-11-25T01:58:32.000Z",
-      "thumb": "https://search3.kakaocdn.net/argon/130x130_85_c/D03gw6UMADv",
-      "type": "blog",
-      "query": "서울 답례품",
-      "collectedAt": "2026-11-25T03:50:17.929Z",
-      "area": "",
-      "gu": "",
-      "seoul": true,
-      "keywords": [
-        "답례품"
-      ],
-      "popup": false
-    },
-    {
-      "title": "꼬르지엘모 안국역 카페 파베초콜릿 후기",
-      "desc": "계획하고 있거나 서촌과 안국 일대를 구경할 예정이라면 카페 코스에 넣어보셔도 좋을 것 같아요. ​ 특히 산미 없는 아메리카노를 좋아하는 분, 초콜릿 디저트를 좋아하는 분에게 잘 어울리는 안국 카페예요. ​ 경복궁 나들이 후 여유로운 시간을 보내고 싶다면 꼬르지엘모에 들러보세요. ​ 꼬르지엘모 안국역 카페 카페...",
-      "link": "https://blog.naver.com/cookbook_/224491168494",
-      "source": "깡부의 일상기록",
-      "date": "2026-11-25T01:57:00.000Z",
-      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/BxKuXwWLRar",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "종로구",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "카페인중독 미아점 디저트카페 두바이 초코 호박인절미 초코바게트 솔직후기",
-      "desc": "지나가다가 보이면 이제 그냥 못 지나칠 것 같아요ㅎㅎ 카페인중독 미아점 서울특별시 강북구 오패산로 202 상가동 B314호 카페인중독 미아점(104동 왼쪽도로...#미아맛집 #미아카페 #미아와플 #미아와플맛집 #와플맛집 #떡와플 #호박인절미떡플 #두바이초코와플 #생크림와플 #미아디저트 #강북구디저트 #강북구카페...",
-      "link": "https://blog.naver.com/psypsy7848/224491161004",
-      "source": "커피와 빵을 좋아합니다.☕",
-      "date": "2026-11-25T01:52:00.000Z",
-      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/CIXFnoDeN16",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "도레도레 모찌 케이크 딸기 버전 파는 곳 성수 말고 한 곳 더",
-      "desc": "11일)·국제뉴스(11월 16일) 보도, 11월 25일 확인 #도레도레모찌케이크 #도레도레모찌치즈케이크 #도레도레딸기모찌케이크 #도레도레성수팝업 #비버케이크 #저스틴비버케이크 #서울모찌치즈케이크 #카페파벤 #용산아이파크몰 #홍성딸기축제 #도레도레용산 #딸기두바이 #모찌치즈케이크 #성수디저트 #성수팝업 #딸기디저트",
-      "link": "https://blog.naver.com/anhyunsoo13/224490878168",
-      "source": "미니마인드",
-      "date": "2026-11-25T01:50:00.000Z",
-      "thumb": "https://search3.kakaocdn.net/argon/130x130_85_c/3Vyxf32lr7X",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "성수",
-      "gu": "성동구",
-      "seoul": true,
-      "keywords": [
-        "모찌",
-        "도레도레"
-      ],
-      "popup": true
-    },
-    {
-      "title": "채비스테이 홍대점 카페 20 BOONㅣ홍대 대형카페, 전기차 충전 가능, 카공하기 좋은 카페",
-      "desc": "BOON 서울특별시 마포구 양화로 85 1층 카페 내부 Previous image Next image 들어서자마자 느껴진 첫인상은 &#34;매장이 참 넓다&#34;였어요. 테이블 사이 간격도 넉넉해서 옆 사람과 부딪힐 일 없이 답답하지 않았습니다. 각자 할 일에 집중하기 딱 좋은 환경이었고 소음도 크지 않아서 대화 소리가 신경 쓰이지 않았어요...",
-      "link": "https://blog.naver.com/leess_un/224491129823",
-      "source": "경험하고 기록하는 리썬로그",
-      "date": "2026-11-25T01:49:00.000Z",
-      "thumb": "https://search2.kakaocdn.net/argon/130x130_85_c/7TsvmnM6n5u",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "홍대",
-      "gu": "마포구",
-      "seoul": true,
-      "keywords": [
-        "대형카페"
-      ],
-      "popup": false
-    },
-    {
-      "title": "이수역 오마카세 맛집 추천｜가성비 좋은 오마카세 스시이찌 이수점 솔직 방문 후기🍣",
-      "desc": "튀김, 디저트까지 구성이 정말 알찼습니다:) 💗스시이찌 이수점 솔직 총평 💗 ​ 이번에 친동생이랑 다녀온 스시이찌 이수점! 일단 직원분들도 친절하시고 매장도...다음에 또 사줘 동생🫶🏻 ✔️스시이찌 이수점 위치✔️ 스시이찌 이수점 서울특별시 동작구 사당로30길 35-4 이수월든빌 지하1층 ✔️스시이찌 이수점 예약링크✔️ 스시이...",
-      "link": "https://blog.naver.com/whtjdud11/224491152960",
-      "source": "스앵이의 일상ෆ'◡'ෆ",
-      "date": "2026-11-25T01:48:00.000Z",
-      "thumb": "https://search2.kakaocdn.net/argon/130x130_85_c/DJ7nPjS4TLF",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "동작구",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "대전에만 있는 성심당, 70년째 줄 안 줄어드는 이유 가봤더니",
-      "desc": "대전에만 있는데, 전국에서 줄을 선다 대전역에 내리면 가장 먼저 눈에 들어오는 간판이 있습니다. 바로 성심당입니다. 서울에도, 부산에도 없는 빵집인데 주말마다 대전까지 내려가서 빵을 사오는 사람들이 꾸준히 있다는 게 신기했습니다. ​ 저도 처음엔 그냥 동네 빵집이겠거니 했는데, 막상 본점 앞에 줄 서 있는...",
-      "link": "https://blog.naver.com/fastmoneyup82/224491109800",
-      "source": "머니앵커의 돈 보는 눈",
-      "date": "2026-11-25T01:46:00.000Z",
-      "thumb": "https://search4.kakaocdn.net/argon/130x130_85_c/JZ5ORqIC1IM",
-      "type": "blog",
-      "query": "서울 성심당",
-      "collectedAt": "2026-11-25T03:51:13.674Z",
-      "area": "",
-      "gu": "",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "타이타늄 물결 위에 피어난 미식의 수도, 빌바오 3박 4일 완전 정복 [비바 타임즈]",
-      "desc": "100g당 6유로(약 8,700원)로 꿀이나 호두와 곁들여 먹습니다. 디저트로는 판티야(Pantxineta, 커스터드 크림 페이스트리) 한 조각 3.50유로(약 5,000원)가 대표...35,000원대이나 현지 슈퍼마켓에서 8유로(약 11,600원)면 구매 가능합니다. 핀초스 1개는 서울 핫플레이스 안주 1만 원대와 비교해 2~4유로(약 3,000~6,000...",
-      "link": "https://james-money.tistory.com/803",
-      "source": "제임스골드의 톡톡 라이프",
-      "date": "2026-11-25T01:45:03.000Z",
-      "thumb": "https://search3.kakaocdn.net/argon/130x130_85_c/CJdiuunDDsU",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "사당역 맛집 올리브에비뉴, 파스텔시티 런치 그린 올리브 코스 39,900원 후기",
-      "desc": "다 같이 모이기도 편하더라고요. 날이 쌀쌀할 땐 이렇게 건물 안에 있는 식당이 최고잖아요. ㅋㅋ 결론부터 말하면, 39,900원짜리 점심에 샐러드부터 스테이크, 디저트까지 다 나와서 정말 알찬 한 끼였어요! 💕 올리브에비뉴 서울특별시 서초구 방배천로 11 SK리더스뷰 6층 ​ 사당역 파스텔시티 6층 올리브에비뉴 ​ 가게...",
-      "link": "https://blog.naver.com/8892050/224488473625",
-      "source": "HOI",
-      "date": "2026-11-25T01:44:00.000Z",
-      "thumb": "https://search2.kakaocdn.net/argon/130x130_85_c/CSXIb22IATA",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "서초구",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "[서촌]카페 레종데트르 서촌 본점",
-      "desc": "조합은 좀 아쉬운...? ​ ​ 높은 가격대에 비하면 맛은 생각보다 좀 아쉬웠던 디저트 가게였는데요. 비주얼 측면에서 아름다워서 확실히 어필하는 부분이 있는 곳이...dessert)님의 Instagram 사진 및 동영상 보기 www.instagram.com 카페 레종데트르 서촌 본점 서울특별시 종로구 자하문로7길 67-2 레종데트르 카페",
-      "link": "https://blog.naver.com/dnr6578/224470246218",
-      "source": "금군의 미각은 나의 힘",
-      "date": "2026-11-25T01:44:00.000Z",
-      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/1tSDl2RQRW2",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "종로구",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "황금빛 시럽 카라멜푸딩 비주얼로 알려진 이태원동 카페 헤미안 커피바",
-      "desc": "다운 찐한 맛의 뉘앙스가 음료 한 잔마다 묻어난다. 이태원동 카페 골목에서 디저트 퀄리티로 절대 밀리지 않는 이유다. ​ 메뉴 선택에 타협이란 없다 ㅋㅋ 웬만...갈린 스무디, 이태원동 카페 디저트로 어떤 맛일까? 콩카페 이태원점 주소: 서울 용산구 녹사평대로 168-8 영업: 매일 11:00 - 21:00 (라스트오더 20:30...",
-      "link": "https://blog.naver.com/simpleisbest_j/224491144245",
-      "source": "맛집은 두 번 이상간다 몽~",
-      "date": "2026-11-25T01:42:00.000Z",
-      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/D9Lt2s0hmbI",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "용산구",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "신도림 문래 카페 추천 : ‘앤드쏘온’ 프렌치토스트맛집",
-      "desc": "산미있는 원두 하나, 고소한 원두 하나로 주문했어요 ​ 그리고 디저트 러버인 저희는 디저트도 무려 두개 주문했답니다💜 ​ 🍰주문메뉴🍰 ​ 프렌치토스트와 이름이기억...길어보이는 전신거울 포토스팟도 한컷 찍어줬습니다 ㅎㅎ ​ 앤드쏘온 서울특별시 영등포구 경인로 714 3층 301호 ​ #문래맛집 #문래카페 #문래역카페...",
-      "link": "https://blog.naver.com/sohyun2199/224491068304",
-      "source": "또니로그❣️",
-      "date": "2026-11-25T01:41:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "영등포구",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "[혜화] 홍만당 모찌 대학로점 후기 | 혜화 디저트 선물 추천",
-      "desc": "대학로점 서울특별시 종로구 대학로8가길 93 1층 홍만당 ​ ​ CU 홍만당 요거트 찹쌀떡 | 편의점 한정선 과일 찹쌀 모찌 고놈의 찹쌀 모찌가 뭐길래~~ 하면서도 있으면 먹어보게 되는 사람 심리란.. 홍만당 요거트 찹쌀떡 가격: 3... m.blog.naver.com ​ ​ 혜화에 홍만당이 있다니! 찾아보고 온 게 아니고 우연이 발견하게 된...",
-      "link": "https://blog.naver.com/ryu__tiful/224491142549",
-      "source": "아름답고, 영리하게",
-      "date": "2026-11-25T01:41:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "종로구",
-      "seoul": true,
-      "keywords": [
+        "찹쌀떡",
         "모찌"
       ],
-      "popup": false
-    },
-    {
-      "title": "강남역카페 셀렉티드닉스 역삼동 대형카페 디저트 후기",
-      "desc": "참고해 보세요. ​ 셀렉티드닉스 방문 정보 ​ * 매장명 : 셀렉티드닉스 * 주소 : 서울 강남구 역삼동 827-13 * 위치 : 강남구 역삼동 * 운영시간 : 월-금 08:00~24:00 토,일 11:00~23:30 ​ * 주문 메뉴 : 음료 2잔 + 디저트 1개 ​ 📍 지도 위치 셀렉티드닉스 서울특별시 강남구 테헤란로4길 37 1층 ​ #강남역카페 #역삼동...",
-      "link": "https://blog.naver.com/hea900704/224489212017",
-      "source": "지혜의 좋아좋아 | 먹고 가꾸는 기준",
-      "date": "2026-11-25T01:40:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "강남구",
-      "seoul": true,
-      "keywords": [
-        "대형카페",
-        "셀렉티드닉스"
-      ],
-      "popup": false
-    },
-    {
-      "title": "[대전] 성심당 본점 홍시시루 주말 임산부 프리패스 (5%할인 및 제휴 주차장)",
-      "desc": "거를 생각해서 다른 빵 미리 생각하고가세요 롤케익은 순수롤, 알밤롤, 티라미수롤, 멜론롤, 요키롤 있어요 ​ 이제 다시 줄줄이 기차처럼 쭈욱 가다 보면 5분...주문하면 되고 원하던 홍시케익 주문 완료! 하하하하 이 녀석 보려고 서울에서 비 오는 날 세 시간을 달림 하하하하하하 가격이 41,000원이면 저렴한 것 같지...",
-      "link": "https://blog.naver.com/khan_ssg/224491139555",
-      "source": "천방지축 쓱이의 대모험★",
-      "date": "2026-11-25T01:40:00.000Z",
-      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/1PDvNFyw6zq",
-      "type": "blog",
-      "query": "서울 티라미수",
-      "collectedAt": "2026-11-25T03:51:02.625Z",
-      "area": "",
-      "gu": "",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "[서울 성수] 겹겹이 쫀득 초콜릿 파블로바 생딸기 케이크 프랑스 루브르 바게트 성수점 주말웨이팅...",
-      "desc": "가봤다. #프랑스루브르바게트 프랑스루브르바게트 성수점 서울특별시 성동구 연무장길 43-1 104호 [영업시간] * 주중 09:30-22:00 * 주말 09:00-22:00 테이블링...초콜릿도 적당히 달고 진짜 맛있는데 가격이 사악하다. 말차맛도 있었는데 그건 품절이었다. ​ ​ 파블로바 생딸기 케이크-10,500원 ​ ​ 이것 또한 맛있다. 이건...",
-      "link": "https://blog.naver.com/effort_glory/224491113572",
-      "source": "네이버시 블로구",
-      "date": "2026-11-25T01:39:00.000Z",
-      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/58ZuRnnt1cW",
-      "type": "blog",
-      "query": "서울 파블로바",
-      "collectedAt": "2026-11-25T03:51:08.118Z",
-      "area": "성수",
-      "gu": "성동구",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "서울 머랭롤 맛집 7곳",
-      "desc": "것이 좋아요. 참고 자료 데일리패션뉴스｜머랭롤 붐은 왔다, 서울 머랭롤 맛집 마리끌레르｜요즘 뜨는 머랭롤 맛집 4곳 이인 공식 인스타그램｜제철 과일 머랭 롤라드 태그 #머랭롤 #머랭롤맛집 #서울머랭롤 #새들러하우스 #러시아케익 #온뒤 #이인 #메르시네코 #퀸빅토리아마켓 #카페두레브 #파블로바 #서울디저트맛집",
-      "link": "https://blog.naver.com/todayclipping/224491131492",
-      "source": "오늘의 클리핑",
-      "date": "2026-11-25T01:35:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "",
-      "seoul": true,
-      "keywords": [
-        "머랭롤"
-      ],
-      "popup": false
-    },
-    {
-      "title": "마곡 원그로브 맛집 장심도 블랙, 고급 숯불장어 맛집 회식 추천",
-      "desc": "중 택 1 서비스로 받을 수 있어요. ​ 보통 음료 서비스가 많은데 깔끔한 디저트를 서비스로 받을 수 있다는 점도 큰 매력이에요. ​ ​ ​ 제대로 된 숯불장어를 맛보고...#마곡가족모임 #마곡룸식당 #마곡프라이빗룸 #마곡숯불장어 #숯불장어맛집 #특상숯불장어 #장어맛집 #장어보양식 #마곡모임장소 #강서구맛집 #서울장어맛집",
-      "link": "https://blog.naver.com/hi_storyuri/224491130225",
-      "source": "hi_storyuri",
-      "date": "2026-11-25T01:34:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "강서구",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "분위기 좋은 잠실 석촌호수 브런치 카페 쾌세라, 애견동반도 가능❤️",
-      "desc": "빵만 조금 잘라서 단호박스프에 찍어 먹었는데 순간 박수 칠 뻔 ㅋㅋ 또 먹고 싶다!!! ​ ​ 쾌세라는 잠실에서 맛과 분위기 모두 만족할수 있는 여유롭게 브런치를 즐기기 좋은 곳이다 ​ 따뜻하고 진한 호박스프와 신선한 새우아보카도샌드위치가 너무 맛있어서 다른 브런치 메뉴들도 먹어보러 다시 가고 싶다 쾌세라 서울...",
-      "link": "https://blog.naver.com/miya0093/224491129275",
-      "source": "즐거운 인생만들기",
-      "date": "2026-11-25T01:34:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 브런치",
-      "collectedAt": "2026-11-25T03:51:03.423Z",
-      "area": "",
-      "gu": "송파구",
-      "seoul": true,
-      "keywords": [
-        "브런치"
-      ],
-      "popup": false
-    },
-    {
-      "title": "[합정맛집] 오르노 합정점 - 크리스마스 연말 송년모임에 제격! 화덕피자 전문 맛집",
-      "desc": "끝나기 전에 꼭 한번 더 먹고싶은 피자였어요! ​ ​ ​ 무화과 덕분에 상큼한맛이 디저트피자 같으면서도 하몽과 루꼴라의 짭쪼롬하고 씁쓸한 감칠맛 덕에 와인안주...화덕요리까지 즐기고 오시길 추추천 드려요!! ​ 오르노 합정점 서울특별시 마포구 월드컵로3길 14 딜라이트스퀘어2차 지1층 합정맛집 합정화덕피자 합정양식",
-      "link": "https://blog.naver.com/nerururu_/224491126157",
-      "source": "오늘도 행복하게 ෆ",
-      "date": "2026-11-25T01:32:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "마포구",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "[홍대 9번출구 브런치] 홍대 맛집ㅣ겉바속촉 연어 스테이크 뇨끼와 매콤명란파스타 추천 메뉴",
-      "desc": "메뉴 하나하나에 개성이 뚜렷한 퓨전 양식 홍대 맛집이자 홍대 9번출구 브런치 '오밀'에 다녀온 후기입니다 😉 ​ 골목 사이 감성적인 무드가 매력적인 곳이라 연인...맛있는 음식을 나누며 기분 전환하기 좋은 양식당이에요 ㅎㅎ 오밀 홍대 서울특별시 마포구 양화로 178-8 2층 매일 11 : 30 - 21 : 15 라스트 오더 20...",
-      "link": "https://blog.naver.com/thddbsk3312/224491108788",
-      "source": "공추참치",
-      "date": "2026-11-25T01:32:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 브런치",
-      "collectedAt": "2026-11-25T03:51:03.423Z",
-      "area": "홍대",
-      "gu": "마포구",
-      "seoul": true,
-      "keywords": [
-        "브런치"
-      ],
-      "popup": false
-    },
-    {
-      "title": "파리크라상 광화문점 내돈내산 솔직후기 | 교보문고 1층 쾌적한 대형 카페, 아쉬웠던 2가지",
-      "desc": "주차까지 갖춰져 있어 광화문 나들이나 약속 장소로 손색없는 곳이랍니다! ☕️🥐 #광화문카페 #파리크라상광화문점 #교보문고카페 #광화문브런치 #광화문디저트 m.blog.naver.com 📍 [파리크라상 광화문점] 위치 및 이용 정보 파리크라상 광화문점 서울특별시 종로구 종로 1 교보생명빌딩 1층 · 주소 : 서울 종로구 종로 1...",
-      "link": "https://blog.naver.com/aromi7856/224491120738",
-      "source": "균스맘 일상여행",
-      "date": "2026-11-25T01:29:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "종로구",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "2026 크리스마스 분위기 좋은 서울 호텔 BEST 8｜트리 명소·연말 데이트·호캉스 추천",
-      "desc": "마켓 → 롯데월드몰 → 시그니엘 서울 ​ ​ ③ 여의도 크리스마스 데이트 더현대 서울 크리스마스 빌리지 → 페어몬트 앰배서더 서울 → 켄싱턴호텔 여의도 ​ ​ ④...④ 호텔 카페와 라운지 이용하기 숙박이 부담스럽다면 애프터눈티나 디저트를 즐기는 것도 방법이야. ​ ⑤ 주차 요금 확인하기 호텔별 무료 주차 기준과...",
-      "link": "https://blog.naver.com/h_yoom010/224490844756",
-      "source": "Merci, 토용 문화생활 ZIP",
-      "date": "2026-11-25T01:28:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "더현대 디저트",
-      "collectedAt": "2026-11-25T15:51:47.297Z",
-      "area": "더현대",
-      "gu": "영등포구",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "연남동 맛집 카페 버터앤쉘터 연남점, 버터샌드 5종 홍대카페",
-      "desc": "주소: 서울 마포구 성미산로 170, 102호 · 영업시간: 매일 10:00~21:00 (라스트오더 20:30) · 위치: 홍대입구역 3번 출구에서 연남동 카페거리 쪽으로 걸어서 10분 · 주차: 전용 주차장은 없어서 근처 공영주차장 이용 · 매장 홀은 웨이팅제로 운영 · 반려견은 바깥 테라스 자리만 가능 (비 오거나 너무 더운 날은...",
-      "link": "https://blog.naver.com/matzip100_/224491116042",
-      "source": "테이블 앤 트래블",
-      "date": "2026-11-25T01:26:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "홍대",
-      "gu": "마포구",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "[ 송파 잠실 ] TONGUE 텅플래닛롯데월드몰점 - 감각적인 인테리어와 다양한 디저트 카페 내돈내산 후기",
-      "desc": "#송파카페 #송파디저트 #롯데월드몰디저트 #롯데월드몰맛집 #잠실데이트 #잠실데이트코스 #잠실핫플 #롯데월드몰핫플 #잠실실내데이트 #서울디저트카페 #서울카페추천 #디저트맛집 #디저트카페추천 #이색카페 #감각적인인테리어 #인테리어예쁜카페 #감성카페 #독특한카페 #잠실가볼만한곳 #카페내돈내산 #내돈내산후기",
-      "link": "https://blog.naver.com/from-jane/224491113937",
-      "source": "eat drink love : from. jane",
-      "date": "2026-11-25T01:24:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "송파구",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "딸기꿀청 비타민스틱 '어썸 허니베리핏' 플레인요거트에 꿀스틱을?",
-      "desc": "입니다. smartstore.naver.com ​ 4대째 양봉을 이어온 브랜드 어썸비 ​ 서울에서 고등학교 교사로 일하던 대표님이 가족의 양봉 가업을 잇기 위해서 논산으로...있는 이지컷으로 나왔어요 이건 필요한 만큼 사용하면 돼서 정말 간편하더라고요 ​ 먹는 방법은 탄산수에 타서 먹거나 요거트에 올려 먹거나 디저트 위에 뿌려...",
-      "link": "https://blog.naver.com/henihening/224491112055",
-      "source": "헤니헤닝:솔직한 리뷰어의 공간",
-      "date": "2026-11-25T01:23:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "내돈내산 미국 분위기 뿜뿜 용산 브런치 맛집 다이너메이트",
-      "desc": "보니 잘안가게 되어서 용산 맛집이나 카페는 잘 모르는 편이였는데 ​ 이날 용산 방문하니 정말 핫플이더라구요^^ ​ 그중에서도 미국 분위기 뿜뿜 나는 용산 브런치 맛집 다이너메이트 후기 갑니닷 다이너메이트 용산점 서울특별시 용산구 한강대로21가길 49 2층 다이너메이트 용산 브런치 맛집 다이너메이트는 건물 2층에...",
-      "link": "https://blog.naver.com/ahs5110/224491111125",
-      "source": "Happichu'Blog",
-      "date": "2026-11-25T01:23:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 브런치",
-      "collectedAt": "2026-11-25T03:51:03.423Z",
-      "area": "",
-      "gu": "용산구",
-      "seoul": true,
-      "keywords": [
-        "브런치"
-      ],
-      "popup": false
-    },
-    {
-      "title": "케이크 예약 총정리! 스타벅스,파리바게뜨부터 서울신라호텔·그랜드하얏트까지 가격과 픽업 일정",
-      "desc": "정확한 판매가를 확인하는 편이 안전해요! 그랜드하얏트호텔 인스타 출처 하얏트호텔 예약 정보 * 예약 시작: 11월 9일 * 예약 및 문의: 그랜드 하얏트 서울 더 델리 * 전화: 02-799-8167 * 케이크 6종 및 시즌 디저트 판매 ​ 하얏트호텔 케이크는 매장 픽업 날짜와 재고에 따라 예약 가능 여부가 달라질 수 있으니 주문...",
-      "link": "https://blog.naver.com/rlatnwls907/224491030505",
-      "source": "하하호호",
-      "date": "2026-11-25T01:22:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "[마곡 카페] 브릭샌드 : 벽돌 모양 휘낭시에, 디저트 선물로도 좋은 곳",
-      "desc": "매장 안에 앉을 자리도 많아요 ! 원그로브 구경하다 잠깐 쉬면서 음료랑 디저트 먹고 가기 딱 좋더라구요 😆💕 복숭아자두에이드 베리에이드 달콤브릭 복숭아자두...하고 싶을 때나 선물용 디저트 포장 할 곳 찾으면 브릭샌드 괜찮은 것 같아요 😆 ​ ​ 브릭샌드 원그로브점 서울특별시 강서구 공항대로 165 B동 지하1층 EB...",
-      "link": "https://blog.naver.com/aellesss/224491108114",
-      "source": "ohzl’s Records ෆ",
-      "date": "2026-11-25T01:21:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "강서구",
-      "seoul": true,
-      "keywords": [
-        "브릭샌드"
-      ],
-      "popup": false
-    },
-    {
-      "title": "연희동 카페 두 곳, 프로토콜 연희 커피와 비피엠파이엔타르트 메뉴·시간 메모",
-      "desc": "8242)로 확인하면 헛걸음이 없다. 주차 공간은 없고 카카오페이와 제로페이를 받는다. 포장도 된다. https://place.map.kakao.com/1529562776 비피엠파이엔타르트 서울 서대문구 연희로10길 19 1층 place.map.kakao.com 두 곳은 걸어서 3분 거리라 커피와 디저트를 한 번에 해결하기 좋다. 연희동 골목은 주차할 곳이...",
-      "link": "https://taeyi-day.tistory.com/11",
-      "source": "taeyi-day 님의 블로그",
-      "date": "2026-11-25T01:20:02.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "서대문구",
-      "seoul": true,
-      "keywords": [
-        "커피"
-      ],
-      "popup": false
-    },
-    {
-      "title": "ꔷ ꔷ ꔷ261125 | 도쿄와 발레로 탕진 ꔷ ꔷ ꔷ",
-      "desc": "불고 추웠던 날 하필 샘킴 예약을 성공해서 합정까지 갔다옴 오스테리아샘킴 서울특별시 마포구 월드컵로1길 14 딜라이트스퀘어 A동 1차 2층 ​ 스테이크가 진짜...빛 때문에 빈티지하게 나와서 사알짝 눈물 날뻔 했다 ㅋㅋㅋ 못말리는 감성 ​ 디저트까지 시켜서 야무지게 먹고있는데 갑자기 다음 예약자 왔다고 나가달라고...",
-      "link": "https://blog.naver.com/wavyy-/224491035969",
-      "source": "wavyy-",
-      "date": "2026-11-25T01:20:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "마포구",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "스타벅스 헬로키티 텀블러 머그컵 가방 오픈런 후기와 재입고",
-      "desc": "일정과 영화의전당 예매 팁 올겨울 크리스마스가랜드 예쁘게 걸어두고 어디로 나들이 갈지 고민했잖아? 부산 영화의전당에서 대박 축제... blog.naver.com 서울머랭롤 맛집 3곳 주차 꿀팁 및 서울시청 맛집 투어 코스 서울머랭롤 맛집 세 곳을 찾아가서 달콤한 디저트를 결국 잔뜩 맛보고 왔어 그런데 왜 이렇게 요즘...",
-      "link": "https://blog.naver.com/ragdoll_elly/224489572453",
-      "source": "우당탕탕 정엘리의 하루",
-      "date": "2026-11-25T01:20:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "'모찌' 뜬 지 얼마나 됐다고 이번엔 '머랭롤'! 초단기 디저트 유행 주기와 자영업자·소비자 트렌드 분석",
-      "desc": "3주 전과 비교해 4.5배나 뛰었으며, 11월 중순부터 꾸준히 오르던 관심도가 최근 사흘간 40%가량 급등했습니다. ​ 오픈런 현상 확산: 지난 20일 서울 가로수길 디저트 전문점 '새들러하우스' 앞에는 평균 2~3시간의 대기 줄이 늘어섰고, 동대문역사문화공원역 인근 '러시아케익' 역시 개점 후 3시간 안에 준비된 물량이...",
-      "link": "https://blog.naver.com/kyo616405/224491104450",
-      "source": "더나은 미래 : 일상 투자와 맛집 골프 여행기",
-      "date": "2026-11-25T01:18:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "",
-      "seoul": true,
-      "keywords": [
-        "모찌",
-        "머랭롤"
-      ],
-      "popup": false
-    },
-    {
-      "title": "[경복궁 한복대여] 가성비 대박! 갓 쓴 선비 & 아씨 변신하고 인생샷 100장 건진 '도령아씨한복...",
-      "desc": "남긴 뒤, 바로 옆 서촌이나 삼청동 한옥 골목을 산책하며 감성 카페에서 디저트를 즐기고 저녁에는 통인시장 엽전 도시락이나 종로 맛집으로 이어지는 데이트...#도령아씨한복 #경복궁한복대여 #경복궁데이트 #서촌한복대여 #경복궁역한복대여 #한복스냅 #경복궁포토존 #서울데이트코스 #종로놀거리 #가성비한복대여...",
-      "link": "https://blog.naver.com/gyuhan__/224491075967",
-      "source": "먹고자고먹고자고",
-      "date": "2026-11-25T01:17:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "종로구",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "강남역 카페 셀렉티드닉스 - 혼자 쉬기도 카공도 소개팅도 다 되는 대형카페",
-      "desc": "찾아봤어요. ​ 강남역은 사람도 많고 카페도 좁은 곳이 많아서 혼자 편하게 앉아 있을 만한 데를 찾는 게 은근히 어렵잖아요!?!? ​ 그러다 좌석이 넉넉하고 디저트가 괜찮다는 후기를 보고 셀렉티드닉스에 다녀왔습니다! 위치 셀렉티드닉스 서울특별시 강남구 테헤란로4길 37 1층 셀렉티드닉스 서울 강남구 테헤란로4길 37...",
-      "link": "https://blog.naver.com/jtm0815/224489654438",
-      "source": "타이멍의 갓생라이프",
-      "date": "2026-11-25T01:10:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "강남구",
-      "seoul": true,
-      "keywords": [
-        "대형카페",
-        "셀렉티드닉스"
-      ],
-      "popup": false
-    },
-    {
-      "title": "현대백화점 압구정본점 크리스마스 포토존, 스타벅스 골목 괜찮을까? 주말 방문 후기",
-      "desc": "백화점 본점 서울 강남구 압구정로 165 현대백화점압구정본점 ​ 바로 본론 시작. ㅎㅎㅎ 이것만 기억하세요. ​ ⭐️ 압구정역 5번 출구로 나가기. ​ 현대백화점 압구정...컨셉 너무 잘 잡았다 !!! 스타벅스 골목이 포토존으로 핫한데 … 괜찮을까? 스타벅스 압구정역점 서울특별시 강남구 압구정로 170 관영빌딩 1층 지하...",
-      "link": "https://blog.naver.com/kjo0824/224491071154",
-      "source": "Esther log",
-      "date": "2026-11-25T01:10:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 스타벅스",
-      "collectedAt": "2026-11-25T15:52:47.859Z",
-      "area": "",
-      "gu": "강남구",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "판교현대백화점디저트 노치, 한 손에 쏙 타르트바 4종 디저트 선물로 추천!",
-      "desc": "노치 노치는 원래 성수동에서 시작한 타르트 전문점이에요~ 성수 본점은 서울 성동구 광나루로4가길 3에 있는데요, 모든 타르트의 반죽부터 직접 만드는 핸드...하더라고요! 당일 생산·당일 판매를 원칙으로 한다고 해요~ 이게 디저트 가게에서는 꽤 큰 차별점이거든요! 전날 만들어 둔 걸 다음 날 파는 곳도 많은데...",
-      "link": "https://blog.naver.com/jimmini_/224491090032",
-      "source": "도라포바의 하루일기",
-      "date": "2026-11-25T01:09:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "성수",
-      "gu": "성동구",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "스타벅스 헬로키티 품절 대란, 2차 출시 12종 공략법",
-      "desc": "경기 아파트 분양, 11월에 쏟아지는 물량 확인 서울 경기 아파트 분양, 11월에 쏟아지는 물량 확인 2026년 11월 수도권 아파트 분양은 물량이 풍부하지만 지역별...있습니다. 투썸 가나디 초코 베리 케이크는 9,800원의 쁘띠 사이즈 케이크로, 진한 초코 시트에 상큼한 딸기 치즈크림... blog.naver.com ​ #스타벅스헬로...",
-      "link": "https://blog.naver.com/hunimo79/224489823629",
-      "source": "굿 초이스 랩",
-      "date": "2026-11-25T01:07:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 치즈케이크",
-      "collectedAt": "2026-11-25T03:51:09.670Z",
-      "area": "",
-      "gu": "",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "60만 원 크리스마스 케이크, 누가 사지? | 2026 호텔 케이크 예약 일정 총정리",
-      "desc": "올해 호텔 크리스마스 케이크 최고가가 60만 원을 넘었다. 서울신라호텔이 지난 23일 공개한 '더 파이니스트 리저브'가 그 주인공이다. 지난해 최고가였던 50만 원짜리보다 10만 원 더 비싸다. 호텔 케이크는 이제 디저트보다 연말 선물에 가까워졌다. 그래서 올해는 가격만 볼 게 아니라 예약이 언제 열리는지를 먼저...",
-      "link": "https://blog.naver.com/melanchonly/224491016537",
-      "source": "my pickup list",
-      "date": "2026-11-25T01:06:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.314Z",
-      "area": "",
-      "gu": "",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "한남 ] cercle hannam 세르클 한남 본점 - 이태원 브런치 데이트코스 추천 내돈내산 연어 뺑뒤프 화이트...",
-      "desc": "#용산맛집 #용산브런치 #한남동데이트 #이태원데이트 #한남동데이트코스 #이태원데이트코스 #한남동핫플 #이태원핫플 #서울브런치맛집 #서울브런치추천 #브런치맛집 #브런치데이트 #연어뺑뒤프 #뺑뒤프 #화이트라구파스타 #라구파스타 #뽐므드테르 #프렌치브런치 #브런치내돈내산 #내돈내산후기 세르클한남 인스타그램...",
-      "link": "https://blog.naver.com/from-jane/224491071232",
-      "source": "eat drink love : from. jane",
-      "date": "2026-11-25T01:05:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 브런치",
-      "collectedAt": "2026-11-25T03:51:03.423Z",
-      "area": "",
-      "gu": "용산구",
-      "seoul": true,
-      "keywords": [
-        "브런치"
-      ],
-      "popup": false
-    },
-    {
-      "title": "[서초시그니처파티룸] 🎄 연말 모임 장소 추천, 서울에서 특별하게 즐기는 프라이빗 파티",
-      "desc": "좋습니다. ​ ✔️ 함께 나눠 먹기 좋은 음식 ​ ✔️ 케이크와 디저트 ​ ✔️ 음료 및 다과 ​ ✔️ 파티 분위기를 살리는 장식 ​ ✔️ 선물 교환용 선물 ​ ✔️ 기념사진 촬영을 위한 소품...만들어 보시기 바랍니다. 🎄 ​ 감성 넘치는 각종 행사와 파티🎀 이제 쏘플 파티룸에서 완성하세요🥳 ​ 📍 주소 : 서울시 서초구 마방로 48, 통인빌딩 📞 예약 및...",
-      "link": "https://hiahige44.tistory.com/913",
-      "source": "서초시그니처파티룸",
-      "date": "2026-11-25T01:02:27.000Z",
-      "thumb": "https://search4.kakaocdn.net/argon/130x130_85_c/JtjAUvv9VoA",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.759Z",
-      "area": "",
-      "gu": "서초구",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "용산 아이파크몰 11월마지막주~12월 첫주 디저트 팝업 빵팝업 종류 (생초코찹쌀떡위치/ 붕어빵)",
-      "desc": "내가 궁금해서 확인하러 다녀옴 용산 아이파크몰 3층 디저트 팝업 종류 11.24일 화요일 기준 낮에가서인지 빵 재고 많더라구요🥐🥖🥨🥯 아이파크몰 용산점 서울...겹겹이찰떡?이 유행이라 그것도있고 단지서울 #단지서울 #단지서울팝업 #용산단지서울 #용산단지서울찹쌀떡 말차단지7,200 초코단지6,800 흑임자단지7,200...",
-      "link": "https://blog.naver.com/jub56/224491052057",
-      "source": "이니세상",
-      "date": "2026-11-25T01:01:00.000Z",
-      "thumb": "https://search2.kakaocdn.net/argon/130x130_85_c/5mzMdmW35t",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.759Z",
-      "area": "",
-      "gu": "용산구",
-      "seoul": true,
-      "keywords": [],
-      "popup": true
-    },
-    {
-      "title": "가산디지털단지 빵집 우뺑 점심시간 방문 무화과 크림치즈 휘낭시에 에그타르트",
-      "desc": "깔끔했고요. 점심 이후에 가면 원하는 빵을 고르기 어렵다는 걸 직접 겪고 나니 왜 다들 일찍 가거나 미리 예약하는지 알 것 같았어요. ​ ​ 가장 궁금했던 소금빵을 못 먹어본 게 제일 아쉬웠어요. ​ ​ 다음에는 점심을 조금 서둘러 먹고 꼭 다시 가볼 생각이에요. ​ ​ 우뺑 서울특별시 금천구 벚꽃로56길 182 104호 ​ ​ 영업...",
-      "link": "https://blog.naver.com/joohe2e2/224491077885",
-      "source": "블리니의 오늘의 발견",
-      "date": "2026-11-25T01:01:00.000Z",
-      "thumb": "",
-      "type": "blog",
-      "query": "서울 소금빵",
-      "collectedAt": "2026-11-25T15:52:00.652Z",
-      "area": "",
-      "gu": "",
-      "seoul": true,
-      "keywords": [],
-      "popup": false
-    },
-    {
-      "title": "김영모다이닝테이블 송년회 장소 추천, 분당 블루리본 브런치 맛집",
-      "desc": "하면 몽블랑이잖아요? 그 유명한 몽블랑을 활용한 파스타부터 화덕피자, 디저트까지 한곳에서 즐길 수 있더라고요. ​ 오늘은 연말 송년회 장소로도 괜찮은 김영모...동반 불가능 베리어프리 가능, 엘리베이터 있음 리뷰 이벤트 푸딩 또는 마카롱 서울 3대 빵집으로도 잘 알려진 김영모과자점에서 운영하는 브런치카페...",
-      "link": "https://blog.naver.com/chloe7513/224490289360",
-      "source": "세나와 클로이의 하루",
-      "date": "2026-11-25T01:00:00.000Z",
-      "thumb": "https://search3.kakaocdn.net/argon/130x130_85_c/2Nec1NQjzDM",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.759Z",
-      "area": "",
-      "gu": "",
-      "seoul": true,
-      "keywords": [
-        "브런치"
-      ],
-      "popup": false
-    },
-    {
-      "title": "발산역 웨딩홀 | 더베뉴지서울, 강서구 웨딩홀 투어 체크리스트·겨울 결혼식 견적 정보",
-      "desc": "연회 음식과 6층 포토스팟 강서구 웨딩홀을 비교할 때 웨딩홀 견적만큼이나 중요하게 살펴보는 부분이 바로 연회 음식의 구성과 퀄리티잖아요. ​ 더베뉴지서울의 연회장은 넓고 쾌적한 뷔페 홀 전경 속에 한식부터 양식, 일식, 중식, 그리고 디저트 코너까지 메뉴 폭이 넓게 구성되어 있어요. ​ 정갈하고 풍성하게 차려...",
-      "link": "https://blog.naver.com/sisimom_/224489767172",
-      "source": "시시맘 | 육아 · 리뷰 · 정보",
-      "date": "2026-11-25T01:00:00.000Z",
-      "thumb": "https://search1.kakaocdn.net/argon/130x130_85_c/Jdvq80sEvxE",
-      "type": "blog",
-      "query": "서울 디저트",
-      "collectedAt": "2026-11-25T03:50:02.759Z",
-      "area": "",
-      "gu": "강서구",
-      "seoul": true,
-      "keywords": [],
       "popup": false
     }
   ],
